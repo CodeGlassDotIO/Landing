@@ -93,17 +93,17 @@ vimeo: "#"
 #
 # About Blog Author Widget
 #
-about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
-  author-social-links:
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
+# about-widget:
+#   author-avatar: avatar-02.jpg
+#   author-name: John Doe
+#   author-tagline: Blog Author
+#   author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+#   author-social-links:
+#     youtube: "#"
+#     pinterest: "#"
+#     facebook: "#"
+#     twitter: "#"
+#     google-plus: "#"
 
 # Google Map JS api
 key-api: YOUR_GOOGLE_MAP_API_KEY
@@ -260,35 +260,39 @@ core-features-left:
     description: Filter easy on what you want to profile.
     icon: pe-7s-smile
 
+  - name: Exceptions
+    description: Collect any exception from your application.
+    icon: pe-7s-smile
+
 #
 # Core Features Right
 #
 core-features-right:
   # Feature
-  - name: Branding
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Secret
+    description: Sorry not telling you this yet.
     icon: pe-7s-wine
 
   # Feature
-  - name: Web Design
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Secret
+    description: We are sorry though.
     icon: pe-7s-monitor
 
   # Feature
-  - name: Graphic Design
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Secret
+    description: It is also hard for us
     icon: pe-7s-crop
 
   # Feature
-  - name: Photography
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Secret
+    description: We worked very hard on it.
     icon: pe-7s-camera
 
 #####################################
 ########### Testimonials ############
 #####################################
 testimonials-title: Testimonials
-testimonials-description: Yes, these are real and show you why this program pays for itself.
+testimonials-description: Yes, these are real, and show you why this program pays for itself.
 
 #
 # Testimonials
@@ -382,37 +386,37 @@ team-description: >
 #####################################
 ########## Pricing Tables ###########
 #####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+pricing-title: Editions
+pricing-description: CodeGlass comes in 3 editions, with various subscriptions, see the details of each for more information.
 
 #
 # Plan Personal
 #
 plan-personal-price: €0
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-personal-offer-1-title: Limited Features
+plan-personal-offer-1-info: The Community Edition has a limited feature set and/or usage. Click the button below for more details. 
+plan-personal-offer-2-title:
+plan-personal-offer-2-info: We want anyone to use our software even if you do not have the method or funds to pay for it. 
 plan-personal-url: "#"
 
 #
 # Plan Business
 #
 plan-business-price: €5
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-business-offer-1-title: All Features
+plan-business-offer-1-info: It contains all features that are not experimental.
+plan-business-offer-2-title: 
+plan-business-offer-2-info: Not only do you support the development, but you get full access to everything CodeGlass has to offer.
 plan-business-url: "#"
 
 #
 # Plan Ultimate
 #
 plan-ultimate-price: €100
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
+plan-ultimate-offer-1-title: All Features+
+plan-ultimate-offer-1-info: It contains all features including features that are not released yet (or at all) to the other editions.
+plan-ultimate-offer-2-title: 
+plan-ultimate-offer-2-info: Only take this when you really want to support us; most features will come to the other editions within a few updates.
 plan-ultimate-url: "#"
 
 #####################################

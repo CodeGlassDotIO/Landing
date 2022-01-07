@@ -21,8 +21,12 @@
     <!-- Blog Articles Container -->
     <div class="row blog-articles-container">
 
-      <!-- Jekyll LOOP -->
-      {% for post in site.posts limit:3 %}
+      <!-- Added this for outlining while we only have one blog -->
+      <div class="col-md-4 col-md-push-0 col-sm-10 col-sm-push-1 col-xs-10 col-xs-push-1">
+      </div>
+
+      <!-- Jekyll LOOP set to limit 1 as long as we have 1 blog-->
+      {% for post in site.posts limit:1 %}
 
         <!-- Blog Article -->
         <div class="col-md-4 col-md-push-0 col-sm-10 col-sm-push-1 col-xs-10 col-xs-push-1">
@@ -62,6 +66,10 @@
         </div>
 
       {% endfor %}
+      
+      <!-- Added this for outlining while we only have one blog -->
+      <div class="col-md-4 col-md-push-0 col-sm-10 col-sm-push-1 col-xs-10 col-xs-push-1">
+      </div>
       <!-- /LOOP-->
 
     </div>
