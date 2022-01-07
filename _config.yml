@@ -43,13 +43,13 @@ jekyll-archives:
 #######################################################
 
 # This is your site title
-title: Sera - OnePage Multi-Purpose Theme
+title: CodeGlass - Next Generation Profiler
 # Website language
 lang: en-US
 # Header Title
-header-title: Create the <strong>Impossible</strong>
+header-title: Next Generation <strong>Profiler</strong>
 # Header Tagline
-headter-tagline: We Always
+headter-tagline: CodeGlass
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -58,31 +58,31 @@ headter-tagline: We Always
 # Focus Buttons
 header-focus-button:
   title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
 
 # Secondary Buttons
 header-secondary-button:
   title: Discover More
-  url: http://themeforest.net/user/ohkimur
+  url: https://codeglassdotio.github.io/Docs
 
 #
 # This is your email adress, contact from send here all emails from contact section
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: support@codeglass.io
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://codeglassdotio.github.io/Docs
 
 ####################################
 ######  Global Social Links   ######
 ####################################
 youtube: "#"
 pinterest: "#"
-facebook: "#"
-twitter: "#"
+facebook: "https://www.facebook.com/CodeGlassDotIO/"
+twitter: "https://twitter.com/CodeGlassDotIO/"
 google-plus: "#"
 vimeo: "#"
 
@@ -129,97 +129,104 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl.
+about-title: Welcome to CodeGlass
+about-description: > 
+  The next generation profiler made by an ambitious startup company based in the Netherlands.</br>
+  CodeGlass is the best profiler and development tool made for you; atleast this is the goal we have set out.</br>
+  </br>
+  This is our landing site, but we recommend heading over to our colaborative github pages with the button below. We just did not want to feel left out by not having a single one page website extravaganza. </br> 
+  </br> 
+  Oh your wondering what a wolf has to do with CodeGlass? Nothing, we just liked the picture. </br>
+  </br> 
+  <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentation</a>
 
 #####################################
 #############  Features  ############
 #####################################
 features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+features-description: This is why CodeGlass is the next generation, and the only one of its kind. 
 
 #
 # Features
 #
 features:
   # Feature
-  - title: Clean & Unique Design
-    description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+  - title: Secret
+    description: It will be revield when we launch.
     icon: pe-7s-vector
 
   # Feature
-  - title: Professional Support
-    description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+  - title: Also Secret
+    description: If you could see our private staging website you would be amazed.
     icon: pe-7s-help2
 
   # Feature
-  - title: Pixel Perfect
-    description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+  - title: Another Secret
+    description: The only reason this page is already up is because else Stripe (payment provider) would not active our account...
     icon: pe-7s-airplay
 
 #####################################
 ############  Portfolio  ############
 #####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
+portfolio-title: Showcase
+portfolio-description: To get a taste of what CodeGlass is and can do, for more see our collaborative github documentation pages.
 
 #
 # Portfolio Grid
 #
 portfolio-categories:
-  [Websites, Logo, Graphic Design, Development, Video, Photography]
+  [Main, Login, Profiling, Filters, Secret]
 portfolio:
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Graphic Design]
-    image: img-01.jpg
+  - title: Splashscreen
+    categories: [Main]
+    image: SplashScreen.png
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Graphic Design, Logo, Websites]
-    image: img-02.jpg
+  - title: Add Filter
+    categories: [Filters, Profiling]
+    image: AddApplicationFilter.png
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Graphic Design, Logo, Photography]
-    image: img-03.jpg
+  - title: Explorer
+    categories: [Profiling, Secret]
+    image: AppInstanceApplicationExplorer.png
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Video, Photography]
-    image: img-04.jpg
+  - title: User Login
+    categories: [Login, Main]
+    image: SplashScreenLogin.png
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Development, Logo]
-    image: img-05.jpg
+  - title: New Application
+    categories: [Main]
+    image: AddApplication_FileOrFolder.png
+    url: "#"
+  # Portfolio Item
+  - title: Application Filters
+    categories: [Filters, Profiling]
+    image: ApplicationFilters.png
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Development, Video]
-    image: img-06.jpg
+  - title: Still a secret,
+    categories: [Secret, Main]
+    image: img-09.jpg
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Graphic Design]
-    image: img-07.jpg
+  - title: you did not see
+    categories: [Secret,Profiling]
+    image: img-09.jpg
     url: "#"
 
   # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Websites, Video]
-    image: img-08.jpg
-    url: "#"
-
-  # Portfolio Item
-  - title: S<span class="thin">era</span> Style
-    categories: [Photography, Logo]
+  - title: anything yet.
+    categories: [Secret]
     image: img-09.jpg
     url: "#"
 
@@ -227,30 +234,30 @@ portfolio:
 ##########  Core Features  ##########
 #####################################
 core-title: Core Features
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-description: CodeGlass has all kinds of features, head over to our GitHub Documentation Pages to see more.
 
 #
 # Core Features Left
 #
 core-features-left:
   # Feature
-  - name: Creative
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Remote Profiling
+    description: You can remote profile your application.
     icon: pe-7s-light
 
   # Feature
-  - name: Minimalism
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: .NET Runtime
+    description: We currently support the .NET Runtime
     icon: pe-7s-drop
 
   # Feature
-  - name: Clean Coding
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Statistics
+    description: All the data you need.
     icon: pe-7s-coffee
 
   # Feature
-  - name: Friendly
-    description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  - name: Filtering
+    description: Filter easy on what you want to profile.
     icon: pe-7s-smile
 
 #
@@ -281,111 +288,96 @@ core-features-right:
 ########### Testimonials ############
 #####################################
 testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+testimonials-description: Yes, these are real and show you why this program pays for itself.
 
 #
 # Testimonials
 #
 testimonials:
   # Client
-  - name: Johnatan Doe
-    url: http://themeforest.net
-    url-text: ThemeForest.net
-    avatar: avatar-01.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: themeforest.png
+  - name: Kevin B.
+    url: https://www.depotsoftware.com/
+    url-text: DepotSoftware
+    #avatar: avatar-01.jpg
+    cite: We had a problem with a specific installation of our software. We tried everything to fix it but after 3 days we gave up and reinstalled the server it was running on. A year later the problem came back and with CodeGlass we managed to find and fix the issue within 10 minutes.
+    logo-img: 2020-depot-ynm-embleem-25jaar.jpg
 
-  # Client
-  - name: Adam Smith
-    url: http://codecanyon.net
-    url-text: CodeCanyon.net
-    avatar: avatar-02.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: codecanyon.png
-
-  # Client
-  - name: Irene Warner
-    url: http://videohive.net
-    url-text: VideoHive.net
-    avatar: avatar-03.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: videohive.png
-
-  # Client
-  - name: Richard Ryan
-    url: http://audiojungle.net
-    url-text: AudioJungle.net
-    avatar: avatar-04.jpg
-    cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-    logo-img: audiojungle.png
 
 #####################################
 ############# Our Blog ##############
 #####################################
 blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-description: We write interesting blogs about our development, mayor releases or other topics that interest us. Have a look!
 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-title: Our Team
+team-description: > 
+  We are CodeGlass, an ambitious startup company based in the Netherlands to make the best next-generation profilers and tooling available to and for everyone.
+  </br>
+  </br>
+  Our team only exists out of developers and our vision is to creating the best solution together with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.</br>
+  Maybe you already noticed that there was no annoying cookie popup? 
+  </br>
+  </br> 
+  CodeGlass is not open-source, but in case there is nobody to support CodeGlass anymore we will make its source code available to everyone for free. So someone else can learn from it, and you do not have to worry about not being able to use it anymore.
 
 #
 # Team Members
 #
-team:
-  # Team Member
-  - name: Jack Skilton
-    tagline: Graphic Designer
-    avatar: avatar-01.jpg
+# team:
+#   # Team Member
+#   - name: Jack Skilton
+#     tagline: Graphic Designer
+#     avatar: avatar-01.jpg
 
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
+#     # Social Links
+#     youtube: "#"
+#     pinterest: "#"
+#     facebook: "#"
+#     twitter: "#"
+#     google-plus: "#"
+#     vimeo: "#"
 
-  # Team Member
-  - name: James Young
-    tagline: Developer
-    avatar: avatar-02.jpg
+#   # Team Member
+#   - name: James Young
+#     tagline: Developer
+#     avatar: avatar-02.jpg
 
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
+#     # Social Links
+#     youtube: "#"
+#     pinterest: "#"
+#     facebook: "#"
+#     twitter: "#"
+#     google-plus: "#"
+#     vimeo: "#"
 
-  # Team Member
-  - name: Johnatan Doe
-    tagline: Hacker
-    avatar: avatar-04.jpg
+#   # Team Member
+#   - name: Johnatan Doe
+#     tagline: Hacker
+#     avatar: avatar-04.jpg
 
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
+#     # Social Links
+#     youtube: "#"
+#     pinterest: "#"
+#     facebook: "#"
+#     twitter: "#"
+#     google-plus: "#"
+#     vimeo: "#"
 
-  # Team Member
-  - name: Ecaterina Doe
-    tagline: Support Expert
-    avatar: avatar-03.jpg
+#   # Team Member
+#   - name: Ecaterina Doe
+#     tagline: Support Expert
+#     avatar: avatar-03.jpg
 
-    # Social Links
-    youtube: "#"
-    pinterest: "#"
-    facebook: "#"
-    twitter: "#"
-    google-plus: "#"
-    vimeo: "#"
+#     # Social Links
+#     youtube: "#"
+#     pinterest: "#"
+#     facebook: "#"
+#     twitter: "#"
+#     google-plus: "#"
+#     vimeo: "#"
 
 #####################################
 ########## Pricing Tables ###########
@@ -396,7 +388,7 @@ pricing-description: Nulla a tellus at turpis gravida congue non interdum et mal
 #
 # Plan Personal
 #
-plan-personal-price: $99
+plan-personal-price: €0
 plan-personal-offer-1-title: 01 PSD Pack
 plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
 plan-personal-offer-2-title: 100 Support Tickets
@@ -406,7 +398,7 @@ plan-personal-url: "#"
 #
 # Plan Business
 #
-plan-business-price: $499
+plan-business-price: €5
 plan-business-offer-1-title: 05 PSD Pack
 plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
 plan-business-offer-2-title: 1000 Support Tickets
@@ -416,7 +408,7 @@ plan-business-url: "#"
 #
 # Plan Ultimate
 #
-plan-ultimate-price: $999
+plan-ultimate-price: €100
 plan-ultimate-offer-1-title: 10 PSD Pack
 plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
 plan-ultimate-offer-2-title: Support Unlimited

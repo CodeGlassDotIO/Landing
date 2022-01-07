@@ -30,10 +30,12 @@
         <div class="client-testimonial text-center">
           <!-- Testimonials Face -->
           <div class="testimonial-face">
+            {% if client.avatar %}
 
             <div class="face">
               <img src="{{ site.baseurl }}/images/avatars/{{ client.avatar }}" alt="Sera Avatar Image" />
             </div>
+            {% endif %}
 
             <div class="info">
               <h3 class="name">{{ client.name }}</h3>
