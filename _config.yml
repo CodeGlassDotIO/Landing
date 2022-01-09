@@ -79,12 +79,13 @@ banner-link: https://codeglassdotio.github.io/Docs
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: "#"
-pinterest: "#"
+#youtube: ""
+#pinterest: ""
+linkedin: " https://www.linkedin.com/company/codeglass"
 facebook: "https://www.facebook.com/CodeGlassDotIO/"
 twitter: "https://twitter.com/CodeGlassDotIO/"
-google-plus: "#"
-vimeo: "#"
+#google-plus: "#"
+#vimeo: "#"
 
 #########################
 ######   Widgets   ######
@@ -106,16 +107,16 @@ vimeo: "#"
 #     google-plus: "#"
 
 # Google Map JS api
-key-api: YOUR_GOOGLE_MAP_API_KEY
-map-text: Sera Google Map
-map-lat: 44.4267674
-map-lng: 26.102538399999958
+# key-api: YOUR_GOOGLE_MAP_API_KEY
+# map-text: Sera Google Map
+# map-lat: 44.4267674
+# map-lng: 26.102538399999958
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
-mailchimp:
-  user-id: REPLACEME
-  list-id: REPLACEME
+# mailchimp:
+#   user-id: REPLACEME
+#   list-id: REPLACEME
 
 ####
 #
@@ -131,20 +132,21 @@ mailchimp:
 #####################################
 about-title: Welcome to CodeGlass
 about-description: > 
-  The next generation profiler made by an ambitious startup company based in the Netherlands.</br>
-  CodeGlass is the best profiler and development tool made for you; atleast this is the goal we have set out.</br>
-  </br>
-  This is our landing site, but we recommend heading over to our colaborative github pages with the button below. We just did not want to feel left out by not having a single one page website extravaganza. </br> 
-  </br> 
-  Oh your wondering what a wolf has to do with CodeGlass? Nothing, we just liked the picture. </br>
-  </br> 
+  The next generation profiler made by an ambitious startup company based in the Netherlands. <br/>
+  CodeGlass is the best profiler and development tool made for you; at least, this is the goal we have set out.<br/>
+  <br/>
+  We recommend heading to our collaborative GitHub pages with the button below. We made this website not to feel left out for not having a single one-page website extravaganza.<br/>
+  <br/>
+  Oh, you're wondering what a wolf has to do with CodeGlass? Nothing, we just liked the picture.<br/>
+  <br/>
   <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentation</a>
 
 #####################################
 #############  Features  ############
 #####################################
 features-title: Features
-features-description: This is why CodeGlass is the next generation, and the only one of its kind. 
+features-description: This is why CodeGlass is the next generation and the only one of its kind.
+
 
 #
 # Features
@@ -152,24 +154,24 @@ features-description: This is why CodeGlass is the next generation, and the only
 features:
   # Feature
   - title: Secret
-    description: It will be revield when we launch.
+    description: It will be revealed when we launch.
     icon: pe-7s-vector
 
   # Feature
   - title: Also Secret
-    description: If you could see our private staging website you would be amazed.
+    description: If you could see our private staging website, you would be amazed.
     icon: pe-7s-help2
 
   # Feature
   - title: Another Secret
-    description: The only reason this page is already up is because else Stripe (payment provider) would not active our account...
+    description: The only reason this page is already up is that Stripe (Payment Provider) would not activate our account...
     icon: pe-7s-airplay
 
 #####################################
 ############  Portfolio  ############
 #####################################
 portfolio-title: Showcase
-portfolio-description: To get a taste of what CodeGlass is and can do, for more see our collaborative github documentation pages.
+portfolio-description: To get a taste of what CodeGlass is and can do, for more, see our collaborative GitHub documentation pages.
 
 #
 # Portfolio Grid
@@ -247,7 +249,7 @@ core-features-left:
 
   # Feature
   - name: .NET Runtime
-    description: We currently support the .NET Runtime
+    description: .Net Core, Framework, .NET 5+, ASP.NET and more!
     icon: pe-7s-drop
 
   # Feature
@@ -257,7 +259,7 @@ core-features-left:
 
   # Feature
   - name: Filtering
-    description: Filter easy on what you want to profile.
+    description: Easy filtering on what you want to profile.
     icon: pe-7s-smile
 
   - name: Exceptions
@@ -268,6 +270,11 @@ core-features-left:
 # Core Features Right
 #
 core-features-right:
+
+  - name: Easy to use
+    description: Or press F1 on any component in CodeGlass to get help.
+    icon: pe-7s-search
+
   # Feature
   - name: Secret
     description: Sorry not telling you this yet.
@@ -280,7 +287,7 @@ core-features-right:
 
   # Feature
   - name: Secret
-    description: It is also hard for us
+    description: It is also hard for us.
     icon: pe-7s-crop
 
   # Feature
@@ -292,7 +299,7 @@ core-features-right:
 ########### Testimonials ############
 #####################################
 testimonials-title: Testimonials
-testimonials-description: Yes, these are real, and show you why this program pays for itself.
+testimonials-description: Yes, these are real and show you why this program pays for itself.
 
 #
 # Testimonials
@@ -303,7 +310,7 @@ testimonials:
     url: https://www.depotsoftware.com/
     url-text: DepotSoftware
     #avatar: avatar-01.jpg
-    cite: We had a problem with a specific installation of our software. We tried everything to fix it but after 3 days we gave up and reinstalled the server it was running on. A year later the problem came back and with CodeGlass we managed to find and fix the issue within 10 minutes.
+    cite: We had a problem with a specific installation of our software. We tried everything to fix it, but after three days, we gave up and reinstalled the server it was running on. A year later, the problem came back, and with CodeGlass, we managed to find and fix the issue within 10 minutes.
     logo-img: 2020-depot-ynm-embleem-25jaar.jpg
 
 
@@ -311,7 +318,7 @@ testimonials:
 ############# Our Blog ##############
 #####################################
 blog-title: Our Blog
-blog-description: We write interesting blogs about our development, mayor releases or other topics that interest us. Have a look!
+blog-description: We write exciting blogs about our development, major releases or other topics that interest us. Have a look!
 
 #####################################
 ############### Team ################
@@ -321,11 +328,11 @@ team-description: >
   We are CodeGlass, an ambitious startup company based in the Netherlands to make the best next-generation profilers and tooling available to and for everyone.
   </br>
   </br>
-  Our team only exists out of developers and our vision is to creating the best solution together with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.</br>
+  Our team only exists out of developers. Our vision is to create the best solution with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.</br>
   Maybe you already noticed that there was no annoying cookie popup? 
   </br>
   </br> 
-  CodeGlass is not open-source, but in case there is nobody to support CodeGlass anymore we will make its source code available to everyone for free. So someone else can learn from it, and you do not have to worry about not being able to use it anymore.
+  CodeGlass is not open-source, but if there is nobody to support CodeGlass anymore, we will make its source code available to everyone for free. So someone else can learn from it, and you do not have to worry about not being able to use it anymore.
 
 #
 # Team Members
@@ -387,14 +394,14 @@ team-description: >
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Editions
-pricing-description: CodeGlass comes in 3 editions, with various subscriptions, see the details of each for more information.
+pricing-description: CodeGlass comes in 3 editions, with various subscriptions; see the details of each for more information.
 
 #
 # Plan Personal
 #
 plan-personal-price: €0
 plan-personal-offer-1-title: Limited Features
-plan-personal-offer-1-info: The Community Edition has a limited feature set and/or usage. Click the button below for more details. 
+plan-personal-offer-1-info: The Community Edition has a limited feature set or usage. Click the button below for more details. 
 plan-personal-offer-2-title:
 plan-personal-offer-2-info: We want anyone to use our software even if you do not have the method or funds to pay for it. 
 plan-personal-url: "#"
@@ -414,7 +421,7 @@ plan-business-url: "#"
 #
 plan-ultimate-price: €100
 plan-ultimate-offer-1-title: All Features+
-plan-ultimate-offer-1-info: It contains all features including features that are not released yet (or at all) to the other editions.
+plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
 plan-ultimate-offer-2-title: 
 plan-ultimate-offer-2-info: Only take this when you really want to support us; most features will come to the other editions within a few updates.
 plan-ultimate-url: "#"
@@ -423,12 +430,17 @@ plan-ultimate-url: "#"
 ############   Contact   ############
 #####################################
 contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-description: >  
+  We have multiple ways to contact us, including Discord! </br> We have them listed on our documentation website, head over with the button below.</br> 
+  </br> 
+  <a href="https://codeglassdotio.github.io/Docs/contact" class="button-cta button-focus">Contact</a></br> 
+  </br> 
+  Or if you like the simpicity of a web form you can use this one :)
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Ohkimur
-footer-copyright-url: https://github.com/ohkimur
-footer-copyright-year: 2021
+footer-description: Creating the best solution with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.
+footer-copyright-text: TySoft
+footer-copyright-url: https://github.com/CodeGlassDotIO/
+footer-copyright-year: 2022
