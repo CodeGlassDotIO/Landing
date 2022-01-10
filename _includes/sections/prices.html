@@ -44,7 +44,11 @@
 
             <!-- Plan Action -->
             <div class="plan-action">
+              {% if page.pageType== "offers"%}
+              <a href="#community" class="button">Learn more</a>
+              {% else %}
               <a href="{{ site.plan-personal-url }}" class="button">Learn more</a>
+              {% endif %}
             </div>
 
           </div>
@@ -73,7 +77,11 @@
 
             <!-- Plan Action -->
             <div class="plan-action">
+              {% if page.pageType== "offers"%}
+              <a href="#pro" class="button">Learn more</a>
+              {% else %}
               <a href="{{ site.plan-business-url }}" class="button button-focus">See Offers</a>
+              {% endif %}
               
             <div style="margin-top:5px;">
               <a href="#">or buy now (€10)</a>
@@ -105,7 +113,11 @@
 
             <!-- Plan Action -->
             <div class="plan-action">
+              {% if page.pageType== "offers"%}
+              <a href="#experimental" class="button">Learn more</a>
+              {% else %}
               <a href="{{ site.plan-ultimate-url }}" class="button">Learn more</a>
+              {% endif %}
             </div>
 
           </div>

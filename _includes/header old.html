@@ -1,16 +1,10 @@
 <!-- Site Header -->
-<header class="site-header {% if page.pageType != "index" %} blog-header {% endif%}  parallax" id="home" data-scrollax-parent="true">
+<header class="site-header  parallax" id="home" data-scrollax-parent="true">
 
   <!-- Parallax Header Image -->
   <div class="parallax-wrapper">
     <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-      {% if page.pageType == "index" %}
       <img src="{{ site.baseurl }}/images/header-image.jpg" alt="Sera - One Page Template by Ohkimur Wallpaper" />
-      {% elsif page.pageType == "blog" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="Sera - One Page Template by Ohkimur Wallpaper" />
-      {% elsif page.pageType == "offers" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="Sera - One Page Template by Ohkimur Wallpaper" />
-      {% endif %}
     </div>
   </div>
 
@@ -41,8 +35,6 @@
         <!-- Navigation Menu -->
         <nav id="navMenu" class="nav-menu">
           <ul class="menu">
-
-            {% if page.pageType == "index" %}
             <li class="current-menu-item"><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#features">Features</a></li>
@@ -52,29 +44,6 @@
             <li><a href="#team">Team</a></li>
             <li><a href="#prices">Prices</a></li>
             <li><a href="#contact">Contact</a></li>
-
-            {% else %}
-
-            <li><a href="{{ site.baseurl }}/index.html#home">Home</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#features">Features</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#showcase">Showcase</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#testimonials">Testimonials</a></li>
-            <li
-            {% if page.pageType == "blog" %}
-            class="current-menu-item"
-            {% endif%}
-
-            ><a href="{{ site.baseurl }}/index.html#blog">Blog</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#team">Team</a></li>
-            <li
-            {% if page.pageType == "offers" %}
-            class="current-menu-item"
-            {% endif%}
-            ><a href="{{ site.baseurl }}/index.html#prices">Prices</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#contact">Contact</a></li>
-
-            {% endif%}
           </ul>
         </nav>
 
@@ -90,14 +59,11 @@
 
         <!-- Heading Title -->
         <div class="row heading-title">
-          <h2>{{ page.tagline }}</h2>
+          <h2>{{ site.headter-tagline }}</h2>
           <hr class="small">
-          <h1 class="thin">{{ page.title }}</h1>
+          <h1 class="thin">{{ site.header-title }}</h1>
         </div>
 
-        
-
-        {% if page.pageType == "index" %}
         <!-- Header Buttons -->
         <div class="row buttons-header">
           <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
@@ -107,8 +73,6 @@
               href="{{ site.header-secondary-button.url }}" class="button-cta">{{ site.header-secondary-button.title
               }}</a></div>
         </div>
-
-        {% endif %}
 
       </div>
 

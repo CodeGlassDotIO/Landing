@@ -1,7 +1,7 @@
 <!-- Offer Section -->
 <section class="offer-section">
   <div class="container">
-
+{% if include.button-text %}
     <div class="col-md-9 col-sm-12">
       <h2>{{ include.offer-text }}</h2>
     </div>
@@ -10,4 +10,10 @@
     </div>
 
   </div>
+{% else %}
+<div class="col-md-12 col-sm-12">
+  <h2>{{ include.offer-text }}</h2>
+</div>
+
+{% endif %}
 </section>
