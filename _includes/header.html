@@ -5,11 +5,13 @@
   <div class="parallax-wrapper">
     <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
       {% if page.pageType == "index" %}
-      <img src="{{ site.baseurl }}/images/header-image.jpg" alt="Sera - One Page Template by Ohkimur Wallpaper" />
+      <img src="{{ site.baseurl }}/images/header-image.jpg" alt="CodeGlass - Next Generation Profiler" />
       {% elsif page.pageType == "blog" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="Sera - One Page Template by Ohkimur Wallpaper" />
+      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Blog" />
       {% elsif page.pageType == "offers" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="Sera - One Page Template by Ohkimur Wallpaper" />
+      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Offers" />
+      {% elsif page.pageType == "buy" %}
+      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Buy Subscription" />
       {% endif %}
     </div>
   </div>
@@ -69,6 +71,10 @@
             <li><a href="{{ site.baseurl }}/index.html#team">Team</a></li>
             <li
             {% if page.pageType == "offers" %}
+            class="current-menu-item"
+            {% endif%}
+            
+            {% if page.pageType == "buy" %}
             class="current-menu-item"
             {% endif%}
             ><a href="{{ site.baseurl }}/index.html#prices">Prices</a></li>
