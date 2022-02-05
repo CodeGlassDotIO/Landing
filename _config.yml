@@ -394,7 +394,9 @@ team-description: >
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Editions
-pricing-description: CodeGlass comes in 3 editions, with various subscriptions; see the details of each for more information.
+pricing-description: >
+  To login into CodeGlass you need an account, you get one by getting or buying a subscription. <br/> Subscriptions are tied to one of the following editions; see the details of each for more information. 
+#TODO GRAMMARLY
 
 #
 # Plan Personal

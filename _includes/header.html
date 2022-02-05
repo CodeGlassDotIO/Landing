@@ -121,10 +121,21 @@
     </div>
 
     <!-- Arrow Down -->
+    
     <div class="row arrow-down-section" data-scrollax="properties: { 'opacity': '0.6' }">
 
       <div class="wrapper-arrow child-center">
+        
+
+        {% if page.pageType == "index" %}
         <a href="#about" class="arrow-down">
+        {% elsif page.pageType == "blog" %}
+        <a href="#start" class="arrow-down">
+        {% elsif page.pageType == "offers" %}
+        <a href="#prices" class="arrow-down">
+        {% elsif page.pageType == "buy" %}
+        <a href="#buy" class="arrow-down">
+        {% endif %}
           <i class="pe-7s-angle-down"></i>
         </a>
       </div>
