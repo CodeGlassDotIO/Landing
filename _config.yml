@@ -84,6 +84,8 @@ banner-link: https://codeglassdotio.github.io/Docs
 linkedin: " https://www.linkedin.com/company/codeglass"
 facebook: "https://www.facebook.com/CodeGlassDotIO/"
 twitter: "https://twitter.com/CodeGlassDotIO/"
+github: "https://github.com/CodeGlassDotIO"
+discord: "https://discord.gg/ytczAxSmX4"
 #google-plus: "#"
 #vimeo: "#"
 
@@ -132,8 +134,8 @@ twitter: "https://twitter.com/CodeGlassDotIO/"
 #####################################
 about-title: Welcome to CodeGlass
 about-description: > 
-  The next generation profiler made by an ambitious startup company based in the Netherlands. <br/>
-  CodeGlass is the best profiler and development tool made for you; at least, this is the goal we have set out.<br/>
+  CodeGlass is made by an ambitious startup company based in the Netherlands. <br/>
+  It is the best profiler and development tool made for you; at least, this is the goal we have set out.<br/>
   <br/>
   We recommend heading to our collaborative GitHub pages with the button below. We only made this website not to feel left out for not having a single one-page website extravaganza.<br/>
   <br/>
@@ -145,92 +147,139 @@ about-description: >
 #############  Features  ############
 #####################################
 features-title: Features
-features-description: This is why CodeGlass is the next generation and the only one of its kind.
+features-description: This is why CodeGlass is the next generation development tool, and much more than just a profiler and, above all, the only one of its kind. You can find more reasons on our collaborative GitHub pages, we kept it at 9 as it looked nice.<br/>Currently, we only support .NET applications, but we are currently working on supporting other runtimes, which will come in the next major release. 
 
 
 #
 # Features
 #
 features:
-  # Feature
-  - title: Secret
-    description: It will be revealed when we launch.
-    icon: pe-7s-vector
+  - title: Realtime Performance Profiler
+    description: CodeGlass is the only real-time performance profiler in existence, giving you direct access to the data without recording it first. With additional control like stepping, throttling, rendering, advanced filtering, code body reconstruction and more.<br/><br/>
+    icon: pe-7s-display2
 
-  # Feature
-  - title: Also Secret
-    description: If you could see our private staging website, you would be amazed.
+  - title: Maintenance Tool
+    description: CodeGlass gives you direct insight into how your application works by realtime rendering every step the application takes. Gone are the times you had to stuggle to understands someone elses project, code you have not worked on for years or Lady and the Tramp its dinner.<br/><br/>
     icon: pe-7s-help2
 
-  # Feature
-  - title: Another Secret
-    description: The only reason this page is already up is that Stripe (Payment Provider) would not activate our account...
-    icon: pe-7s-airplay
+  - title: Diagnostic Tool
+    description: Have the means to diagnose and fix any problem. For Example, create a snapshot and compare why it did not work this time or why it worked on your pc but not on theirs. Pause the execution and step back and see what led to the exception and if other threads are involved, and identify racing conditions.<br/><br/>
+    icon: pe-7s-tools
+
+  - title: Execution Control
+    description: CodeGlass gives you basic control like start, pause, stop and restart. But it also has advanced methods like Stepping forwards and backwards, throttling and a profiler standby mode that gives you near the full performance of your application and allow you to start profiling again when you need it.<br/><br/><br/>
+    icon: pe-7s-next
+    
+  - title: It is fast
+    description: CodeGlass can collect and process over 4.000.000 unfiltered function calls per second. It depends on usage and your hardware, of course, but you do not have to notice any slowdown in your application by setting the correct filters. In most cases, CodeGlass can give you quicker the results you need than others.<br/><br/>
+    icon: pe-7s-plane
+
+  - title: Remote
+    description: Connect to other CodeGlass instances and use CodeGlass remotely. Like running it on a production server and just connecting your development machine to it. Or helping a college and not having to sit on his lap.<br/><br/><br/><br/>
+    icon: pe-7s-cloud
+
+  - title: Advanced filtering
+    description: CodeGlass makes it intuitive and straightforward to filter on the things you want to profile so you can focus on the data that matters. You can even make regex rules or only not filter public functions.
+    icon: pe-7s-filter
+
+  - title: Code Body Statistics
+    description: CodeGlass goes beyond other profilers, analyses the collected data, and tries to reconstruct a functions code body to give you more in-depth data, like showing where threads are in a function or how many times a loop is executed. But also where time is spent, eliminating the need to add stopwatches to your code.
+    icon: pe-7s-graph3
+
+  - title: No Source code
+    description: CodeGlass does everything without needing the source code of the application. Just give him a supported application, and it will do its thing. You can even profile PowerShell with it if you want to.
+    icon: pe-7s-folder
+
+    
 
 #####################################
 ############  Portfolio  ############
 #####################################
 portfolio-title: Showcase
-portfolio-description: To get a taste of what CodeGlass is and can do, for more, see our collaborative GitHub documentation pages.
+portfolio-description: To get a taste of what CodeGlass is and can do, for more, see our collaborative GitHub documentation pages. No, the application is not 4:3; the screenshots are just like that
 
 #
 # Portfolio Grid
 #
 portfolio-categories:
-  [Main, Login, Profiling, Filters, Secret]
+  [Main,  Profiling, Rendering, Filters, Login, Code Body, Exceptions]
 portfolio:
-  # Portfolio Item
-  - title: Splashscreen
+
+  - title: Application Instance
+    categories: [Main, Filters]
+    image: AppInstanceDockWindow4by3.png
+    # url: "#"
+
+  - title: Applications
     categories: [Main]
-    image: SplashScreen.png
-    url: "#"
+    image: Applications4by3.png
+    #url: "#"
 
-  # Portfolio Item
-  - title: Add Filter
-    categories: [Filters, Profiling]
-    image: AddApplicationFilter.png
-    url: "#"
+  - title: Tree Rendering
+    categories: [Rendering, Profiling]
+    image: RealtimeCallTreeRendering3Threads4by3.png
+    #url: "#"
 
-  # Portfolio Item
-  - title: Explorer
-    categories: [Profiling, Secret]
-    image: AppInstanceApplicationExplorer.png
-    url: "#"
-
-  # Portfolio Item
-  - title: User Login
+  - title: Code Body Reconstruction
+    categories: [Code Body, Profiling]
+    image: CodeMemberDetailsView4by3.png
+    #url: "#"
+    
+  - title: Login
     categories: [Login, Main]
     image: SplashScreenLogin.png
-    url: "#"
+    #url: "#"
 
-  # Portfolio Item
   - title: New Application
     categories: [Main]
-    image: AddApplication_FileOrFolder.png
-    url: "#"
-  # Portfolio Item
+    image: AddApplication4by3.png
+    #url: "#"
+
+  - title: Add Filter
+    categories: [Filters]
+    image: AddApplicationFilter4by3.png
+    #url: "#"
+
+  - title: Parented Rendering
+    categories: [Rendering, Profiling]
+    image: RealtimeCallStackGroupedRendering4by3.png
+    #url: "#"
+    
   - title: Application Filters
-    categories: [Filters, Profiling]
-    image: ApplicationFilters.png
-    url: "#"
+    categories: [Filters]
+    image: ApplicationFilters4by3.png
+    #url: "#"
 
-  # Portfolio Item
-  - title: Still a secret,
-    categories: [Secret, Main]
-    image: img-09.jpg
-    url: "#"
+  - title: CallStack Rendering
+    categories: [Rendering, Profiling]
+    image: RealtimeCallStackRendering4by3.png
+    #url: "#"
 
-  # Portfolio Item
-  - title: you did not see
-    categories: [Secret,Profiling]
-    image: img-09.jpg
-    url: "#"
+  - title: Statistics
+    categories: [Profiling, Filters]
+    image: StatisticsWindow4by3.png
+    #url: "#"
 
-  # Portfolio Item
-  - title: anything yet.
-    categories: [Secret]
-    image: img-09.jpg
-    url: "#"
+  - title: Code Body Statistics
+    categories: [Code Body,Profiling]
+    image: CodeMemberDetailsViewStatistics4by3.png
+    #url: "#"
+
+  - title: Exceptions
+    categories: [Exceptions,Profiling]
+    image: AppInstanceExceptionDetails4by3.png
+    #url: "#"
+
+  - title: Code Heatmap
+    categories: [Rendering, Profiling]
+    image: AppInstanceCodeHeatMap4by3.png
+    #url: "#"
+
+  - title: Application Settings
+    categories: [Main]
+    image: ApplicationSettingsWindow4by3.png
+    #url: "#"
+
 
 #####################################
 ##########  Core Features  ##########
@@ -242,58 +291,85 @@ core-description: CodeGlass has all kinds of features, head over to our GitHub D
 # Core Features Left
 #
 core-features-left:
-  # Feature
-  - name: Remote Profiling
-    description: You can remote profile your application.
-    icon: pe-7s-light
 
-  # Feature
+  - name: Realtime Profiling
+    description: Giving you direct access to the data without recording it first.
+    icon: pe-7s-display2
+
   - name: .NET Runtime
     description: .Net Core, Framework, .NET 5+, ASP.NET and more!
-    icon: pe-7s-drop
+    icon: pe-7s-server
+    
+  - name: Snapshots
+    description: Compare other snapshots to fix issues you never could.
+    icon: pe-7s-copy-file
 
-  # Feature
+  - name: Code Body Reconstruction
+    description: Reconstructing function code bodies to give you more in-depth data.
+    icon: pe-7s-hammer
+
   - name: Statistics
-    description: All the data you need.
-    icon: pe-7s-coffee
+    description: Function calls, duractions, threads, CPU, memory and more.
+    icon: pe-7s-graph3
 
-  # Feature
   - name: Filtering
-    description: Easy filtering on what you want to profile.
-    icon: pe-7s-smile
+    description: intuitive and straightforward to filter on the things you want to profile.
+    icon: pe-7s-filter
+
+  - name: Execution Control
+    description: Control your application with start, pause, stop, restart, stepping, and standby.
+    icon: pe-7s-next
+
+  - name: Why Three Monitors
+    description: This section was designed for a phone, but that does not really work for us.
+    icon: pe-7s-monitor
 
   - name: Exceptions
     description: Collect any exception from your application.
-    icon: pe-7s-smile
+    icon: pe-7s-attention
+
+    
 
 #
 # Core Features Right
 #
 core-features-right:
 
-  - name: Easy to use
+  - name: Realtime Rendering
+    description: Direct insight into how your application works by rendering every step it takes.
+    icon: pe-7s-display1
+
+  - name: Remote Profiling
+    description: You can use CodeGlass Remotely by connecting to other instances.
+    icon: pe-7s-cloud
+
+  - name: Stepping
+    description: Step forwards or backwards to analyze your appliation at any point.
+    icon: pe-7s-play
+
+  - name: Easy to Use
     description: Or press F1 on any component in CodeGlass to get help.
-    icon: pe-7s-search
+    icon: pe-7s-help2
 
-  # Feature
-  - name: Secret
-    description: Sorry not telling you this yet.
-    icon: pe-7s-wine
+  - name: Code Heatmap
+    description: Shows you bad behaving code in one view based on the statistics.
+    icon: pe-7s-graph
 
-  # Feature
-  - name: Secret
-    description: We are sorry though.
-    icon: pe-7s-monitor
+  - name: Open Console
+    description: Attach a console to any appliation, even if it did not have one.
+    icon: pe-7s-photo-gallery
 
-  # Feature
-  - name: Secret
-    description: It is also hard for us.
-    icon: pe-7s-crop
+  - name: Visual Studio Integration
+    description: Automatically start profiling when you start debugging.
+    icon: pe-7s-tools
 
-  # Feature
-  - name: Secret
-    description: We worked very hard on it.
+  - name: Whats with these Icons
+    description: We could not find appropriate ones, and these do look nice.
     icon: pe-7s-camera
+    
+  - name: It is Fast
+    description: Processes 4.000.000+ unfiltered calls per second, depends on usage and hardware.
+    icon: pe-7s-plane
 
 #####################################
 ########### Testimonials ############
