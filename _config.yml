@@ -240,7 +240,7 @@ portfolio:
     image: AddApplicationFilter4by3.png
     #url: "#"
 
-  - title: Parented Rendering
+  - title: CallStack Rendering
     categories: [Rendering, Profiling]
     image: RealtimeCallStackGroupedRendering4by3.png
     #url: "#"
@@ -359,7 +359,7 @@ core-features-right:
     description: Attach a console to any appliation, even if it did not have one.
     icon: pe-7s-photo-gallery
 
-  - name: Visual Studio Integration
+  - name: Visual Studio Integration*
     description: Automatically start profiling when you start debugging.
     icon: pe-7s-tools
 
@@ -519,6 +519,7 @@ contact-description: >
 #############   Footer   ############
 #####################################
 footer-description: Creating the best solution with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.
-footer-copyright-text: TySoft
+footer-copyright-text: CodeGlass
 footer-copyright-url: https://codeglassdotio.github.io/Docs/contact
 footer-copyright-year: 2022
+footer-privcy-policy-url: https://codeglassdotio.github.io/Docs/docs/Legal/Privacy
