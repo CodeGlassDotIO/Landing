@@ -20,11 +20,16 @@
         After you buy your subscription, you will get an email from LicenseSpring with your <a href="http://codeglassdotio.github.io/Docs/docs/Others/Account">CodeGlass Account</a> details.<br/>
         <br/>
         You can choose to pay monthly or yearly term on the Stripe payment site.<br/>
+        {% if page.is-multi-user == true %}
+        With quantity on the Stripe payment site you specifiy how many users you want to have. <br/>
+        <i>You can increase and decrease this amount at any time</i> <br/>
+        {% endif %}
+
         <br/>
         <i>You can cancel your subscription at any time and can continue using CodeGlass till your term ends.<br/>
         You can also upgrade or downgrade to another subscription that you are eligible for at any time.</i><br/>
         <br/>
-        By clicking buy, you indicate you read and agree to the <a href="">EULA</a> and <a href="http://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase">Terms and Conditions</a>. <br/>
+        By clicking buy, you indicate you read and agree to the <a href="{{ page.eula-url }}">EULA</a> and <a href="http://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase">Terms and Conditions</a>. <br/>
 
         <a class="button-cta button-focus" href="{{ page.payment-url }}">Buy And Agree</a>
         
