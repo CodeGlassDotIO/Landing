@@ -134,28 +134,39 @@ discord: "https://discord.gg/ytczAxSmX4"
 #####################################
 about-title: Welcome to CodeGlass
 about-description: > 
+
   CodeGlass is made by an ambitious startup company based in the Netherlands. <br/>
-  It is the best profiler and development tool made for you; at least, this is the goal we have set out.<br/>
+  It is the best tool made for you; at least, this is the goal we have set out.<br/>
+  <br/>
+  CodeGlass is a unique software development tool that makes it easy to solve problems and bugs. It is an exceedingly powerful tool when the issues are hard to reproduce or documentation/developers are lacking. You can also use it to maintain or diagnose a problem in existing applications or optimize the one you are developing.
+  It works without needing to change the code, meaning you do not need the source code, and it also works in production environments. <br/>
   <br/>
   We recommend heading to our collaborative GitHub pages with the button below. We only made this website not to feel left out for not having a single one-page website extravaganza.<br/>
   <br/>
   Oh, you're wondering what a wolf has to do with CodeGlass? Nothing, we just liked the picture.<br/>
   <br/>
-  <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentation</a>
+  <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentation</a> <br/>
+  <br/>
+  * Experimental feature, as such, it is an Experimental Edition feature only for now.
 
 #####################################
 #############  Features  ############
 #####################################
 features-title: Features
-features-description: This is why CodeGlass is the next generation development tool, and much more than just a profiler and, above all, the only one of its kind. You can find more reasons on our collaborative GitHub pages, we kept it at 9 as it looked nice.<br/>Currently, we only support .NET applications, but we are currently working on supporting other runtimes, which will come in the next major release. 
+features-description: > 
+  This is why CodeGlass is the next generation development tool, and much more than just a profiler and, above all, the only one of its kind. You can find more reasons on our collaborative GitHub pages, we kept it at 9 as it looked nice.<br/>Currently, 
+  we support <strong>.NET</strong> applications and <strong>JavaScript</strong>* websites, but we are constantly working on supporting more runtimes as the solution is language-agnostic, with NodeJS coming soon. <br/>
+  <br/>
+  * Experimental feature, as such, it is an Experimental Edition feature only for now.
+
 
 
 #
 # Features
 #
 features:
-  - title: Realtime Performance Profiler
-    description: CodeGlass is the only real-time performance profiler in existence, giving you direct access to the data without recording it first. With additional control like stepping, throttling, rendering, advanced filtering, code body reconstruction and more.<br/><br/>
+  - title: Realtime Code Profiler
+    description: CodeGlass is the only real-time Code profiler in existence that collects every call and giving you direct access to the data without recording it first. Its not sampling. With additional control like stepping, throttling, rendering, advanced filtering, code body reconstruction and more.<br/><br/>
     icon: pe-7s-display2
 
   - title: Maintenance Tool
@@ -339,6 +350,10 @@ core-features-right:
     description: Direct insight into how your application works by rendering every step it takes.
     icon: pe-7s-display1
 
+  - name: JavaScript*
+    description: JavaScript websites with NodeJS support coming soon!
+    icon: pe-7s-global
+
   - name: Remote Profiling
     description: You can use CodeGlass Remotely by connecting to other instances.
     icon: pe-7s-cloud
@@ -359,17 +374,16 @@ core-features-right:
     description: Attach a console to any appliation, even if it did not have one.
     icon: pe-7s-photo-gallery
 
+  - name: Whats with these Icons
+    description: We could not find appropriate ones, and these do look nice.
+    icon: pe-7s-camera
+
   - name: Visual Studio Integration*
     description: Automatically start profiling when you start debugging.
     icon: pe-7s-tools
 
-  - name: Whats with these Icons
-    description: We could not find appropriate ones, and these do look nice.
-    icon: pe-7s-camera
     
-  - name: It is Fast
-    description: Processes 4.000.000+ unfiltered calls per second, depends on usage and hardware.
-    icon: pe-7s-plane
+
 
 #####################################
 ########### Testimonials ############
@@ -487,7 +501,7 @@ plan-personal-url: "offers#community"
 #
 # Plan Business
 #
-plan-business-price: €5
+plan-business-price: €15
 plan-business-offer-1-title: All Features
 plan-business-offer-1-info: It contains all features that are not experimental.
 plan-business-offer-2-title: 
