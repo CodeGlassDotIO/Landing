@@ -46,10 +46,6 @@ jekyll-archives:
 title: CodeGlass - Next Generation Profiler
 # Website language
 lang: en-US
-# Header Title
-#header-title: Next Generation <strong>Profiler</strong>
-# Header Tagline
-#eadter-tagline: CodeGlass
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -135,9 +131,9 @@ about-description: >
   The next generation profiler made by an ambitious startup company based in the Netherlands. <br/>
   CodeGlass is the best profiler and development tool made for you; at least, this is the goal we have set out.<br/>
   <br/>
-  We recommend heading to our collaborative GitHub pages with the button below. We only made this website not to feel left out for not having a single one-page website extravaganza.<br/>
+  We are launching in Q2 of 2023, stay tuned!<br/>
   <br/>
-  Oh, you're wondering what a wolf has to do with CodeGlass? Nothing, we just liked the picture.<br/>
+  We recommend heading to our collaborative GitHub pages with the button below. We only made this website not to feel left out for not having a single one-page website extravaganza.<br/>
   <br/>
   <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentation</a>
 
@@ -337,58 +333,53 @@ team-description: >
 #
 # Team Members
 #
-# team:
-#   # Team Member
-#   - name: Jack Skilton
-#     tagline: Graphic Designer
-#     avatar: avatar-01.jpg
+team: 
+  # Team Member 
+  - name: Tyrone Krieger 
+    tagline: CEO & Developer 
+    avatar: tyrone.jpg 
 
-#     # Social Links
-#     youtube: "#"
-#     pinterest: "#"
-#     facebook: "#"
-#     twitter: "#"
-#     google-plus: "#"
-#     vimeo: "#"
+    # Social Links 
+    #youtube: "#" 
+    #pinterest: "#" 
+    #facebook: "#" 
+    #twitter: "#" 
+    #google-plus: "#" 
+    #vimeo: "#" 
+    linkedin: "https://www.linkedin.com/in/tyrone-krieger/" 
 
-#   # Team Member
-#   - name: James Young
-#     tagline: Developer
-#     avatar: avatar-02.jpg
+  # Team Member
+  - name: Lynn Weggemans
+    tagline: CFO & Developer*
+    avatar: Lynn.jpg
 
-#     # Social Links
-#     youtube: "#"
-#     pinterest: "#"
-#     facebook: "#"
-#     twitter: "#"
-#     google-plus: "#"
-#     vimeo: "#"
+    linkedin: "https://www.linkedin.com/in/lynn-weggemans/"
 
-#   # Team Member
-#   - name: Johnatan Doe
-#     tagline: Hacker
-#     avatar: avatar-04.jpg
+  # Team Member
+  - name: Terence Bremmer
+    tagline: CTO & Developer
+    avatar: Terence.jpg
 
-#     # Social Links
-#     youtube: "#"
-#     pinterest: "#"
-#     facebook: "#"
-#     twitter: "#"
-#     google-plus: "#"
-#     vimeo: "#"
+    linkedin: "https://www.linkedin.com/in/b-terence/"
 
-#   # Team Member
-#   - name: Ecaterina Doe
-#     tagline: Support Expert
-#     avatar: avatar-03.jpg
+  # Team Member
+  - name: Joran de Boer
+    tagline: Developer
+    avatar: JoranDeBoer.jpg
 
-#     # Social Links
-#     youtube: "#"
-#     pinterest: "#"
-#     facebook: "#"
-#     twitter: "#"
-#     google-plus: "#"
-#     vimeo: "#"
+    linkedin: "https://www.linkedin.com/in/joran-de-boer/"
+
+  - name: Joost Godschalk
+    tagline: Developer
+    avatar: JoostGodschalk.jpg
+
+    linkedin: "https://www.linkedin.com/in/joost-godschalk-9a093b1b7/"
+
+  
+  - name: William Kater
+    tagline: Developer
+
+    linkedin: "https://www.linkedin.com/in/william-kater-a91540232/"
 
 #####################################
 ########## Pricing Tables ###########
@@ -409,7 +400,7 @@ plan-personal-url: "offers#community"
 #
 # Plan Business
 #
-plan-business-price: €5
+plan-business-price: €0
 plan-business-offer-1-title: All Features
 plan-business-offer-1-info: It contains all features that are not experimental.
 plan-business-offer-2-title: 
@@ -419,7 +410,7 @@ plan-business-url: "offers#pro"
 #
 # Plan Ultimate
 #
-plan-ultimate-price: €100
+plan-ultimate-price: €0
 plan-ultimate-offer-1-title: All Features+
 plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
 plan-ultimate-offer-2-title: 
@@ -441,6 +432,6 @@ contact-description: >
 #############   Footer   ############
 #####################################
 footer-description: Creating the best solution with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.
-footer-copyright-text: TySoft
+footer-copyright-text: CodeGlass BV
 footer-copyright-url: https://codeglassdotio.github.io/Docs/contact
-footer-copyright-year: 2022
+footer-copyright-year: 2023

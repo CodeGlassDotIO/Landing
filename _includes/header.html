@@ -24,7 +24,7 @@
       <!-- Logo -->
       <div class="col-sm-2 col-xs-4 logo child-center-v">
         <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/images/logo.svg" width="174"
-            alt="Sera - OnePage Logo by Ohkimur"></a>
+            alt="CodeGlass - Next Generation Dev Tools"></a>
       </div>
 
       <!-- Toggle Mobile Menu -->
@@ -93,12 +93,16 @@
     <div class="row header-banner parent" data-scrollax="properties: { 'translateY': '48%', 'opacity': '1.4' }">
 
       <div class="heading-content text-center child-center-v">
-
+        
         <!-- Heading Title -->
         <div class="row heading-title">
+          {% if page.pageType == "index" %}
+          <img src="{{ site.baseurl }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline" />
+          {% else %}
           <h2>{{ page.tagline }}</h2>
           <hr class="small">
           <h1 class="thin">{{ page.title }}</h1>
+          {% endif %}
         </div>
 
         

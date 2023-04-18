@@ -2,10 +2,11 @@
 layout: post
 title:  "Hello World, it has been a long road!"
 tagline: Hello World!
-date: 2022-01-03 15:32
+date: 2023-04-17 12:32
 categories: [CodeGlass Development]
 tags: [CodeGlass, Development, CodeGlass Development]
 image: img-01.jpg
+pageType: blog
 ---
 
 **This blogpost is altered not to reveal information before the launch of CodeGlass**
