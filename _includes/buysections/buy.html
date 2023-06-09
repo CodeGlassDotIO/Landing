@@ -15,14 +15,16 @@
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
         <p>
         First off, thank you for buying a {{ page.subsciption-name }} subscription! <br/>
-        We can continue development on CodeGlass with your support :)<br/>
+        We can continue development on CodeGlass with your support ♥<br/>
         <br/>
         After you buy your subscription, you will get an email from LicenseSpring with your <a href="http://codeglassdotio.github.io/Docs/docs/Others/Account">CodeGlass Account</a> details.<br/>
         <br/>
-        You can choose to pay monthly or yearly term on the Stripe payment site.<br/>
+        <!-- You can choose to pay monthly or yearly term on the Stripe payment site.<br/> -->
         {% if page.is-multi-user == true %}
-        With quantity on the Stripe payment site you specifiy how many users you want to have. <br/>
+        With quantity on the Stripe payment site you specify how many users you want to have. <br/>
         <i>You can increase and decrease this amount at any time</i> <br/>
+        {% else%}
+        With quantity on the Stripe payment site you specify how many concurrent usage you want to have.<br/>
         {% endif %}
 
         <br/>
