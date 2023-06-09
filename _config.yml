@@ -130,16 +130,11 @@ discord: "https://discord.gg/ytczAxSmX4"
 #####################################
 about-title: Welcome to CodeGlass
 about-description: > 
-
-  CodeGlass is made by an ambitious startup company based in the Netherlands. <br/>
-  It is the best tool made for you; at least, this is the goal we have set out.<br/>
+  Welcome to CodeGlass, a groundbreaking software development tool from an innovative startup based in the Netherlands. Our mission is to provide the best tools for software developers, and CodeGlass is a shining example of that commitment. <br/>
   <br/>
-  CodeGlass is a unique software development tool that makes it easy to solve problems and bugs. It is an exceedingly powerful tool when the issues are hard to reproduce or documentation/developers are lacking. You can also use it to maintain or diagnose a problem in existing applications or optimize the one you are developing.
-  It works without needing to change the code, meaning you do not need the source code, and it also works in production environments. <br/>
-  <br/>
-  We recommend heading to our collaborative GitHub pages with the button below. We only made this website not to feel left out for not having a single one-page website extravaganza.<br/>
-  <br/>
-  Oh, you're wondering what a wolf has to do with CodeGlass? Nothing, we just liked the picture.<br/>
+  CodeGlass is designed to enhance problem-solving, even in the most challenging scenarios where issues are difficult to reproduce or when there's a lack of documentation or developers. It's an invaluable asset for maintaining, diagnosing, and optimizing applications. It is versatile and capable of functioning seamlessly in any environment, including production. CodeGlass does this all without the need to alter or have access to the source code!  <br/>
+  <br/><br/>
+  We invite you to explore our collaborative GitHub pages with the button below. We only made this website not to feel left out for not having a single one-page website extravaganza.<br/>
   <br/>
   <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentation</a> <br/>
   <br/>
@@ -147,10 +142,10 @@ about-description: >
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
+features-title: The Solution
 features-description: > 
   This is why CodeGlass is the next generation development tool, and much more than just a profiler and, above all, the only one of its kind. You can find more reasons on our collaborative GitHub pages, we kept it at 9 as it looked nice.<br/>Currently, 
-  we support <strong>.NET</strong> applications and <strong>JavaScript</strong>* websites, but we are constantly working on supporting more runtimes as the solution is language-agnostic, with NodeJS coming soon. <br/>
+  we support <strong>.NET</strong> applications and <strong>JavaScript</strong>* websites, but we are constantly working on supporting more runtimes as the solution is language-agnostic, with <strong>Java</strong> and <strong>NodeJS</strong> coming soon. <br/>
   <br/>
   * Experimental feature, as such, it is an Experimental Edition feature only for now.
 
@@ -177,7 +172,7 @@ features:
     icon: pe-7s-next
     
   - title: It is fast
-    description: CodeGlass can collect and process over 4.000.000 unfiltered function calls per second. It depends on usage and your hardware, of course, but you do not have to notice any slowdown in your application by setting the correct filters. In most cases, CodeGlass can give you quicker the results you need than others.<br/><br/>
+    description: CodeGlass can collect and process over 8.000.000 unfiltered function calls per second. It depends on usage and your hardware, of course, but you do not have to notice any slowdown in your application by setting the correct filters. In most cases, CodeGlass can give you quicker the results you need than others.<br/><br/>
     icon: pe-7s-plane
 
   - title: Remote
@@ -202,7 +197,7 @@ features:
 ############  Portfolio  ############
 #####################################
 portfolio-title: Showcase
-portfolio-description: To get a taste of what CodeGlass is and can do, for more, see our collaborative GitHub documentation pages. No, the application is not 4:3; the screenshots are just like that
+portfolio-description: To get a taste of what CodeGlass is and can do, for more, see our <a href="https://codeglassdotio.github.io/Docs" target="_blank">collaborative GitHub documentation pages. </a> No, the application is not 4:3; the screenshots are just like that
 
 #
 # Portfolio Grid
@@ -402,15 +397,15 @@ testimonials:
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: We write exciting blogs about our development, major releases or other topics that interest us. Have a look!
+blog-title: Blog & News
+blog-description: We write exciting blogs and news items about our development, major releases or other topics that interest us. Have a look!
 
 #####################################
 ############### Team ################
 #####################################
 team-title: Our Team
 team-description: > 
-  We are CodeGlass, an ambitious startup company based in the Netherlands to make the best next-generation profilers and tooling available to and for everyone.
+  We are the team behind CodeGlass, and making the next generation development tools for you.
   </br>
   </br>
   Our team only exists out of developers. Our vision is to create the best solution with you while operating fully transparent, without marketing trickery, make it available to and for everyone, or die trying.</br>
@@ -491,7 +486,7 @@ plan-personal-url: "offers#community"
 #
 # Plan Business
 #
-plan-business-price: €0
+plan-business-price: €50
 plan-business-offer-1-title: All Features
 plan-business-offer-1-info: It contains all features that are not experimental.
 plan-business-offer-2-title: 
@@ -501,7 +496,7 @@ plan-business-url: "offers#pro"
 #
 # Plan Ultimate
 #
-plan-ultimate-price: €0
+plan-ultimate-price: €150
 plan-ultimate-offer-1-title: All Features+
 plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
 plan-ultimate-offer-2-title: 
@@ -517,7 +512,11 @@ contact-description: >
   </br> 
   <a href="https://codeglassdotio.github.io/Docs/contact" class="button-cta button-focus">Contact</a></br> 
   </br> 
-  Or if you like the simpicity of a web form you can use this one :)
+  You can also visit us at: <br/> 
+  Stationsplein 3 8011CW Zwolle The Netherlands<br/>
+  However, please let us know when you are planning to visit us.  <br/>
+  <br/>
+  Or if you like the simpicity of a web form you can use this one.
 
 #####################################
 #############   Footer   ############
@@ -526,3 +525,4 @@ footer-description: Creating the best solution with you while operating fully tr
 footer-copyright-text: CodeGlass BV
 footer-copyright-url: https://codeglassdotio.github.io/Docs/contact
 footer-copyright-year: 2023
+footer-privcy-policy-url: https://codeglassdotio.github.io/Docs/docs/Legal/Privacy

@@ -30,7 +30,7 @@
             <div class="plan-head">
               <h3 class="plan-title">Community</h3>
               <hr class="normal">
-              <p class="plan-subtitle">Price TBA.</p>
+              <p class="plan-subtitle">Not available yet*</p>
             </div>
 
             <!-- Plan Content -->
@@ -63,8 +63,7 @@
               <div class="offer">Recommend</div>
               <h3 class="plan-title">Pro </h3>
               <hr class="normal">
-              <p class="plan-subtitle">Price TBA.</p>
-              <!-- <p class="plan-subtitle">From <span class="text-focus">{{ site.plan-business-price }}</span> Per Month</p> -->
+              <p class="plan-subtitle">From <span class="text-focus">{{ site.plan-business-price }}</span> Per Month</p>
             </div>
 
             <!-- Plan Content -->
@@ -85,7 +84,7 @@
               {% endif %}
               
             <div style="margin-top:5px;">
-              <a href="buypro#buy">or buy now (€ TBA)</a>
+              <a href="buypro#buy">or buy now (€ {{ site.plan-business-price }})</a>
             </div>
             </div>
 
@@ -100,8 +99,8 @@
             <div class="plan-head">
               <h3 class="plan-title">Experimental</h3>
               <hr class="normal">
-              <p class="plan-subtitle">Price TBA.</p>
-              <!-- <p class="plan-subtitle">From <span class="text-focus">{{ site.plan-ultimate-price }}</span> Per Month</p> -->
+              <!-- <p class="plan-subtitle">Price TBA.</p> -->
+              <p class="plan-subtitle">From <span class="text-focus">{{ site.plan-ultimate-price }}</span> Per Month</p>
             </div>
 
             <!-- Plan Content -->
@@ -126,6 +125,11 @@
         </div>
       </div>
     </div>
-
+    <div class="row text-center">
+    <p>
+      <br/>
+      * We have yet to offer this, and we will start offering it after we have enough support to sustain it.
+    </p>
+  </div>
   </div>
 </section>
