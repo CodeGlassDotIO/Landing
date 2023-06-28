@@ -7,8 +7,9 @@ tagline: Next Generation
 title: Real-Time <strong>Profiler</strong>, <strong>Maintenance</strong>, <strong>Diagnostic</strong> and <strong>Development</strong> tool.
 ---
 
-
-{% include sections/offer.html offer-link="offers" offer-text="Please support the development of CodeGlass!" button-text="Buy Now" %}
+{% assign offertxt = site.translations[site.lang].index.offer-1-text %}
+{% assign offerbtntxt = site.translations[site.lang].index.offer-1-button %}
+{% include sections/offer.html offer-link="offers" offer-text=offertxt button-text=offerbtntxt %}
 
 {% include sections/about.html %}
 
@@ -18,7 +19,9 @@ title: Real-Time <strong>Profiler</strong>, <strong>Maintenance</strong>, <stron
 
 {% include sections/parallax-features.html %}
 
-{% include sections/offer.html  offer-link="https://codeglassdotio.github.io/Docs/features" link-target="_black" offer-text="Head over to our documentation for more!" button-text="Documentation" %}
+{% assign offertxt = site.translations[site.lang].index.offer-2-text %}
+{% assign offerbtntxt = site.translations[site.lang].index.offer-2-button %}
+{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/features" offer-text=offertxt button-text=offerbtntxt %}
 
 {% include sections/testimonials.html %}
 
@@ -26,11 +29,15 @@ title: Real-Time <strong>Profiler</strong>, <strong>Maintenance</strong>, <stron
 
 {% include sections/team.html %}
 
-{% include sections/offer.html  offer-link="offers" offer-text="We have a range of pricing options!" button-text="See All" %}
+
+{% assign offertxt = site.translations[site.lang].index.offer-3-text %}
+{% assign offerbtntxt = site.translations[site.lang].index.offer-3-button %}
+{% include sections/offer.html offer-link="offers" offer-text=offertxt button-text=offerbtntxt %}
 
 {% include sections/prices.html %}
 
 {% include sections/contact.html %}
 
-{% include sections/offer.html  offer-link="https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases" offer-text="Download CodeGlass now!" button-text="Download Now" %}
-
+{% assign offertxt = site.translations[site.lang].index.offer-4-text %}
+{% assign offerbtntxt = site.translations[site.lang].index.offer-4-button %}
+{% include sections/offer.html offer-link="https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases" offer-text=offertxt button-text=offerbtntxt %}

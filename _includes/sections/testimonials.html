@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.testimonials-title }}</h2>
+        <h2>{% t testimonials-title %}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.testimonials-description }}</p>
+        <p>{% t testimonials-description %}</p>
       </div>
 
     </div>
@@ -24,7 +24,7 @@
       <!-- Testimonials Carousel -->
       <div id="testimonials-carousel" class="col-md-8 col-md-push-2">
 
-        {% for client in site.testimonials %}
+        {% for client in site.translations[site.lang].testimonials %}
 
         <!-- Client Testimonial -->
         <div class="client-testimonial text-center">
@@ -33,7 +33,7 @@
             {% if client.avatar %}
 
             <div class="face">
-              <img src="{{ site.baseurl }}/images/avatars/{{ client.avatar }}" alt="Sera Avatar Image" />
+              <img src="{{ site.baseurl_root }}/images/avatars/{{ client.avatar }}" alt="Sera Avatar Image" />
             </div>
             {% endif %}
 
@@ -48,7 +48,7 @@
           <div class="testimonial-quote">
             <p class="quote">{{ client.cite }}</p>
             <div class="logo">
-              <img src="{{ site.baseurl }}/images/logos/{{ client.logo-img }}" alt="{{ client.url-text }} Logo" />
+              <img src="{{ site.baseurl_root }}/images/logos/{{ client.logo-img }}" alt="{{ client.url-text }} Logo" />
             </div>
           </div>
         </div>
