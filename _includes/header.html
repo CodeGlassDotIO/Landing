@@ -93,9 +93,9 @@
                     {% if lang != site.lang %}
 
                       {% if lang == "en" %}
-                      <a href="{{site.baseurl_root}}/index.html">{{ site.translations[site.lang].languages[lang] }}</a>
+                      <a href="{{ site.baseurl_root }}{{page.url}}">{{ site.languages-names[lang] }}</a>
                       {% else %}
-                      <a href="{{site.baseurl_root}}/{{lang}}/index.html">{{ site.translations[site.lang].languages[lang] }}</a>
+                      <a href="{{site.baseurl_root}}/{{lang}}{{page.url}}">{{ site.languages-names[lang] }}</a>
                       {% endif %}
                     {% endif %}
                   {% endfor %}

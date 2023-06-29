@@ -38,7 +38,13 @@ jekyll-archives:
     tag: "/tag/:name/"
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "nl"]
+languages: ["en", "nl", "debug"]
+
+languages-names:
+  en: English
+  nl: Nederlands
+  debug: Debug
+
 
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 # default_locale_in_subfolder: true

@@ -1,66 +1,50 @@
-languages:
-  en: English
-  nl: Nederlands
-  test: Debug
-
-
 navigation-menu:
-  home: Home
-  about: Over
-  solution: Oplossing
-  showcase: Showcase
-  testimonials: Getuigenissen
-  blog: Blog
-  team: Team
-  prices: Prijzen
-  contact: Contact
-  languages: Taal
+  home: q
+  about: w
+  solution: e
+  showcase: r
+  testimonials: t
+  blog: y
+  team: u
+  prices: i
+  contact: o
+  languages: p
 
 
 
 index:
   header-focus-button:
-    title: Download nu
+    title: a
     url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
   header-secondary-button:
-    title: Lees meer
+    title: s
     url: https://codeglassdotio.github.io/Docs
-  offer-1-text: support de ontwikkeling van CodeGlass!
-  offer-1-button: Nu kopen
-  offer-2-text: Ga naar onze documentation voor meer!
-  offer-2-button: Documentatie
-  offer-3-text: We hebben allerlei prijs opties!
-  offer-3-button: Bekijken
-  offer-4-text: Download CodeGlass Nu!
-  offer-4-button: Download Nu
+  offer-1-text: d
+  offer-1-button: f
+  offer-2-text: g
+  offer-2-button: h
+  offer-3-text: j
+  offer-3-button: k
+  offer-4-text: l
+  offer-4-button: z
 
 
 #####################################
 #############   About   #############
 #####################################
-about-title: Welkom bij CodeGlass
+about-title: x
 about-description: > 
-  Welkom bij CodeGlass, een baanbrekend softwareontwikkelingstool van een innovatieve startup gevestigd in Nederland. Onze missie is om de beste tools te bieden voor softwareontwikkelaars, en CodeGlass is een schitterend voorbeeld van die toewijding. <br/>
-  <br/>
-  CodeGlass is ontworpen om probleemoplossing te verbeteren, zelfs in de meest uitdagende scenario's waar problemen moeilijk te reproduceren zijn of wanneer er een gebrek is aan documentatie of ontwikkelaars. Het is een onschatbaar hulpmiddel voor het onderhouden, diagnosticeren en optimaliseren van applicaties. Het is veelzijdig en in staat om naadloos te functioneren in elke omgeving, inclusief productie. CodeGlass doet dit alles zonder de broncode te hoeven wijzigen of toegang te hebben! <br/>
-  <br/><br/>
-  We nodigen u uit om onze gezamenlijke GitHub-pagina's te verkennen met de knop hieronder. We hebben deze website alleen gemaakt zodat we ons niet buitengesloten voelen omdat we geen enkele eenpagina-website extravaganza hebben.<br/>
-  <br/>
-  <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentatie</a> <br/>
-  <br/>
+  c
 
 #####################################
 #############  Features  ############
 #####################################
-features-title: De Oplossing
+features-title: v
 features-description: > 
-  Dit is waarom CodeGlass het volgende generatie ontwikkelingstool is, en veel meer dan alleen een profiler en, bovenal, de enige in zijn soort. U kunt meer redenen vinden op onze gezamenlijke GitHub-pagina's, we hebben het op 9 gehouden omdat het er leuk uitzag.<br/>Momenteel,
-  ondersteunen we <strong>.NET</strong> applicaties en <strong>JavaScript</strong>* websites, maar we werken constant aan het ondersteunen van meer runtimes aangezien de oplossing taalagnostisch is, met <strong>Java</strong> en <strong>NodeJS</strong> binnenkort. <br/>
-  <br/>
-  *Experimentele functie, als zodanig, is het voorlopig alleen een functie van de Experimentele Editie.
+  b
 
 features:
-  - title: Realtime Code Profiler
+  - title: b
     description: CodeGlass is de enige realtime Code profiler die bestaat die elke oproep verzamelt en u directe toegang geeft tot de gegevens zonder deze eerst op te nemen. Het is geen sampling. Met extra controle zoals stappen, throttling, rendering, geavanceerde filtering, code body reconstructie en meer.<br/><br/>
     icon: pe-7s-display2
 
