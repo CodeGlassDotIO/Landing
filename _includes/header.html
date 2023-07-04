@@ -87,7 +87,8 @@
             {% endif%}
             <li>
               <div class="lang-dropdown">
-                <a class="lang-dropbtn">{% t navigation-menu.languages %}</a>
+                <i class="fa-solid fa-language fa-2xl lang-dropbtn"></i>
+                <!-- <a class="lang-dropbtn">{% t navigation-menu.languages %}</a> -->
                 <div class="lang-dropdown-content">
                   {% for lang in site.languages %}
                     {% if lang != site.lang %}
@@ -120,12 +121,11 @@
           {% if page.pageType == "index" %}
           <img src="{{ site.baseurl_root }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline" />
           {% else %}
-          <h2>{{ page.tagline }}</h2>
+          <h2>{{ site.translations[site.lang].page-taglines[page.tagline] }}</h2>
           <hr class="small">
-          <h1 class="thin">{{ page.title }}</h1>
+          <h1 class="thin">{{ site.translations[site.lang].page-titles[page.title] }}</h1>
           {% endif %}
         </div>
-
         
 
         {% if page.pageType == "index" %}

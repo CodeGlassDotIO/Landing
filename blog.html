@@ -1,7 +1,7 @@
 ---
 layout: page
-tagline: Our
-title: <strong>News</strong> and <strong>Blogs</strong>
+tagline: blog
+title: blog
 pageType: blog
 ---
 
@@ -37,7 +37,7 @@ pageType: blog
           {{ post.content | truncatewords:75 }}
         </div>
         <div class="show-more">
-          <a href="{{ site.baseurl_root }}{{ post.url }}" class="button">Read More</a>
+          <a href="{{ site.baseurl_root }}{{ post.url }}" class="button">{% t blog-button-read %}</a>
         </div>
       </div>
 

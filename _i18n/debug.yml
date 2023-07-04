@@ -1,3 +1,5 @@
+# This file exists so we can test multi language 
+
 navigation-menu:
   home: q
   about: w
@@ -11,8 +13,17 @@ navigation-menu:
   languages: p
 
 
+page-titles:
+  index: k
+  offers: l
+  blog: z
+
+page-taglines:
+  offers: z
+  blog: x
 
 index:
+  page-title: q
   header-focus-button:
     title: a
     url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
@@ -27,6 +38,15 @@ index:
   offer-3-button: k
   offer-4-text: l
   offer-4-button: z
+
+offers:
+  offer-1-text: x
+  offer-2-text: c
+  offer-2-button: v
+  offer-3-text: b
+  offer-3-button: n
+  offer-3-text: m
+  offer-3-button: q
 
 
 #####################################
@@ -44,40 +64,40 @@ features-description: >
   b
 
 features:
-  - title: b
-    description: CodeGlass is de enige realtime Code profiler die bestaat die elke oproep verzamelt en u directe toegang geeft tot de gegevens zonder deze eerst op te nemen. Het is geen sampling. Met extra controle zoals stappen, throttling, rendering, geavanceerde filtering, code body reconstructie en meer.<br/><br/>
+  - title: n
+    description: m
     icon: pe-7s-display2
 
-  - title: Maintenance Tool
-    description: CodeGlass geeft u direct inzicht in hoe uw applicatie werkt door elke stap die de applicatie neemt in realtime te renderen. Voorbij zijn de tijden dat je moest worstelen om iemand anders project te begrijpen, code waar je niet aan hebt gewerkt voor jaren of Lady en de Vagebond zijn diner.<br/><br/>
+  - title: q
+    description: w
     icon: pe-7s-help2
 
-  - title: Diagnostic Tool
-    description: Heb de middelen om elk probleem te diagnosticeren en op te lossen. Maak bijvoorbeeld een snapshot en vergelijk waarom het deze keer niet werkte of waarom het op jouw pc werkte maar niet op die van hen. Pauzeer de uitvoering en ga terug en kijk wat leidde tot de uitzondering en of andere threads betrokken zijn, en identificeer racecondities.<br/><br/>
+  - title: e
+    description: r
     icon: pe-7s-tools
 
-  - title: Execution Control
-    description: CodeGlass geeft je basiscontrole zoals starten, pauzeren, stoppen en opnieuw starten. Maar het heeft ook geavanceerde methoden zoals vooruit en achteruit stappen, throttling en een profiler standby-modus die je bijna de volledige prestaties van je applicatie geeft en je in staat stelt om opnieuw te profileren wanneer je het nodig hebt.<br/><br/><br/>
+  - title: t
+    description: y
     icon: pe-7s-next
     
-  - title: Het is snel
-    description: CodeGlass kan meer dan 8.000.000 ongefilterde functieoproepen per seconde verzamelen en verwerken. Het hangt natuurlijk af van het gebruik en je hardware, maar je hoeft geen vertraging in je applicatie te merken door de juiste filters in te stellen. In de meeste gevallen kan CodeGlass je sneller de resultaten geven die je nodig hebt dan anderen.<br/><br/>
+  - title: u
+    description: i
     icon: pe-7s-plane
 
-  - title: Remote
-    description:  Maak verbinding met andere CodeGlass-instanties en gebruik CodeGlass op afstand. Zoals het draaien op een productieserver en gewoon je ontwikkelmachine erop aansluiten. Of een collega helpen zonder op zijn schoot te hoeven zitten.<br/><br/><br/><br/><br/>
+  - title: i
+    description:  o
     icon: pe-7s-cloud
 
-  - title: Geavanceerde filtering
-    description: CodeGlass maakt het intuïtief en eenvoudig om te filteren op de dingen die je wilt profileren, zodat je je kunt concentreren op de gegevens die ertoe doen. Je kunt zelfs regex-regels maken of alleen niet filteren op openbare functies.
+  - title: p
+    description: a
     icon: pe-7s-filter
 
-  - title: Code Body Statistics
-    description:  CodeGlass gaat verder dan andere profilers, analyseert de verzamelde gegevens en probeert een functiecode body te reconstrueren om je diepgaandere gegevens te geven, zoals het tonen waar threads zich in een functie bevinden of hoe vaak een lus wordt uitgevoerd. Maar ook waar tijd wordt besteed, waardoor de noodzaak om stopwatches aan je code toe te voegen wordt geëlimineerd.
+  - title: s
+    description:  d
     icon: pe-7s-graph3
 
-  - title: Geen Source code
-    description: CodeGlass doet alles zonder de broncode van de applicatie nodig te hebben. Geef hem gewoon een ondersteunde applicatie en hij doet zijn ding. Je kunt er zelfs PowerShell mee profileren als je dat wilt.
+  - title: f
+    description: g
     icon: pe-7s-folder
 
 
@@ -85,88 +105,88 @@ features:
 #####################################
 ############  Portfolio  ############
 #####################################
-portfolio-title: Showcase
-portfolio-description: Om een idee te krijgen van wat CodeGlass is en kan doen, voor meer, zie onze <a href="https://codeglassdotio.github.io/Docs" target="_blank">gezamenlijke GitHub documentatiepagina's. </a> Nee, de applicatie is niet 4:3; de screenshots zijn gewoon zo.
-
+portfolio-title: h
+portfolio-description: i
+portfolio-categories-all: o
 #
 # Portfolio Grid
 #
 portfolio-categories:
-  [Main,  Profiling, Rendering, Filters, Login, Code Body, Exceptions]
+  [j,  k, l, z, x, c, v]
 portfolio:
 
-  - title: Application Instance
-    categories: [Main, Filters]
+  - title: b
+    categories: [j, k]
     image: AppInstanceDockWindow4by3.png
     # url: "#"
 
-  - title: Applications
-    categories: [Main]
+  - title: n
+    categories: [l]
     image: Applications4by3.png
     #url: "#"
 
-  - title: Tree Rendering
-    categories: [Rendering, Profiling]
+  - title: m
+    categories: [z, x]
     image: RealtimeCallTreeRendering3Threads4by3.png
     #url: "#"
 
-  - title: Code Body Reconstruction
-    categories: [Code Body, Profiling]
+  - title: c
+    categories: [c, v]
     image: CodeMemberDetailsView4by3.png
     #url: "#"
     
-  - title: Login
-    categories: [Login, Main]
+  - title: q
+    categories: [j, k]
     image: SplashScreenLogin.png
     #url: "#"
 
-  - title: Nieuwe Applicatie
-    categories: [Main]
+  - title: w
+    categories: [l]
     image: AddApplication4by3.png
     #url: "#"
 
-  - title: Filter toevoegen
-    categories: [Filters]
+  - title: e
+    categories: [z]
     image: AddApplicationFilter4by3.png
     #url: "#"
 
-  - title: CallStack Rendering
-    categories: [Rendering, Profiling]
+  - title: r
+    categories: [x, c]
     image: RealtimeCallStackGroupedRendering4by3.png
     #url: "#"
     
-  - title: Application Filters
-    categories: [Filters]
+  - title: t
+    categories: [v]
     image: ApplicationFilters4by3.png
     #url: "#"
 
-  - title: CallStack Rendering
-    categories: [Rendering, Profiling]
+  - title: y
+    categories: [j, k]
     image: RealtimeCallStackRendering4by3.png
     #url: "#"
 
-  - title: Statistieken
-    categories: [Profiling, Filters]
+  - title: u
+    categories: [l, z]
     image: StatisticsWindow4by3.png
     #url: "#"
 
-  - title: Code Body Statistieken
-    categories: [Code Body,Profiling]
+  - title: i
+    categories: [x,c]
     image: CodeMemberDetailsViewStatistics4by3.png
     #url: "#"
 
-  - title: Exceptions
-    categories: [Exceptions,Profiling]
+  - title: o
+    categories: [v,j]
     image: AppInstanceExceptionDetails4by3.png
     #url: "#"
 
-  - title: Code Heatmap
-    categories: [Rendering, Profiling]
+  - title: p
+    categories: [k, l]
     image: AppInstanceCodeHeatMap4by3.png
     #url: "#"
 
-  - title: Application Settings
-    categories: [Main]
+  - title: a
+    categories: [z]
     image: ApplicationSettingsWindow4by3.png
     #url: "#"
 
@@ -176,50 +196,50 @@ portfolio:
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Core Features
-core-description: CodeGlass heeft allerlei functies, ga naar onze GitHub Documentatiepagina's om meer te zien.
+core-title: s
+core-description: d
 core-experimental-disclamer: >
- *Experimentele functie, als zodanig, is het voorlopig alleen een functie van de Experimentele Editie.
+ f
 
 #
 # Core Features Left
 #
 core-features-left:
 
-  - name: Realtime Profiling
-    description: Geeft u directe toegang tot de gegevens zonder deze eerst op te nemen.
+  - name: g
+    description: h
     icon: pe-7s-display2
 
-  - name: .NET Runtime
-    description: .Net Core, Framework, .NET 5+, ASP.NET en meer!
+  - name: j
+    description: k
     icon: pe-7s-server
     
-  - name: Snapshots
-    description: Vergelijk andere snapshots om problemen op te lossen die je nooit kon.
+  - name: l
+    description: z
     icon: pe-7s-copy-file
 
-  - name: Code Body Reconstruction
-    description: Reconstructie van functiecode bodies om je diepgaandere gegevens te geven.
+  - name: x
+    description: c
     icon: pe-7s-hammer
 
-  - name: Statistics
-    description: Function calls, duur, threads, CPU, geheugen en meer.
+  - name: v
+    description: b
     icon: pe-7s-graph3
 
-  - name: Filtering
-    description: Intuïtief en eenvoudig te filteren op de dingen die je wilt profileren.
+  - name: n
+    description: m
     icon: pe-7s-filter
 
-  - name: Execution Control
-    description: Beheer uw applicatie met start, pauze, stop, herstart, stappen en standby.
+  - name: q
+    description: w
     icon: pe-7s-next
 
-  - name: Waarom Drie Monitoren
-    description: Dit gedeelte was ontworpen voor een telefoon, maar dat werkt niet echt voor 
+  - name: e
+    description: r
     icon: pe-7s-monitor
 
-  - name: Exceptions
-    description: Verzamel elke exceptie van uw applicatie.
+  - name: t
+    description: y
     icon: pe-7s-attention
 
     
@@ -229,93 +249,88 @@ core-features-left:
 #
 core-features-right:
 
-  - name: Realtime Rendering
-    description: Direct inzicht in hoe uw applicatie werkt door elke stap die het neemt te renderen
+  - name: u
+    description: i
     icon: pe-7s-display1
 
-  - name: JavaScript*
-    description: JavaScript-websites met binnenkort ondersteuning voor NodeJS!
+  - name: o
+    description: p
     icon: pe-7s-global
 
-  - name: Remote Profiling
-    description: Gebruik het op afstand door verbinding te maken met andere instanties.
+  - name: a
+    description: s
     icon: pe-7s-cloud
 
-  - name: Stepping
-    description: Stap vooruit of achteruit om uw applicatie op elk punt te analyseren.
+  - name: d
+    description: f
     icon: pe-7s-play
 
-  - name: Makkelijk te Gebruiken
-    description: Of druk op F1 op elk onderdeel in CodeGlass om hulp te krijgen.
+  - name: g
+    description: h
     icon: pe-7s-help2
 
-  - name: Code Heatmap
-    description: Toont u slecht gedragende code in één weergave op basis van de statistieken.
+  - name: j
+    description: k
     icon: pe-7s-graph
 
-  - name: Open Console
-    description: Sluit een console aan op elke applicatie, zelfs als deze er geen had.
+  - name: l
+    description: z
     icon: pe-7s-photo-gallery
 
-  - name: Wat is er met deze iconen
-    description: We konden geen passende vinden, en deze zien er leuk uit.
+  - name: x
+    description: c
     icon: pe-7s-camera
 
-  - name: Visual Studio Integration*
-    description:  Start automatisch met profileren wanneer u begint met debuggen.
+  - name: c
+    description:  v
     icon: pe-7s-tools
 
     
 #####################################
 ########### Testimonials ############
 #####################################
-testimonials-title: Getuigenissen
-testimonials-description: Ja, deze zijn echt en laten zien waarom dit programma zichzelf terugbetaalt.
+testimonials-title: v
+testimonials-description: b
 
 #
 # Testimonials
 #
 testimonials:
   # Client
-  - name: Kevin Brobbel
+  - name: n
     url: https://www.depotsoftware.com/
-    url-text: DepotSoftware
+    url-text: m
     #avatar: avatar-01.jpg
-    cite: We hadden een probleem met een specifieke installatie van onze software. We hebben alles geprobeerd om het op te lossen, maar na drie dagen gaven we het op en installeerden we de server waarop het draaide opnieuw. Een jaar later kwam het probleem terug, en met CodeGlass slaagden we erin om het probleem binnen 15 minuten te vinden en op te lossen.
+    cite: q
     logo-img: 2020-depot-ynm-embleem-25jaar.jpg
 
     
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Blog & News
-blog-description: We schrijven spannende blogs en nieuwsitems over onze ontwikkeling, grote releases of andere onderwerpen die ons interesseren. Neem een kijkje!
+blog-title: w
+blog-description: e
+blog-button-read: r
+blog-button-view-all: t
 
 
 
 #####################################
 ############### Team ################
 #####################################
-team-title: Our Team
+team-title: r
 team-only-website-disclamer: >
- * Beheert onze website, die in Jekyll gescheven is, dus technisch gezien een developer.
+ t
 team-description: > 
-  Wij zijn het team achter CodeGlass, en maken de volgende generatie ontwikkeltools voor jou.
-  </br>
-  </br>
-  Ons team bestaat alleen uit ontwikkelaars. Onze visie is om de beste oplossing met jou te creëren terwijl we volledig transparant opereren, zonder marketingtrucs, het beschikbaar maken voor en voor iedereen, or die trying.</br>
-  Misschien heb je al gemerkt dat er geen vervelende cookie-popup was?
-  </br>
-  </br>
-  CodeGlass is niet open-source, maar als er niemand meer is om CodeGlass te ondersteunen, zullen we de broncode gratis beschikbaar stellen voor iedereen. Zodat iemand anders ervan kan leren, en je je geen zorgen hoeft te maken over het niet meer kunnen gebruiken ervan.
+ y
 
 #
 # Team Members
 #
 team: 
   # Team Member 
-  - name: Tyrone Krieger 
-    tagline: CEO & Developer 
+  - name: y
+    tagline: u
     avatar: tyrone.jpg 
 
     # Social Links 
@@ -327,203 +342,192 @@ team:
     #vimeo: "#" 
     linkedin: "https://www.linkedin.com/in/tyrone-krieger/" 
 
-  # Team Member
-  - name: Lynn Weggemans
-    tagline: CFO & Developer*
+
+ # Team Member
+  - name: i
+    tagline: o
     avatar: Lynn.jpg
 
     linkedin: "https://www.linkedin.com/in/lynn-weggemans/"
 
   # Team Member
-  - name: Terence Bremmer
-    tagline: CTO & Developer
+  - name: p
+    tagline: a
     avatar: Terence.jpg
 
     linkedin: "https://www.linkedin.com/in/b-terence/"
 
   # Team Member
-  - name: Joran de Boer
-    tagline: Developer
+  - name: s
+    tagline: d
     avatar: JoranDeBoer.jpg
 
     linkedin: "https://www.linkedin.com/in/joran-de-boer/"
 
-  - name: Joost Godschalk
-    tagline: Developer
+  - name: f
+    tagline: g
     avatar: JoostGodschalk.jpg
 
     linkedin: "https://www.linkedin.com/in/joost-godschalk-9a093b1b7/"
 
   
-  - name: William Kater
-    tagline: Developer
+  - name: h
+    tagline: j
 
     linkedin: "https://www.linkedin.com/in/william-kater-a91540232/"
+
 
 #####################################
 ########## Pricing Tables ###########
 #####################################
-pricing-title: Editions
+pricing-title: i
 pricing-description: >
-  Om in te loggen op CodeGlass heb je een account nodig, je krijgt er een door een abonnement te krijgen of te kopen. <br/> Abonnementen zijn gekoppeld aan een van de volgende edities; zie de details van elk voor meer informatie.
-pricing-unavailable: Nog niet beschikbaar*
+  o
+pricing-unavailable: p
 pricing-unavailable-disclamer: >
- * We bieden dit op het moment nog niet aan, we willen dit gaan aanbieden wanneer we genoeg support hebben om dit te kunnen bieden.
+ a
 
-plan-button-details: Details
-plan-button-buy: Buy
-plan-button-unavailable: Unavailable*
-plan-recommend: "Recommend"
+plan-button-details: s
+plan-button-buy: d
+plan-button-unavailable: f
+plan-button-learn-more: q
+plan-button-offers: q
+plan-recommend: g
+
 
 #
 # Plan Personal (Community)
 #
-plan-personal-price: €0
-plan-personal-title: Community Edition
-plan-personal-offer-1-title: Limited Features
-plan-personal-offer-1-info: The Community Edition has a limited feature set or usage. Click the button below for more details. 
-plan-personal-offer-2-title:
-plan-personal-offer-2-info: We want anyone to use our software even if you do not have the method or funds to pay for it. 
+plan-personal-price: h
+plan-personal-title: j
+plan-personal-title-short: q
+plan-personal-subtitle: w
+plan-personal-offer-1-title: k
+plan-personal-offer-1-info: l 
+plan-personal-offer-2-title: m
+plan-personal-offer-2-info: q
 plan-personal-description: >
-  This is an edition of Code Glass we want to offer later on, when we have enough support to sustain it <br/> 
-  It will have some feature limitations; you can find out those in the community edition details.
-  <br/>
-  This edition is meant for people that do not have the funds, method or need to pay for the pro edition.
-  Because we want anyone to use our software even if you do not have the method or funds to pay for it. <br/> 
-  <br/>
-
-  We might also start giving this edition away to people previously supporting CodeGlass, as a thank you.
-  See your subscription for the details regarding this. <br/>
-  <br/>
-  <br/>
-  <a href="https://codeglassdotio.github.io/Docs/docs/Editions/Community" class="button-cta button-focus">Community Edition Details</a></br> 
+  q
 
 
 
 #
 # Plan Business (Pro)
 #
-plan-business-price: €50
-plan-business-title: Pro Edition
-plan-business-offer-1-title: All Features
-plan-business-offer-1-info: It contains all features that are not experimental.
-plan-business-offer-2-title: 
-plan-business-offer-2-info: Not only do you support the development, but you get full access to everything CodeGlass has to offer.
+plan-business-price: w
+plan-business-title: e
+plan-business-title-short: q
+plan-business-subtitle: w
+plan-business-button-buy-now: e
+plan-business-offer-1-title: r
+plan-business-offer-1-info: t
+plan-business-offer-2-title: y
+plan-business-offer-2-info: u
 plan-business-description: >
-  The Pro edition is the paid edition of Code Glass and has access to all features of Code Glass, except the experimental features of the Experimental Edition.
-  <br/>
-  <br/>
-  We have to following subscription plans: <br/>
+ i
 plan-business-foot-note: >
-  We also have plans for students, teachers, educational institutes and more, visit our <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes">comparison chart</a> for more information. <br/>
-  * We have yet to offer this, and we will start offering it after we have enough support to sustain it. <br/>
-  ** Floating licenses are also possible on request, additional terms may apply.
+  o
 
-plan-business-1-title: Enthusiast 
-plan-business-1-subtitle: Not Available yet*
-plan-business-1-feature-1-title: For private individuals
-plan-business-1-feature-1-content: Envisioned for those using the community edition but wants to support CodeGlass.
-plan-business-1-feature-2-title: Non-commercial
-plan-business-1-feature-2-content: Use at home for non-commercial projects.
-plan-business-1-feature-3-title: Single User
-plan-business-1-feature-3-content: Concurrent software usage for the number of purchased subscriptions.
-plan-business-1-feature-4-title: Community License*
+plan-business-1-title: p 
+plan-business-1-subtitle: a
+plan-business-1-feature-1-title: s
+plan-business-1-feature-1-content: d
+plan-business-1-feature-2-title: f
+plan-business-1-feature-2-content: g
+plan-business-1-feature-3-title: h
+plan-business-1-feature-3-content: j
+plan-business-1-feature-4-title: k
 plan-business-1-feature-4-content: >
- After 2 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>.<br/>
- Upgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
+ l
 
-plan-business-2-title: Pro 
-plan-business-2-subtitle: <span class="text-focus">€ 50</span> Per Month*<br/>or<br/><span class="text-focus">€ 500</span> Per Year<br/>
-plan-business-2-feature-1-title: For private individuals
-plan-business-2-feature-1-content: You may not be reimbursed by a legal entity or another third party.
-plan-business-2-feature-2-title: General-commercial
-plan-business-2-feature-2-content: Use it anywhere for any project.
-plan-business-2-feature-3-title: Single User
-plan-business-2-feature-3-content: Concurrent software usage for the number of purchased subscriptions.
-plan-business-2-feature-4-title: Fallback License*
+plan-business-2-title: z
+plan-business-2-subtitle: x
+plan-business-2-feature-1-title: c
+plan-business-2-feature-1-content: v
+plan-business-2-feature-2-title: b
+plan-business-2-feature-2-content: n
+plan-business-2-feature-3-title: m
+plan-business-2-feature-3-content: q
+plan-business-2-feature-4-title: w
 plan-business-2-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a><br/>
-  or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
-  Upgrading to <a href="#experimental">experimental</a> does not reset this timer.
+  q
 
-plan-business-3-title: Organization 
-plan-business-3-subtitle: <span class="text-focus">€ 100</span> Per Month*<br/>or<br/><span class="text-focus">€ 1000</span> Per Year<br/>
-plan-business-3-feature-1-title: For Legal entities
-plan-business-3-feature-1-content: A corporation, company, partnership, association, or other entity or organization
-plan-business-3-feature-2-title: General-commercial
-plan-business-3-feature-2-content: Use it anywhere for any project.
-plan-business-3-feature-3-title: Multi Users**
-plan-business-3-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions.
-plan-business-3-feature-4-title: Fallback License*
+plan-business-3-title: w
+plan-business-3-subtitle: e
+plan-business-3-feature-1-title: r
+plan-business-3-feature-1-content: t
+plan-business-3-feature-2-title: y
+plan-business-3-feature-2-content: u
+plan-business-3-feature-3-title: i
+plan-business-3-feature-3-content: o
+plan-business-3-feature-4-title: p
 plan-business-3-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a>.
+  a
 
-plan-business-4-title: Offline Organization 
-plan-business-4-subtitle: On request <br/><br/>
-plan-business-4-feature-1-title: For Legal entities
-plan-business-4-feature-1-content: A corporation, company, partnership, association, or other entity or organization
-plan-business-4-feature-2-title: General-commercial
-plan-business-4-feature-2-content: Use it anywhere for any project.
-plan-business-4-feature-3-title: Offline Multi Users**
-plan-business-4-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions without requiring an internet connection to log in
-plan-business-4-feature-4-title: Fallback License*
+plan-business-4-title: s
+plan-business-4-subtitle: d
+plan-business-4-feature-1-title: f
+plan-business-4-feature-1-content: g
+plan-business-4-feature-2-title: h
+plan-business-4-feature-2-content: j
+plan-business-4-feature-3-title: k
+plan-business-4-feature-3-content: l
+plan-business-4-feature-4-title: z
 plan-business-4-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a>. 
+  x
 
 #
 # Plan Ultimate (Experimental)
 #
-plan-ultimate-price: €150
-plan-ultimate-offer-1-title: All Features+
-plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
-plan-ultimate-offer-2-title: 
-plan-ultimate-offer-2-info: Only take this when you really want to support us; most features will come to the other editions within a few updates.
+plan-ultimate-price: c
+plan-ultimate-title: v
+plan-ultimate-title-short: q
+plan-ultimate-subtitle: w
+plan-ultimate-description: >
+ e
+
+plan-ultimate-offer-1-title: v
+plan-ultimate-offer-1-info: b
+plan-ultimate-offer-2-title: n
+plan-ultimate-offer-2-info: m
 plan-ultimate-foot-note: >
- * We have yet to offer this, and we will start offering it after we have enough support to sustain it. 
+ q
 
 
-plan-ultimate-1-title: Experimental 
-plan-ultimate-1-subtitle: <span class="text-focus">€ 150</span> Per Month*<br/>or<br/><span class="text-focus">€ 1500</span> Per Year<br/>
-plan-ultimate-1-feature-1-title: For private individuals**
+plan-ultimate-1-title: w 
+plan-ultimate-1-subtitle: e
+plan-ultimate-1-feature-1-title: r
 plan-ultimate-1-feature-1-content: >
- **However, you can be reimbursed by a legal entity or another third party.
-plan-ultimate-1-feature-2-title: General-commercial
-plan-ultimate-1-feature-2-content: Use it anywhere for any project.
-plan-ultimate-1-feature-3-title: Multi Users
-plan-ultimate-1-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions.
-plan-ultimate-1-feature-4-title: Fallback License*
+ t
+plan-ultimate-1-feature-2-title: y
+plan-ultimate-1-feature-2-content: u
+plan-ultimate-1-feature-3-title: i
+plan-ultimate-1-feature-3-content: o
+plan-ultimate-1-feature-4-title: p
 plan-ultimate-1-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a><br/>
-  or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
-  downgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
+  a
 
 
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Neem Contact Met Ons Op
+contact-title: s
 contact-description: >  
-  We hebben meerdere manieren om contact met ons op te nemen, inclusief Discord! </br> We hebben ze vermeld op onze documentatiewebsite, ga met de knop hieronder naar onze site.</br>
-  </br>
-  <a href="https://codeglassdotio.github.io/Docs/contact" class="button-cta button-focus">Contact</a></br>
-  </br>
-  Je kunt ons ook bezoeken op: <br/>
-  Stationsplein 3 8011CW Zwolle Nederland<br/>
-  Laat het ons echter weten als je van plan bent ons te bezoeken. <br/>
-  <br/>
-  Of als je de eenvoud van een webformulier leuk vindt, kun je deze gebruiken.
+  d
 
 contact-form:
-  name: Naam
-  email: Email
-  subject: Onderwerp
-  message: Bericht
-  button: Stuur Bericht
+  name: f
+  email: g
+  subject: h
+  message: j
+  button: k
 #####################################
 #####################################
 #############   Footer   ############
 #####################################
 #####################################
-footer-description: De beste oplossing met jou creëren terwijl we volledig transparant opereren, zonder marketingtrucs, het beschikbaar maken voor en voor iedereen, or die trying.
+footer-description: l
 footer-address-line: >
- Adres: Stationsplein 3 8011CW Zwolle Nederland - KVK: 89869273 - IBAN: NL60 RABO 0343 9627 21 - BTW: 865136956B01  
+ z
+footer-rights-reserved: x
+footer-copyright-text: c

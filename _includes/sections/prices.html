@@ -28,9 +28,9 @@
 
             <!-- Plan Head -->
             <div class="plan-head">
-              <h3 class="plan-title">Community</h3>
+              <h3 class="plan-title">{% t plan-personal-title-short %}</h3>
               <hr class="normal">
-              <p class="plan-subtitle">Not available yet*</p>
+              <p class="plan-subtitle">{% t plan-personal-subtitle %}</p>
             </div>
 
             <!-- Plan Content -->
@@ -45,9 +45,9 @@
             <!-- Plan Action -->
             <div class="plan-action">
               {% if page.pageType== "offers"%}
-              <a href="#community" class="button">Learn more</a>
+              <a href="#community" class="button">{% t plan-button-learn-more %}</a>
               {% else %}
-              <a href="{{ site.baseurl }}/offers#community" class="button">Learn more</a>
+              <a href="{{ site.baseurl }}/offers#community" class="button">{% t plan-button-learn-more %}</a>
               {% endif %}
             </div>
 
@@ -60,10 +60,10 @@
 
             <!-- Plan Head -->
             <div class="plan-head">
-              <div class="offer">Recommend</div>
-              <h3 class="plan-title">Pro </h3>
+              <div class="offer">{% t plan-recommend %}</div>
+              <h3 class="plan-title">{% t plan-business-title-short %} </h3>
               <hr class="normal">
-              <p class="plan-subtitle">From <span class="text-focus">{% t plan-business-price %}</span> Per Month</p>
+              <p class="plan-subtitle">{% t plan-business-subtitle %}</p>
             </div>
 
             <!-- Plan Content -->
@@ -78,13 +78,13 @@
             <!-- Plan Action -->
             <div class="plan-action">
               {% if page.pageType== "offers"%}
-              <a href="#pro" class="button">Learn more</a>
+              <a href="#pro" class="button">{% t plan-button-learn-more %}</a>
               {% else %}
-              <a href="{{ site.baseurl }}/offers#pro" class="button button-focus">See Offers</a>
+              <a href="{{ site.baseurl }}/offers#pro" class="button button-focus">{% t plan-button-offers %}</a>
               {% endif %}
               
             <div style="margin-top:5px;">
-              <a href="{{ site.baseurl }}/buypro#buy">or buy now ({% t plan-business-price %})</a>
+              <a href="{{ site.baseurl }}/buypro#buy">{% t plan-business-button-buy-now %}</a>
             </div>
             </div>
 
@@ -97,10 +97,10 @@
 
             <!-- Plan Head -->
             <div class="plan-head">
-              <h3 class="plan-title">Experimental</h3>
+              <h3 class="plan-title">{% t plan-ultimate-title-short %}</h3>
               <hr class="normal">
               <!-- <p class="plan-subtitle">Price TBA.</p> -->
-              <p class="plan-subtitle">From <span class="text-focus">{% t plan-ultimate-price %}</span> Per Month</p>
+              <p class="plan-subtitle">{% t plan-ultimate-subtitle %}</p>
             </div>
 
             <!-- Plan Content -->
@@ -115,9 +115,9 @@
             <!-- Plan Action -->
             <div class="plan-action">
               {% if page.pageType== "offers"%}
-              <a href="#experimental" class="button">Learn more</a>
+              <a href="#experimental" class="button">{% t plan-button-learn-more %}</a>
               {% else %}
-              <a href="{{ site.baseurl }}/offers#experimental" class="button">Learn more</a>
+              <a href="{{ site.baseurl }}/offers#experimental" class="button">{% t plan-button-learn-more %}</a>
               {% endif %}
             </div>
 

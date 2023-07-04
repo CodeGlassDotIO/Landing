@@ -38,7 +38,9 @@ jekyll-archives:
     tag: "/tag/:name/"
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "nl", "debug"]
+languages: ["en", "nl"
+ #, "debug" //For testing multi-language
+]
 
 languages-names:
   en: English
@@ -139,7 +141,7 @@ discord: "https://discord.gg/ytczAxSmX4"
 #
 ####
 
-footer-copyright-text: CodeGlass BV
-footer-copyright-url: https://codeglassdotio.github.io/Docs/contact
-footer-copyright-year: 2023
-footer-privcy-policy-url: https://codeglassdotio.github.io/Docs/docs/Legal/Privacy
+# footer-copyright-text: CodeGlass BV
+# footer-copyright-url: https://codeglassdotio.github.io/Docs/contact
+# footer-copyright-year: 2023
+# footer-privcy-policy-url: https://codeglassdotio.github.io/Docs/docs/Legal/Privacy

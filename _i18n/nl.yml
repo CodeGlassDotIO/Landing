@@ -1,8 +1,3 @@
-languages:
-  en: English
-  nl: Nederlands
-  test: Debug
-
 
 navigation-menu:
   home: Home
@@ -18,7 +13,17 @@ navigation-menu:
 
 
 
+page-titles:
+  index: CodeGlass - Real-Time Profiler, Maintenance, Diagnostic and Development tool.
+  offers: For supporting CodeGlass!
+  blog: <strong>News</strong> and <strong>Blogs</strong>
+
+page-taglines:
+  offers: Thank you
+  blog: Our
+
 index:
+  page-title: CodeGlass - Real-Time Profiler, Maintenance, Diagnostic and Development tool.
   header-focus-button:
     title: Download nu
     url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
@@ -34,7 +39,15 @@ index:
   offer-4-text: Download CodeGlass Nu!
   offer-4-button: Download Nu
 
-
+offers:
+  offer-1-text: ONLY WITH YOUR SUPPORT CAN WE MAKE CODEGLASS BETTER!
+  offer-2-text: Contact us to request your community license!
+  offer-2-button: Contact
+  offer-3-text: Contact us for volume pricing!
+  offer-3-button: Contact
+  offer-3-text: See our Comparison Chart for more information!
+  offer-3-button: Compare
+  
 #####################################
 #############   About   #############
 #####################################
@@ -103,7 +116,7 @@ features:
 #####################################
 portfolio-title: Showcase
 portfolio-description: Om een idee te krijgen van wat CodeGlass is en kan doen, voor meer, zie onze <a href="https://codeglassdotio.github.io/Docs" target="_blank">gezamenlijke GitHub documentatiepagina's. </a> Nee, de applicatie is niet 4:3; de screenshots zijn gewoon zo.
-
+portfolio-categories-all: Alle
 #
 # Portfolio Grid
 #
@@ -306,7 +319,8 @@ testimonials:
 #####################################
 blog-title: Blog & News
 blog-description: We schrijven spannende blogs en nieuwsitems over onze ontwikkeling, grote releases of andere onderwerpen die ons interesseren. Neem een kijkje!
-
+blog-button-read: Read More
+blog-button-view-all: View all posts
 
 
 #####################################
@@ -389,6 +403,8 @@ pricing-unavailable-disclamer: >
 plan-button-details: Details
 plan-button-buy: Buy
 plan-button-unavailable: Unavailable*
+plan-button-learn-more: Learn More
+plan-button-offers: See Offers
 plan-recommend: "Recommend"
 
 #
@@ -396,6 +412,8 @@ plan-recommend: "Recommend"
 #
 plan-personal-price: €0
 plan-personal-title: Community Edition
+plan-personal-title-short: Community
+plan-personal-subtitle: Nog niet beschikbaar*
 plan-personal-offer-1-title: Limited Features
 plan-personal-offer-1-info: The Community Edition has a limited feature set or usage. Click the button below for more details. 
 plan-personal-offer-2-title:
@@ -421,6 +439,9 @@ plan-personal-description: >
 #
 plan-business-price: €50
 plan-business-title: Pro Edition
+plan-business-title-short: Pro
+plan-business-subtitle: From <span class="text-focus">{% t plan-business-price %}</span> Per Month
+plan-business-button-buy-now: or buy now (€50)
 plan-business-offer-1-title: All Features
 plan-business-offer-1-info: It contains all features that are not experimental.
 plan-business-offer-2-title: 
@@ -490,6 +511,15 @@ plan-business-4-feature-4-content: >
 # Plan Ultimate (Experimental)
 #
 plan-ultimate-price: €150
+plan-ultimate-title: Experimental Edition
+plan-ultimate-title-short: Experimental
+plan-ultimate-subtitle: From <span class="text-focus">€150</span> Per Month
+plan-ultimate-description: >
+  The Experimental edition are experimental builds of CodeGlass with features that might not be released yet (or at all) to the public as they are not proven stable enough. <br/>
+  See the details to know which features that are.<br/>
+  <br/>
+  This subscription is meant for people who want to support us fully; most features will come to the other editions within a few updates. <br/>
+  We might even stop offering it if we sell to many of them.
 plan-ultimate-offer-1-title: All Features+
 plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
 plan-ultimate-offer-2-title: 
@@ -543,3 +573,5 @@ contact-form:
 footer-description: De beste oplossing met jou creëren terwijl we volledig transparant opereren, zonder marketingtrucs, het beschikbaar maken voor en voor iedereen, or die trying.
 footer-address-line: >
  Adres: Stationsplein 3 8011CW Zwolle Nederland - KVK: 89869273 - IBAN: NL60 RABO 0343 9627 21 - BTW: 865136956B01  
+footer-rights-reserved: All Right Reserved!
+footer-copyright-text: <a href="https://codeglassdotio.github.io/Docs/contact">CodeGlass BV</a> &copy; 2023 Copyright  <a href="https://codeglassdotio.github.io/Docs/docs/Legal/Privacy">Privacy Policy</a>

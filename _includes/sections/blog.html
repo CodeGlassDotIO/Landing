@@ -55,7 +55,7 @@
                 <p>{{ post.excerpt | strip_html }}</p>
               </div>
               <div class="show-more">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="button">{% t blog-button-read %}</a>
               </div>
             </div>
 
@@ -74,7 +74,7 @@
     <!-- View All Posts CTA -->
     <div class="row view-posts text-center">
       <hr class="normal">
-      <a href="blog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">View all posts</a>
+      <a href="blog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">{% t blog-button-view-all %}</a>
     </div>
 
   </div>

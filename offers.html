@@ -1,11 +1,12 @@
 ---
 layout: offers-page
-tagline: Thank you
-title: For supporting CodeGlass!
+tagline: offers
+title: offers
 pageType: offers
 ---
 
-{% include sections/offer.html  offer-text="ONLY WITH YOUR SUPPORT CAN WE MAKE CODEGLASS BETTER!" %}
+{% assign offertxt = site.translations[site.lang].offers.offer-1-text %}
+{% include sections/offer.html  offer-text=offertxt %}
 
 
 {% include sections/prices.html  %}
@@ -13,13 +14,19 @@ pageType: offers
 
 {% include offerssections/community.html %}
 
-{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/contact" offer-text="Contact us to request your community license!" button-text="Contact" %}
+{% assign offertxt = site.translations[site.lang].offers.offer-2-text %}
+{% assign offerbtntxt = site.translations[site.lang].offers.offer-2-button %}
+{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/contact" offer-text=offertxt button-text=offerbtntxt %}
 
 {% include offerssections/pro.html %}
 
-{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/contact" offer-text="Contact us for volume pricing!" button-text="Contact" %}
+{% assign offertxt = site.translations[site.lang].offers.offer-3-text %}
+{% assign offerbtntxt = site.translations[site.lang].offers.offer-3-button %}
+{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/contact" offer-text=offertxt button-text=offerbtntxt %}
 
 
 {% include offerssections/experimental.html %}
 
-{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/docs/LicenseTypes" offer-text="See our Comparison Chart for more information!" button-text="Compare" %}
+{% assign offertxt = site.translations[site.lang].offers.offer-3-text %}
+{% assign offerbtntxt = site.translations[site.lang].offers.offer-3-button %}
+{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/docs/LicenseTypes" offer-text=offertxt button-text=offerbtntxt %}
