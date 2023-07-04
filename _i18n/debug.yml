@@ -48,6 +48,9 @@ offers:
   offer-3-text: m
   offer-3-button: q
 
+buy:
+  offer-1-text: w
+  offer-1-button: e
 
 #####################################
 #############   About   #############
@@ -314,6 +317,11 @@ blog-button-read: r
 blog-button-view-all: t
 
 
+blog-catergries: y
+blog-tags-cloud: u
+blog-tags: i
+blog-share: o
+
 
 #####################################
 ############### Team ################
@@ -506,6 +514,26 @@ plan-ultimate-1-feature-3-content: o
 plan-ultimate-1-feature-4-title: p
 plan-ultimate-1-feature-4-content: >
   a
+
+buy-text-top: >
+  q
+
+buy-text-bottom:
+  w
+
+buy-text-users-multiple: >
+ e
+
+buy-text-users-single: >
+  r
+
+buy-legal:
+ pre-text: t
+ eula-text: y
+ post-text: u
+
+buy-button-buy-agree: t
+
 
 
 #####################################

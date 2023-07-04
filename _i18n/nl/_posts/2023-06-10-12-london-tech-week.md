@@ -1,24 +1,24 @@
 ---
 layout: post
-title:  "We are going to London"
-tagline: Here we come!
+title:  "We gaan naar London"
+tagline: Land in zicht!
 date: 2023-06-10 12:40
 categories: [News]
 tags: [CodeGlass, Events]
 image: London tech week.jpg
 ---
-London Tech Week 2023 is just around the corner, and we have some thrilling news to share! Our team has received an exclusive invitation to be part of this spectacular event, taking place from the 12th to the 16th of June.
+London Tech Week 2023 staat voor de deur, en we hebben wat spannend nieuws te delen! Ons team heeft een exclusieve uitnodiging ontvangen om deel uit te maken van dit spectaculaire evenement, dat plaatsvindt van 12 tot 16 juni.
 
-This invitation comes from the Dutch trade mission, where a delegation of entrepreneurs, industry leaders, and startups from the Netherlands will represent our country at international trade events.
+Deze uitnodiging komt van de Nederlandse handelsmissie, waar een delegatie van ondernemers, industrieleiders en startups uit Nederland ons land zal vertegenwoordigen op internationale handelsevenementen.
 
-London Tech Week is a global celebration of technology, uniting innovative thinkers and the talent of tomorrow in a week-long festival. It showcases how technology transforms business and society, driving thought-provoking conversations around innovation, diversity, and transformation. The event provides a platform for the tech ecosystem to come together to drive change.
+London Tech Week is een wereldwijde viering van technologie, die innovatieve denkers en het talent van morgen verenigt in een weeklang festival. Het toont aan hoe technologie bedrijven en de samenleving transformeert, en stimuleert tot nadenken over innovatie, diversiteit en transformatie. Het evenement biedt een platform voor het tech-ecosysteem om samen te komen en verandering te stimuleren.
 
-Our participation in the Dutch trade mission to London Tech Week is a testament to the impact we have been making in the Dutch software industry. We proudly represent our country and showcase our innovative solutions on this international platform.
+Onze deelname aan de Nederlandse handelsmissie naar London Tech Week is een bewijs van de impact die we hebben gehad op de Nederlandse software-industrie. We vertegenwoordigen ons land met trots en tonen onze innovatieve oplossingen op dit internationale platform.
 
-This is an exciting opportunity for us to connect with like-minded individuals, tech enthusiasts, industry leaders, and potential partners. If you're also attending London Tech Week, we would be thrilled to meet you, and please connect with us!
+Dit is een spannende kans voor ons om in contact te komen met gelijkgestemde individuen, tech-enthousiastelingen, industrieleiders en potentiële partners. Als je ook de London Tech Week bijwoont, zouden we het geweldig vinden om je te ontmoeten, dus neem alsjeblieft contact met ons op!
 
-So please mark your calendars and prepare to join us in London for an unforgettable experience at London Tech Week 2023. Together, let's embrace the power of technology and shape the future of innovation.
+Dus markeer alvast je agenda en bereid je voor om ons in Londen te vergezellen voor een onvergetelijke ervaring op London Tech Week 2023. Laten we samen de kracht van technologie omarmen en de toekomst van innovatie vormgeven.
 
-We look forward to this exciting event and the chance to demonstrate how CodeGlass contributes to the global tech ecosystem. 
+We kijken uit naar dit spannende evenement en de kans om te laten zien hoe CodeGlass bijdraagt aan het wereldwijde tech-ecosysteem.
 
-See you in London!
+Tot ziens in Londen!

@@ -1,4 +1,10 @@
 
+languages:
+  en: English
+  nl: Nederlands
+  test: Debug
+
+
 navigation-menu:
   home: Home
   about: About
@@ -45,6 +51,10 @@ offers:
   offer-3-button: Contact
   offer-3-text: See our Comparison Chart for more information!
   offer-3-button: Compare
+
+buy:
+  offer-1-text: Do not hesitate to contact us for any questions
+  offer-1-button: Contact
 
 
 #####################################
@@ -326,6 +336,12 @@ blog-description: We write exciting blogs and news items about our development, 
 blog-button-read: Read More
 blog-button-view-all: View all posts
 
+
+blog-catergries: Categories
+blog-tags-cloud: Tags cloud
+blog-tags: Tags
+blog-share: Share
+
 #####################################
 ############### Team ################
 #####################################
@@ -551,6 +567,39 @@ plan-ultimate-1-feature-4-content: >
   or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
   downgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
 
+
+
+buy-text-top: >
+  First off, thank you for buying a subscription! <br/>
+  We can continue development on CodeGlass with your support ♥<br/>
+  <br/>
+  After you buy your subscription, you will get an email from LicenseSpring with your <a href="http://codeglassdotio.github.io/Docs/docs/Others/Account">CodeGlass Account</a> details.<br/>
+  <br/>
+
+buy-text-bottom:
+  <i>You can cancel your subscription at any time and can continue using CodeGlass till your term ends.<br/>
+  You can also upgrade or downgrade to another subscription that you are eligible for at any time.</i><br/>
+  <br/>
+  By clicking buy, you indicate you read and agree to the <a href="http://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase">Terms and Conditions</a> and
+
+
+
+buy-text-users-multiple: >
+ With quantity on the Stripe payment site you specify how many users you want to have. <br/>
+ <i>You can increase and decrease this amount at any time</i> <br/><br/>
+
+buy-text-users-single: >
+  With quantity on the Stripe payment site you specify how many concurrent usage you want to have.<br/><br/>
+
+buy-legal:
+ pre-text: By clicking buy, you indicate you read and agree to the
+ eula-text: EULA
+ post-text: and <a href="http://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase">Terms and Conditions</a>
+
+
+
+buy-button-buy-agree: Buy And Agree
+buy-text-eula: EULA
 
 #####################################
 ############   Contact   ############

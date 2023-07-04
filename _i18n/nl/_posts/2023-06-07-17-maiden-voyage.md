@@ -7,23 +7,24 @@ categories: [News]
 tags: [CodeGlass, Release]
 image: maiden-voyage.jpg
 ---
-We are thrilled to announce the highly anticipated launch of CodeGlass v1.2.1 as it sets sail on its maiden voyage! 
-With an extensive five-year development period that involved private betas, rigorous testing, and invaluable validation, the moment of unveiling has finally arrived.
 
-Someone among us jokingly suggested celebrating this milestone by breaking a bottle of champagne over the build server to symbolise a true maiden voyage. We all shared a laugh; however, we decided against it as our developer hearts could not take such abuse and enjoyed it ourselves.
+We zijn verheugd om de langverwachte lancering van CodeGlass v1.2.1 aan te kondigen, nu het aan zijn eerste reis begint!
+Met een uitgebreide ontwikkelingsperiode van vijf jaar die privé-bèta's, rigoureuze tests en onschatbare validatie omvatte, is het moment van onthulling eindelijk aangebroken.
 
-We've been fortunate to be surrounded by early adopters and loyal customers who played an integral role in bringing CodeGlass to market. In anticipation of London Tech Week next week, we decided to reveal CodeGlass in advance, ensuring it would be ready and available.
+Iemand onder ons stelde voor de grap voor om deze mijlpaal te vieren door een fles champagne over de build server te breken om een echte eerste reis te symboliseren. We hebben allemaal gelachen; echter, we besloten ertegen omdat onze ontwikkelaarsharten zo'n misbruik niet aankonden en we ervan genoten.
 
-With heartfelt dedication, we have poured our passion and expertise into creating an exceptional product. We sincerely hope that you, the developers and software enthusiasts, will embrace CodeGlass with the same enthusiasm and admiration that our early customers have expressed.
+We hebben het geluk gehad om omringd te zijn door early adopters en trouwe klanten die een integrale rol speelden bij het op de markt brengen van CodeGlass. In afwachting van de London Tech Week volgende week, besloten we CodeGlass van tevoren te onthullen, om ervoor te zorgen dat het klaar en beschikbaar zou zijn.
 
-As CodeGlass embarks on its maiden voyage into the hands of developers worldwide, we eagerly await the revolution it will make for them, as it did for our early adopters. 
+Met oprechte toewijding hebben we onze passie en expertise in het creëren van een uitzonderlijk product gestoken. We hopen oprecht dat jullie, de ontwikkelaars en softwareliefhebbers, CodeGlass zullen omarmen met hetzelfde enthousiasme en bewondering die onze vroege klanten hebben uitgedrukt.
 
-We are immensely grateful for the unwavering support of our early adopters, and we invite all of you to be part of our growing community. 
-Join us and experience first hand the remarkable capabilities of CodeGlass shaping the future of coding.
+Nu CodeGlass aan zijn eerste reis begint in de handen van ontwikkelaars wereldwijd, kijken we vol verwachting uit naar de revolutie die het voor hen zal maken, zoals het deed voor onze vroege adopters.
+
+We zijn enorm dankbaar voor de onwankelbare steun van onze vroege adopters, en we nodigen jullie allemaal uit om deel uit te maken van onze groeiende gemeenschap.
+Doe met ons mee en ervaar uit eerste hand de opmerkelijke mogelijkheden van CodeGlass die de toekomst van het coderen vormgeven.
 
 Kind regards, <br/>
 Tyrone Krieger, <br/>
 Lynn Weggemans, <br/>
 Terence Bremmer, <br/>
 Lizard Doggo, <br/>
-And the rest of the team behind CodeGlass. 
+En de rest van het team achter CodeGlass. 
