@@ -6,6 +6,35 @@
  *
  **/
 
+ // Quite
+ .cg-quote {
+  position: relative;
+  color: $secondary;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.4;
+
+  &:before,
+  &:after {
+    display: block;
+    position: absolute;
+    content: "\"";
+    font-size: 3.125rem;
+    font-weight: bold;
+  }
+
+  &:before {
+    left: -2rem;
+    top: 0;
+  }
+
+  &:after {
+    right: -1rem;
+    bottom: -1rem;
+  }
+}
+
+
 header.site-header {
   position: relative;
   width: 100%;
