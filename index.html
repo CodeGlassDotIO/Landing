@@ -1,16 +1,25 @@
 ---
 layout: default
-title: Next Generation Dev Tools
+title: landing
 pageType: landing
-
-tagline: We just want to code.
-title: Add 25% Development power to you or your team.
 ---
 
-{% include sections/offer.html offer-link="#demo" offer-text="CodeGlass enables the ultimate developer experience" %}
+
+{% assign offertxt = site.translations[site.lang].landing.offer-1-text %}
+{% include sections/offer.html offer-link="offers" offer-text=offertxt %}
+
 {% include sections/why.html %}
-{% include sections/offer.html offer-link="#demo" offer-text="This should be impossible right?" button-text="Request Demo" %}
+
+
+
+{% assign offertxt = site.translations[site.lang].landing.offer-2-text %}
+{% assign offerbtntxt = site.translations[site.lang].landing.offer-2-button %}
+{% include sections/offer.html offer-link="#demo" offer-text=offertxt button-text=offerbtntxt %}
+
+
 
 
 {% include sections/demo.html %}
-{% include sections/offer.html offer-link="main.html#about" link-target="_blank"  offer-text="Discover more" button-text="Continue" %}
+{% assign offertxt = site.translations[site.lang].landing.offer-3-text %}
+{% assign offerbtntxt = site.translations[site.lang].landing.offer-3-button %}
+{% include sections/offer.html offer-link="main.html#about" link-target="_blank"  offer-text=offertxt button-text=offerbtntxt %}

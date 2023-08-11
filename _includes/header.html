@@ -15,9 +15,9 @@
       {% elsif page.pageType == "blog" %}
       <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Blog" />
       {% elsif page.pageType == "offers" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Offers" />
+      <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Offers" />
       {% elsif page.pageType == "landing" %}
-      <img src="{{ site.baseurl }}/images/header-image.jpg" alt="CodeGlass - Next Generation Profiler" />
+      <img src="{{ site.baseurl_root }}/images/header-image.jpg" alt="CodeGlass - Next Generation Profiler" />
       {% elsif page.pageType == "buy" %}
       <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Buy Subscription" />
       {% else %}
@@ -66,9 +66,9 @@
             <li><a href="#contact">{% t navigation-menu.contact %}</a></li>
 
             {% elsif page.pageType == "landing" %}
-            <li><a href="{{ site.baseurl }}/main.html#home">Discover more</a></li>
-            <li><a href="{{ site.baseurl }}/main.html#prices">Prices</a></li>
-            <li><a href="{{ site.baseurl }}/main.html#contact">Contact</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#home">{% t navigation-menu.discover-more %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#prices">{% t navigation-menu.prices %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#contact">{% t navigation-menu.contact %}</a></li>
             
             {% else %}
 
@@ -142,16 +142,16 @@
         <!-- Heading Title -->
         <div class="row heading-title">
           {% if page.pageType == "index" %}          
-          <img src="{{ site.baseurl }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline; margin-top:10px" width="250px"/>
+          <img src="{{ site.baseurl_root }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline; margin-top:10px" width="250px"/>
 
-          <h1 style="margin-top: 20px;">Enabling the ultimate developer experience</h1>
+          <h1 style="margin-top: 20px;">{% t page-header-titles.main %}</h1>
           {% elsif page.pageType == "landing" %}
         
-          <img src="{{ site.baseurl }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline; margin-top:10px" width="250" />
+          <img src="{{ site.baseurl_root }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline; margin-top:10px" width="250" />
 
-          <h1 style="margin-top: 20px;">Add 25% Development power <br/> to you or your team</h1>
+          <h1 style="margin-top: 20px;">{% t page-header-titles.landing %}</h1>
           <hr class="small">
-          <h3 class="thin">an Intuitive, lightweight tool for and by developers.</h2>
+          <h3 class="thin">{% t page-taglines.landing %}</h2>
           
           {% else %}
           <h2>{{ site.translations[site.lang].page-taglines[page.tagline] }}</h2>
@@ -165,26 +165,15 @@
         <!-- Header Buttons -->
         <div class="row buttons-header">
           <div class="col-lg-4 col-lg-push-4 col-md-4 col-md-push-4 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
-              href="#about" class="button-cta button-focus">Discover more</a></div>
+              href="#about" class="button-cta button-focus">{% t main.header-focus-button-title %}</a></div>
         </div>
-
-
-        <!-- <div class="row buttons-header">
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
-              href="{% t index.header-focus-button.url %}" target="_black" class="button-cta button-focus">{% t index.header-focus-button.title %}</a></div>
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
-              href="{% t index.header-secondary-button.url %}" target="_black" class="button-cta">{% t index.header-secondary-button.title %}</a>
-          </div>
-              href="{{ site.header-secondary-button.url }}" target="_black" class="button-cta">{{ site.header-secondary-button.title
-              }}</a></div>
-        </div> -->
         {% endif %}
 
         {% if page.pageType == "landing" %}
         <!-- Header Buttons -->
         <div class="row buttons-header">
           <div class="col-lg-4 col-lg-push-4 col-md-4 col-md-push-4 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
-              href="#demo" class="button-cta button-focus">Book a demo</a></div>
+              href="#demo" class="button-cta button-focus">{% t landing.header-focus-button-title %}</a></div>
         </div>
         {% endif %}
       </div>

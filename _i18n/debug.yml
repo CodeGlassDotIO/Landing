@@ -11,26 +11,37 @@ navigation-menu:
   prices: i
   contact: o
   languages: p
+  discover-more: a
 
 
 page-titles:
-  index: k
+  landing: j
+  main: k
+  offers: l
+  blog: z
+
+
+page-header-titles:
+  landing: j
+  main: k
   offers: l
   blog: z
 
 page-taglines:
+  landing: c
   offers: z
   blog: x
 
-index:
-  page-title: q
-  header-focus-button:
-    title: a
-    url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
-  header-secondary-button:
-    title: s
-    url: https://codeglassdotio.github.io/Docs
-  offer-1-text: d
+
+landing:
+  header-focus-button-title: h
+  offer-1-text: j
+  offer-2-text: k
+  offer-2-button: l
+  offer-3-text: z
+  offer-3-button: x
+main:
+  header-focus-button-title: a
   offer-1-button: f
   offer-2-text: g
   offer-2-button: h
@@ -51,6 +62,42 @@ offers:
 buy:
   offer-1-text: w
   offer-1-button: e
+
+
+why:
+  features:
+    title: r
+    content: t
+    feature-1:
+      title: y
+      content: u
+    feature-2:
+      title: i
+      content: o
+    feature-3:
+      title: p
+      content: a
+    feature-4:
+      title: s
+      content: d
+    feature-5:
+      title: f
+      content: r
+    feature-6:
+      title: t
+      content: g
+    feature-7:
+      title: h
+      content: j
+  testimonial: 
+    title: k
+    content: >
+     l
+
+demo:
+  title: z
+  content: x
+
 
 #####################################
 #############   About   #############

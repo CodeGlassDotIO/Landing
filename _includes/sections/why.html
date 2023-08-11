@@ -18,13 +18,13 @@
 
         <!-- Section Header -->
         <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <h2 style="color: black;">Feature highlight</h2>
+          <h2 style="color: black;">{% t why.features.title %}</h2>
           <hr class="normal" style="background: black;">
         </header>
 
         <!-- Section Content -->
         <div class="col-md-10 col-md-push-1 section-content">
-          <p>CodeGlass has all kinds of features, book a demo to learn more.</p>
+          <p>{% t why.features.content %}</p>
         </div>
 
       </div>
@@ -34,9 +34,8 @@
         <div class="col-md-11 text-left" style="margin-top: 0px;">
           <div class=" feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;" >Reproduce any bug</h3>
-              <p style="color: black;">A stacktrace is nice but only the what, to reproduce you need why and how. Well CodeGlass gives and shows you this.
-              </p>
+              <h3 style="font-weight: bold;" >{% t why.features.feature-1.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-1.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -47,8 +46,8 @@
 
           <div class="feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;">Those pesky bug reports</h3>
-              <p style="color: black;">Why rely on these (invalid) reports when you can just take a snapshot and reproduce it at your end without even an database copy.</p>
+              <h3 style="font-weight: bold;">{% t why.features.feature-2.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-2.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -60,9 +59,8 @@
 
           <div class="feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;">Paper/Document Less development</h3>
-              <p style="color: black;">Developers write and maintain allot of documentation, 
-                Well CodeGlass can just show you the flow of the running application.</p>
+              <h3 style="font-weight: bold;">{% t why.features.feature-3.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-3.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -75,8 +73,8 @@
 
           <div class="feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;">You don't need help.</h3>
-              <p style="color: black;">You dont have to ask a collega or check documentation where the code of a feature is, CodeGlass can show you.</p>
+              <h3 style="font-weight: bold;">{% t why.features.feature-4.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-4.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -88,8 +86,8 @@
 
           <div class="feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;">Tracing Performance metrics done right</h3>
-              <p style="color: black;">Knowing which function is slow is nice, why, where and how is needed to fix it. CodeGlass provides this in realtime.</p>
+              <h3 style="font-weight: bold;">{% t why.features.feature-5.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-5.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -102,8 +100,8 @@
 
           <div class="feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;">No Need to wait, it's fast and realtime!</h3>
-              <p style="color: black;">No need to make recordings and process them, Every feature in CodeGlass works in realtime and environment, like production.</p>
+              <h3 style="font-weight: bold;">{% t why.features.feature-6.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-6.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -115,8 +113,8 @@
 
           <div class="feature">
             <div class="text-wrap">
-              <h3 style="font-weight: bold;">No source code required</h3>
-              <p style="color: black;">All features of CodeGlass work without knowlegde, access or even changes to the source code.</p>
+              <h3 style="font-weight: bold;">{% t why.features.feature-7.title %}</h3>
+              <p style="color: black;">{% t why.features.feature-7.content %}</p>
             </div>
             <div class="icon-wrap">
               <div class="circle parent" style="background-color: #4BC8F1;">
@@ -141,18 +139,20 @@
 
         <!-- Section Header -->
         <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-          <h2>Testimonial</h2>
+          <h2>{% t why.testimonial.title %}</h2>
           <hr class="normal">
         </header>
 
         <!-- Section Content -->
         <div class="col-md-push-1 col-md-10  section-content">
           <!-- <p>This testemony is hard to beat, not just because of the impact.</p> <br/> <p>For some unknown reason customers don't want to try how long it would have taken them to do their work without CodeGlass.</p> -->
-        
-        <p>Bringing a collective 36 hours back to 15 minutes by using CodeGlass is the time to beat.</p>
+       
+          <p>{% t why.testimonial.content %}</p>
+
+        <!-- <p>Bringing a collective 36 hours back to 15 minutes by using CodeGlass is the time to beat.</p>
         <p>Can you help us beat this challenge?</p>
         <p>Because our customers don't seem to want to spend more than 36 hours first when they can just use CodeGlass, its a real shame.</p>
-        </br>
+        </br> -->
         </div>
 
       </div>
@@ -172,17 +172,15 @@
 
 
               <div class="info">
-                <h3 class="name">Kevin Brobbel</h3>
-                <a class="link" target="_blank" href="https://www.depotsoftware.com/">DepotSoftware</a>
+                <h3 class="name">{{ site.translations[site.lang].testimonials[0].name }}</h3>
+                <a class="link" target="_blank" href="{{ site.translations[site.lang].testimonials[0].url }}">{{ site.translations[site.lang].testimonials[0].url-text }}</a>
               </div>
 
             </div>
 
             <!-- Testimonials Quote -->
             <div class="testimonial-quote">
-              <p class="quote">We had a problem with a specific installation of our software. We tried everything to fix
-                it, but after three days, we gave up and reinstalled the server it was running on. A year later, the
-                problem came back, and with CodeGlass, we managed to find and fix the issue within 15 minutes.</p>
+              <p class="quote">{{ site.translations[site.lang].testimonials[0].cite }}</p>
               <div class="logo">
                 <img src="/images/logos/2020-depot-ynm-embleem-25jaar.jpg" alt="DepotSoftware Logo" />
               </div>

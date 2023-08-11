@@ -16,24 +16,36 @@ navigation-menu:
   prices: Prices
   contact: Contact
   languages: Languages
-
+  discover-more: Discover more
 
 page-titles:
-  index: CodeGlass - Real-Time Profiler, Maintenance, Diagnostic and Development tool.
+  landing: CodeGlass - Add 25% Development power
+  main: CodeGlass - Real-Time Profiler, Maintenance, Diagnostic and Development tool.
+  offers: For supporting CodeGlass!
+  blog: News and Blogs
+
+page-header-titles:
+  landing: Add 25% Development power <br/> to you or your team
+  main: CodeGlass - Real-Time Profiler, Maintenance, Diagnostic and Development tool.
   offers: For supporting CodeGlass!
   blog: <strong>News</strong> and <strong>Blogs</strong>
 
 page-taglines:
+  landing: An Intuitive, lightweight tool for and by developers.
   offers: Thank you
   blog: Our
 
-index:
-  header-focus-button:
-    title: Download Now
-    url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
-  header-secondary-button:
-    title: Discover More
-    url: https://codeglassdotio.github.io/Docs
+
+landing:
+  header-focus-button-title: Book a demo
+  offer-1-text: CODEGLASS ENABLES THE ULTIMATE DEVELOPER EXPERIENCE
+  offer-2-text: THIS SHOULD BE IMPOSSIBLE RIGHT?
+  offer-2-button: Request a demo
+  offer-3-text: DISCOVER MORE
+  offer-3-button: Continue
+
+main:
+  header-focus-button-title: Discover More
   offer-1-text: Please support the development of CodeGlass!
   offer-1-button: Buy Now
   offer-2-text: Head over to our documentation for more!
@@ -56,6 +68,44 @@ buy:
   offer-1-text: Do not hesitate to contact us for any questions
   offer-1-button: Contact
 
+
+why:
+  features:
+    title: Feature highlight
+    content: CodeGlass has all kinds of features, book a demo to learn more.
+    feature-1:
+      title: Reproduce any bug
+      content: A stacktrace is nice but only the what, to reproduce you need why and how. Well CodeGlass gives and shows you this.
+    feature-2:
+      title: Those pesky bug reports
+      content: Why rely on these (invalid) reports when you can just take a snapshot and reproduce it at your end without even an database copy.
+    feature-3:
+      title: Paper/Document Less development
+      content: Developers write and maintain allot of documentation, Well CodeGlass can just show you the flow of the running application.
+    feature-4:
+      title: You don't need help.
+      content: You dont have to ask a collega or check documentation where the code of a feature is, CodeGlass can show you.
+    feature-5:
+      title: Tracing Performance metrics done right
+      content: Knowing which function is slow is nice, why, where and how is needed to fix it. CodeGlass provides this in realtime.
+    feature-6:
+      title: No Need to wait, it's fast and realtime!
+      content: No need to make recordings and process them, Every feature in CodeGlass works in realtime and environment, like production.
+    feature-7:
+      title: No source code required
+      content: All features of CodeGlass work without knowlegde, access or even changes to the source code.
+  testimonial: 
+    title: Testimonial
+    content: >
+     Bringing a collective 36 hours back to 15 minutes by using CodeGlass is the time to beat. <br/>
+     <br/>
+     Can you help us beat this challenge? <br/>
+     <br/>
+     Because our customers don't seem to want to spend more than 36 hours first when they can just use CodeGlass, its a real shame.<br/>
+
+demo:
+  title: Schedule a demo!
+  content: Request a demo so you can see the ultimate developer experience yourself.
 
 #####################################
 #############   About   #############
