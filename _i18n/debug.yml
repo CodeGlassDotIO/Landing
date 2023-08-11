@@ -98,6 +98,58 @@ demo:
   title: z
   content: x
 
+simple-pricing:
+  title: c
+  content: >
+    v
+  post-content: >
+    b
+  button-details: n
+  button-buy: m
+  personal:
+    title: q
+    pricing: w
+    detail-1-title: e
+    detail-2-title: r
+    detail-2-content: t
+    features-title: y
+    features-content: > 
+      u
+    features:
+      - title: >
+          i
+      - title: o
+      - title: p
+      - title: q
+  organization:
+    title: w
+    pricing: e
+    detail-1-title: r
+    detail-2-title: t
+    detail-2-content: y
+    features-title: u
+    features-content:  > 
+      i
+    features:
+      - title: > 
+          o
+      - title: p
+      
+  experimental:
+    title: a
+    pricing: s
+    detail-1-title: d
+    detail-2-title: f
+    detail-2-content: g
+    features-title: h
+    features-content: > 
+      j
+    features:
+      - title: > 
+          k
+      - title: l
+      - title: z
+      - title: x
 
 #####################################
 #############   About   #############

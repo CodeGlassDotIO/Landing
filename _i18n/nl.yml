@@ -101,6 +101,63 @@ demo:
   title: Schedule a demo!
   content: Request a demo so you can see the ultimate developer experience yourself.
 
+simple-pricing:
+  title: Pricing
+  content: >
+    To login into CodeGlass you need an account, you get one by getting or buying a subscription. <br/>
+    <br/>
+    The experimental subscription is meant for people who want to support us fully and undestand that these feature might not be fully stable; most features will come to the other editions within a few updates. <br/>
+    We might even increase the price or stop offering it entirely if we sell to many of them.
+  post-content: >
+    * We can make it work in offline environments on request, please contact us if this is required for you. <br/>
+    ** Floating licenses are also possible on request, additional terms may apply.
+  button-details: Details
+  button-buy: Buy
+  personal:
+    title: Personal
+    pricing: <span class="text-focus">€ 50</span> Per Month<br/> billed annually<br/>
+    detail-1-title: For private individuals
+    detail-2-title: Single User
+    detail-2-content: Concurrent software usage for the number of purchased subscriptions.
+    features-title: Essential features
+    features-content: > 
+      It contains all features that are not experimental, including:
+    features:
+      - title: >
+          .Net Support
+      - title: Performance tooling
+      - title: Diagnostic tooling
+      - title: Maintainance tooling
+  organization:
+    title: Organization*
+    pricing: <span class="text-focus">€ 100</span> Per Month<br/> billed annually<br/>
+    detail-1-title: For Legal entities
+    detail-2-title: Multi Users**
+    detail-2-content: Manage and allow concurrent software users for the number of purchased subscriptions.
+    features-title: Essential features and management
+    features-content:  > 
+      It contains all features that are not experimental, including:
+    features:
+      - title: > 
+          Personal features, plus:
+      - title: User management <br/><br/>
+      
+  experimental:
+    title: Experimental
+    pricing: <span class="text-focus">€ 150</span> Per Month<br/> billed annually<br/>
+    detail-1-title: Legal entities and Individuals
+    detail-2-title: Multi Users
+    detail-2-content: Manage and allow concurrent software users for the number of purchased subscriptions.
+    features-title: All features
+    features-content: > 
+      It contains all features, even those that are not released yet (or never will) to the other subscriptions, including:
+    features:
+      - title: > 
+          Organization features, plus:
+      - title: JavaScript Websites
+      - title: Visual Studio .NET Solution
+      - title: Folder Profiling. 
+
 #####################################
 #############   About   #############
 #####################################
