@@ -1,0 +1,561 @@
+# This file exists so we can test multi language 
+
+navigation-menu:
+  home: q
+  about: w
+  solution: e
+  showcase: r
+  testimonials: t
+  blog: y
+  team: u
+  prices: i
+  contact: o
+  languages: p
+
+
+page-titles:
+  index: k
+  offers: l
+  blog: z
+
+page-taglines:
+  offers: z
+  blog: x
+
+index:
+  page-title: q
+  header-focus-button:
+    title: a
+    url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
+  header-secondary-button:
+    title: s
+    url: https://codeglassdotio.github.io/Docs
+  offer-1-text: d
+  offer-1-button: f
+  offer-2-text: g
+  offer-2-button: h
+  offer-3-text: j
+  offer-3-button: k
+  offer-4-text: l
+  offer-4-button: z
+
+offers:
+  offer-1-text: x
+  offer-2-text: c
+  offer-2-button: v
+  offer-3-text: b
+  offer-3-button: n
+  offer-3-text: m
+  offer-3-button: q
+
+buy:
+  offer-1-text: w
+  offer-1-button: e
+
+#####################################
+#############   About   #############
+#####################################
+about-title: x
+about-description: > 
+  c
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: v
+features-description: > 
+  b
+
+features:
+  - title: n
+    description: m
+    icon: pe-7s-display2
+
+  - title: q
+    description: w
+    icon: pe-7s-help2
+
+  - title: e
+    description: r
+    icon: pe-7s-tools
+
+  - title: t
+    description: y
+    icon: pe-7s-next
+    
+  - title: u
+    description: i
+    icon: pe-7s-plane
+
+  - title: i
+    description:  o
+    icon: pe-7s-cloud
+
+  - title: p
+    description: a
+    icon: pe-7s-filter
+
+  - title: s
+    description:  d
+    icon: pe-7s-graph3
+
+  - title: f
+    description: g
+    icon: pe-7s-folder
+
+
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: h
+portfolio-description: i
+portfolio-categories-all: o
+#
+# Portfolio Grid
+#
+portfolio-categories:
+  [j,  k, l, z, x, c, v]
+portfolio:
+
+  - title: b
+    categories: [j, k]
+    image: AppInstanceDockWindow4by3.png
+    # url: "#"
+
+  - title: n
+    categories: [l]
+    image: Applications4by3.png
+    #url: "#"
+
+  - title: m
+    categories: [z, x]
+    image: RealtimeCallTreeRendering3Threads4by3.png
+    #url: "#"
+
+  - title: c
+    categories: [c, v]
+    image: CodeMemberDetailsView4by3.png
+    #url: "#"
+    
+  - title: q
+    categories: [j, k]
+    image: SplashScreenLogin.png
+    #url: "#"
+
+  - title: w
+    categories: [l]
+    image: AddApplication4by3.png
+    #url: "#"
+
+  - title: e
+    categories: [z]
+    image: AddApplicationFilter4by3.png
+    #url: "#"
+
+  - title: r
+    categories: [x, c]
+    image: RealtimeCallStackGroupedRendering4by3.png
+    #url: "#"
+    
+  - title: t
+    categories: [v]
+    image: ApplicationFilters4by3.png
+    #url: "#"
+
+  - title: y
+    categories: [j, k]
+    image: RealtimeCallStackRendering4by3.png
+    #url: "#"
+
+  - title: u
+    categories: [l, z]
+    image: StatisticsWindow4by3.png
+    #url: "#"
+
+  - title: i
+    categories: [x,c]
+    image: CodeMemberDetailsViewStatistics4by3.png
+    #url: "#"
+
+  - title: o
+    categories: [v,j]
+    image: AppInstanceExceptionDetails4by3.png
+    #url: "#"
+
+  - title: p
+    categories: [k, l]
+    image: AppInstanceCodeHeatMap4by3.png
+    #url: "#"
+
+  - title: a
+    categories: [z]
+    image: ApplicationSettingsWindow4by3.png
+    #url: "#"
+
+
+    
+
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: s
+core-description: d
+core-experimental-disclamer: >
+ f
+
+#
+# Core Features Left
+#
+core-features-left:
+
+  - name: g
+    description: h
+    icon: pe-7s-display2
+
+  - name: j
+    description: k
+    icon: pe-7s-server
+    
+  - name: l
+    description: z
+    icon: pe-7s-copy-file
+
+  - name: x
+    description: c
+    icon: pe-7s-hammer
+
+  - name: v
+    description: b
+    icon: pe-7s-graph3
+
+  - name: n
+    description: m
+    icon: pe-7s-filter
+
+  - name: q
+    description: w
+    icon: pe-7s-next
+
+  - name: e
+    description: r
+    icon: pe-7s-monitor
+
+  - name: t
+    description: y
+    icon: pe-7s-attention
+
+    
+
+#
+# Core Features Right
+#
+core-features-right:
+
+  - name: u
+    description: i
+    icon: pe-7s-display1
+
+  - name: o
+    description: p
+    icon: pe-7s-global
+
+  - name: a
+    description: s
+    icon: pe-7s-cloud
+
+  - name: d
+    description: f
+    icon: pe-7s-play
+
+  - name: g
+    description: h
+    icon: pe-7s-help2
+
+  - name: j
+    description: k
+    icon: pe-7s-graph
+
+  - name: l
+    description: z
+    icon: pe-7s-photo-gallery
+
+  - name: x
+    description: c
+    icon: pe-7s-camera
+
+  - name: c
+    description:  v
+    icon: pe-7s-tools
+
+    
+#####################################
+########### Testimonials ############
+#####################################
+testimonials-title: v
+testimonials-description: b
+
+#
+# Testimonials
+#
+testimonials:
+  # Client
+  - name: n
+    url: https://www.depotsoftware.com/
+    url-text: m
+    #avatar: avatar-01.jpg
+    cite: q
+    logo-img: 2020-depot-ynm-embleem-25jaar.jpg
+
+    
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: w
+blog-description: e
+blog-button-read: r
+blog-button-view-all: t
+
+
+blog-catergries: y
+blog-tags-cloud: u
+blog-tags: i
+blog-share: o
+
+
+#####################################
+############### Team ################
+#####################################
+team-title: r
+team-only-website-disclamer: >
+ t
+team-description: > 
+ y
+
+#
+# Team Members
+#
+team: 
+  # Team Member 
+  - name: y
+    tagline: u
+    avatar: tyrone.jpg 
+
+    # Social Links 
+    #youtube: "#" 
+    #pinterest: "#" 
+    #facebook: "#" 
+    #twitter: "#" 
+    #google-plus: "#" 
+    #vimeo: "#" 
+    linkedin: "https://www.linkedin.com/in/tyrone-krieger/" 
+
+
+ # Team Member
+  - name: i
+    tagline: o
+    avatar: Lynn.jpg
+
+    linkedin: "https://www.linkedin.com/in/lynn-weggemans/"
+
+  # Team Member
+  - name: p
+    tagline: a
+    avatar: Terence.jpg
+
+    linkedin: "https://www.linkedin.com/in/b-terence/"
+
+  # Team Member
+  - name: s
+    tagline: d
+    avatar: JoranDeBoer.jpg
+
+    linkedin: "https://www.linkedin.com/in/joran-de-boer/"
+
+  - name: f
+    tagline: g
+    avatar: JoostGodschalk.jpg
+
+    linkedin: "https://www.linkedin.com/in/joost-godschalk-9a093b1b7/"
+
+  
+  - name: h
+    tagline: j
+
+    linkedin: "https://www.linkedin.com/in/william-kater-a91540232/"
+
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+pricing-title: i
+pricing-description: >
+  o
+pricing-unavailable: p
+pricing-unavailable-disclamer: >
+ a
+
+plan-button-details: s
+plan-button-buy: d
+plan-button-unavailable: f
+plan-button-learn-more: q
+plan-button-offers: q
+plan-recommend: g
+
+
+#
+# Plan Personal (Community)
+#
+plan-personal-price: h
+plan-personal-title: j
+plan-personal-title-short: q
+plan-personal-subtitle: w
+plan-personal-offer-1-title: k
+plan-personal-offer-1-info: l 
+plan-personal-offer-2-title: m
+plan-personal-offer-2-info: q
+plan-personal-description: >
+  q
+
+
+
+#
+# Plan Business (Pro)
+#
+plan-business-price: w
+plan-business-title: e
+plan-business-title-short: q
+plan-business-subtitle: w
+plan-business-button-buy-now: e
+plan-business-offer-1-title: r
+plan-business-offer-1-info: t
+plan-business-offer-2-title: y
+plan-business-offer-2-info: u
+plan-business-description: >
+ i
+plan-business-foot-note: >
+  o
+
+plan-business-1-title: p 
+plan-business-1-subtitle: a
+plan-business-1-feature-1-title: s
+plan-business-1-feature-1-content: d
+plan-business-1-feature-2-title: f
+plan-business-1-feature-2-content: g
+plan-business-1-feature-3-title: h
+plan-business-1-feature-3-content: j
+plan-business-1-feature-4-title: k
+plan-business-1-feature-4-content: >
+ l
+
+plan-business-2-title: z
+plan-business-2-subtitle: x
+plan-business-2-feature-1-title: c
+plan-business-2-feature-1-content: v
+plan-business-2-feature-2-title: b
+plan-business-2-feature-2-content: n
+plan-business-2-feature-3-title: m
+plan-business-2-feature-3-content: q
+plan-business-2-feature-4-title: w
+plan-business-2-feature-4-content: >
+  q
+
+plan-business-3-title: w
+plan-business-3-subtitle: e
+plan-business-3-feature-1-title: r
+plan-business-3-feature-1-content: t
+plan-business-3-feature-2-title: y
+plan-business-3-feature-2-content: u
+plan-business-3-feature-3-title: i
+plan-business-3-feature-3-content: o
+plan-business-3-feature-4-title: p
+plan-business-3-feature-4-content: >
+  a
+
+plan-business-4-title: s
+plan-business-4-subtitle: d
+plan-business-4-feature-1-title: f
+plan-business-4-feature-1-content: g
+plan-business-4-feature-2-title: h
+plan-business-4-feature-2-content: j
+plan-business-4-feature-3-title: k
+plan-business-4-feature-3-content: l
+plan-business-4-feature-4-title: z
+plan-business-4-feature-4-content: >
+  x
+
+#
+# Plan Ultimate (Experimental)
+#
+plan-ultimate-price: c
+plan-ultimate-title: v
+plan-ultimate-title-short: q
+plan-ultimate-subtitle: w
+plan-ultimate-description: >
+ e
+
+plan-ultimate-offer-1-title: v
+plan-ultimate-offer-1-info: b
+plan-ultimate-offer-2-title: n
+plan-ultimate-offer-2-info: m
+plan-ultimate-foot-note: >
+ q
+
+
+plan-ultimate-1-title: w 
+plan-ultimate-1-subtitle: e
+plan-ultimate-1-feature-1-title: r
+plan-ultimate-1-feature-1-content: >
+ t
+plan-ultimate-1-feature-2-title: y
+plan-ultimate-1-feature-2-content: u
+plan-ultimate-1-feature-3-title: i
+plan-ultimate-1-feature-3-content: o
+plan-ultimate-1-feature-4-title: p
+plan-ultimate-1-feature-4-content: >
+  a
+
+buy-text-top: >
+  q
+
+buy-text-bottom:
+  w
+
+buy-text-users-multiple: >
+ e
+
+buy-text-users-single: >
+  r
+
+buy-legal:
+ pre-text: t
+ eula-text: y
+ post-text: u
+
+buy-button-buy-agree: t
+
+
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: s
+contact-description: >  
+  d
+
+contact-form:
+  name: f
+  email: g
+  subject: h
+  message: j
+  button: k
+#####################################
+#####################################
+#############   Footer   ############
+#####################################
+#####################################
+footer-description: l
+footer-address-line: >
+ z
+footer-rights-reserved: x
+footer-copyright-text: c

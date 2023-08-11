@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.team-title }}</h2>
+        <h2>{% t team-title %}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.team-description }}</p>
+        <p>{% t team-description %}</p>
       </div>
 
     </div>
@@ -21,14 +21,14 @@
     <!-- Team Members -->
     <div class="row team-members-container">
 
-      {% for member in site.team %}
+      {% for member in site.translations[site.lang].team %}
 
       <!-- Member -->
       <div class="col-md-4 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
         <div class="team-member">
           {% if member.avatar %} 
           <div class="img-wrapper">
-            <img src="{{ site.baseurl }}/images/avatars/{{ member.avatar }}" alt="Avatar Team Member" />
+            <img src="{{ site.baseurl_root }}/images/avatars/{{ member.avatar }}" alt="Avatar Team Member" />
           </div>
           {% else %}
           {% endif %}
@@ -53,7 +53,7 @@
       {% endfor %}
     </div>
     <div class="col-md-12 col-sm-12">
-      <p>* Manages our websites, which is in Jekyll, so technically a developer.</p>
+      <p>{% t team-only-website-disclamer %} </p>
     </div>
   </div>
 </section>
