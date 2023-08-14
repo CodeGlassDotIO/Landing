@@ -19,6 +19,7 @@ page-titles:
   main: k
   offers: l
   blog: z
+  contact-organization: x
 
 
 page-header-titles:
@@ -26,11 +27,13 @@ page-header-titles:
   main: k
   offers: l
   blog: z
+  contact-organization: x
 
 page-taglines:
   landing: c
   offers: z
   blog: x
+  contact-organization: c
 
 
 landing:
@@ -46,7 +49,7 @@ main:
   offer-2-text: g
   offer-2-button: h
   offer-3-text: j
-  offer-3-button: k
+  # offer-3-button: k
   offer-4-text: l
   offer-4-button: z
 
@@ -106,35 +109,36 @@ simple-pricing:
     b
   button-details: n
   button-buy: m
+  button-contact: g
   personal:
     title: q
     pricing: w
     detail-1-title: e
+    detail-1-content: j
     detail-2-title: r
     detail-2-content: t
-    features-title: y
-    features-content: > 
-      u
-    features:
-      - title: >
-          i
-      - title: o
-      - title: p
-      - title: q
-  organization:
-    title: w
-    pricing: e
-    detail-1-title: r
-    detail-2-title: t
-    detail-2-content: y
-    features-title: u
-    features-content:  > 
-      i
-    features:
-      - title: > 
-          o
-      - title: p
-      
+    pro:
+      pricing: y
+      features-title: u
+      features-content: > 
+        i
+      features:
+        - title: >
+            o
+        - title: p
+        - title: a
+        - title: s
+    experimental:
+      pricing: d
+      features-title: f
+      features-content: > 
+        g
+      features:
+        - title: > 
+            h
+        - title: j
+        - title: k
+        - title: l
   experimental:
     title: a
     pricing: s
@@ -150,6 +154,26 @@ simple-pricing:
       - title: l
       - title: z
       - title: x
+  organization:
+    title: c
+    pricing: v
+    detail-1-title: b
+    detail-1-content: n
+    detail-2-title: m
+    detail-2-content: q
+    detail-3-title: w
+    detail-3-content: e
+    features-title: >
+      r
+    features:
+      - title: t
+      - title: y
+      - title: u
+      
+organization-contact:
+  title: i
+  content: >
+    o
 
 #####################################
 #############   About   #############

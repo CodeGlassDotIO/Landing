@@ -1,10 +1,3 @@
-
-languages:
-  en: English
-  nl: Nederlands
-  test: Debug
-
-
 navigation-menu:
   home: Home
   about: About
@@ -23,17 +16,20 @@ page-titles:
   main: CodeGlass - Real-Time Profiler, Maintenance, Diagnostic and Development tool.
   offers: For supporting CodeGlass!
   blog: News and Blogs
+  contact-organization: Tell us about yourself 
 
 page-header-titles:
   landing: Add 25% Development power <br/> to you or your team
   main: Enabling the ultimate developer experience
   offers: For supporting CodeGlass!
   blog: <strong>News</strong> and <strong>Blogs</strong>
+  contact-organization: Organization Contact
 
 page-taglines:
   landing: An Intuitive, lightweight tool for and by developers.
   offers: Thank you
   blog: Our
+  contact-organization: Please
 
 
 landing:
@@ -50,8 +46,8 @@ main:
   offer-1-button: Buy Now
   offer-2-text: Head over to our documentation for more!
   offer-2-button: Documentation
-  offer-3-text: We have a range of pricing options!
-  offer-3-button: See All
+  offer-3-text: CodeGlass is for developers and by developers
+  # offer-3-button: See All
   offer-4-text: Download CodeGlass now!
   offer-4-button: Download Now
 
@@ -123,13 +119,13 @@ simple-pricing:
   button-contact: Contact
   personal:
     title: Individual
-    pricing: From <span class="text-focus">€ 50</span> Per Month<br/> billed annually<br/> 
-    detail-1-title: </br></br></br></br>For private individuals
+    pricing: From <span class="text-focus">€ 49</span> Per Month<br/> billed annually
+    detail-1-title: For private individuals
     detail-1-content: You may not be reimbursed by a legal entity or another third party.
     detail-2-title: Single User
-    detail-2-content: Concurrent software usage for the number of purchased subscriptions.</br></br>
+    detail-2-content: Concurrent software usage for the number of purchased subscriptions.
     pro:
-      pricing: <span class="text-focus">€ 50</span> Per Month<br/> billed annually<br/>
+      pricing: <span class="text-focus">€ 49</span> Per Month<br/> billed annually<br/>
       features-title: Pro Edition
       features-content: > 
         It contains all features that are not experimental, including: </br> </br>
@@ -140,7 +136,7 @@ simple-pricing:
         - title: Diagnostic tooling
         - title: Maintainance tooling
     experimental:
-      pricing: <span class="text-focus">€ 150</span> Per Month<br/> billed annually<br/>
+      pricing: <span class="text-focus">€ 149</span> Per Month<br/> billed annually<br/>
       features-title: Experimental Edition
       features-content: > 
         It contains all features, even those that are not released yet (or never will) to the other subscriptions, including:
@@ -152,7 +148,7 @@ simple-pricing:
         - title: Folder Profiling. 
   organization:
     title: Organization*
-    pricing: Price on Request
+    pricing: Price on Request <br/> <br/>
     detail-1-title: For Legal entities
     detail-1-content: A corporation, company, partnership, association, or other entity or organization
     detail-2-title: Multi Users**
@@ -166,7 +162,10 @@ simple-pricing:
       - title: Training sessions
       - title: Extended support
       
-
+organization-contact:
+  title: Get in touch
+  content: >
+    Please tell us a little about yourself and we will get in touch with you as soon as possible.
 
 #####################################
 #############   About   #############
@@ -489,7 +488,7 @@ team:
 
   # Team Member
   - name: Lynn Weggemans
-    tagline: CFO & Developer*
+    tagline: CMO & Developer*
     avatar: Lynn.jpg
 
     linkedin: "https://www.linkedin.com/in/lynn-weggemans/"
@@ -524,161 +523,161 @@ team:
 
 
 
-#####################################
-########## Pricing Tables ###########
-#####################################
-pricing-title: Editions
-pricing-unavailable: Not available yet*
-pricing-unavailable-disclamer: >
- * We have yet to offer this, and we will start offering it after we have enough support to sustain it.
-pricing-description: >
-  To login into CodeGlass you need an account, you get one by getting or buying a subscription. <br/> Subscriptions are tied to one of the following editions; see the details of each for more information. 
-#TODO GRAMMARLY
+# #####################################
+# ########## Pricing Tables ###########
+# #####################################
+# pricing-title: Editions
+# pricing-unavailable: Not available yet*
+# pricing-unavailable-disclamer: >
+#  * We have yet to offer this, and we will start offering it after we have enough support to sustain it.
+# pricing-description: >
+#   To login into CodeGlass you need an account, you get one by getting or buying a subscription. <br/> Subscriptions are tied to one of the following editions; see the details of each for more information. 
+# #TODO GRAMMARLY
 
 
-plan-button-details: Details
-plan-button-buy: Buy
-plan-button-unavailable: Unavailable*
-plan-button-learn-more: Learn More
-plan-button-offers: See Offers
+# plan-button-details: Details
+# plan-button-buy: Buy
+# plan-button-unavailable: Unavailable*
+# plan-button-learn-more: Learn More
+# plan-button-offers: See Offers
 
 plan-recommend: Recommend
 
-#
-# Plan Personal (Community)
-#
-plan-personal-price: €0
-plan-personal-title: Community Edition
-plan-personal-title-short: Community
-plan-personal-subtitle: Not Available yet*
-plan-personal-offer-1-title: Limited Features
-plan-personal-offer-1-info: The Community Edition has a limited feature set or usage. Click the button below for more details. 
-plan-personal-offer-2-title:
-plan-personal-offer-2-info: We want anyone to use our software even if you do not have the method or funds to pay for it. 
-plan-personal-description: >
-  This is an edition of Code Glass we want to offer later on, when we have enough support to sustain it <br/> 
-  It will have some feature limitations; you can find out those in the community edition details.
-  <br/>
-  This edition is meant for people that do not have the funds, method or need to pay for the pro edition.
-  Because we want anyone to use our software even if you do not have the method or funds to pay for it. <br/> 
-  <br/>
+# #
+# # Plan Personal (Community)
+# #
+# plan-personal-price: €0
+# plan-personal-title: Community Edition
+# plan-personal-title-short: Community
+# plan-personal-subtitle: Not Available yet*
+# plan-personal-offer-1-title: Limited Features
+# plan-personal-offer-1-info: The Community Edition has a limited feature set or usage. Click the button below for more details. 
+# plan-personal-offer-2-title:
+# plan-personal-offer-2-info: We want anyone to use our software even if you do not have the method or funds to pay for it. 
+# plan-personal-description: >
+#   This is an edition of Code Glass we want to offer later on, when we have enough support to sustain it <br/> 
+#   It will have some feature limitations; you can find out those in the community edition details.
+#   <br/>
+#   This edition is meant for people that do not have the funds, method or need to pay for the pro edition.
+#   Because we want anyone to use our software even if you do not have the method or funds to pay for it. <br/> 
+#   <br/>
 
-  We might also start giving this edition away to people previously supporting CodeGlass, as a thank you.
-  See your subscription for the details regarding this. <br/>
-  <br/>
-  <br/>
-  <a href="https://codeglassdotio.github.io/Docs/docs/Editions/Community" class="button-cta button-focus">Community Edition Details</a></br> 
-
-
-
-#
-# Plan Business (Pro)
-#
-plan-business-price: €50
-plan-business-title: Pro Edition
-plan-business-title-short: Pro
-plan-business-subtitle: From <span class="text-focus">€50</span> Per Month
-plan-business-button-buy-now: or buy now (€50)
-plan-business-offer-1-title: All Features
-plan-business-offer-1-info: It contains all features that are not experimental.
-plan-business-offer-2-title: 
-plan-business-offer-2-info: Not only do you support the development, but you get full access to everything CodeGlass has to offer.
-plan-business-description: >
-  The Pro edition is the paid edition of Code Glass and has access to all features of Code Glass, except the experimental features of the Experimental Edition.
-  <br/>
-  <br/>
-  We have to following subscription plans: <br/>
-plan-business-foot-note: >
-  We also have plans for students, teachers, educational institutes and more, visit our <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes">comparison chart</a> for more information. <br/>
-  * We have yet to offer this, and we will start offering it after we have enough support to sustain it. <br/>
-  ** Floating licenses are also possible on request, additional terms may apply.
-
-plan-business-1-title: Enthusiast 
-plan-business-1-subtitle: Not Available yet*
-plan-business-1-feature-1-title: For private individuals
-plan-business-1-feature-1-content: Envisioned for those using the community edition but wants to support CodeGlass.
-plan-business-1-feature-2-title: Non-commercial
-plan-business-1-feature-2-content: Use at home for non-commercial projects.
-plan-business-1-feature-3-title: Single User
-plan-business-1-feature-3-content: Concurrent software usage for the number of purchased subscriptions.
-plan-business-1-feature-4-title: Community License*
-plan-business-1-feature-4-content: >
- After 2 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>.<br/>
- Upgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
-
-plan-business-2-title: Pro 
-plan-business-2-subtitle: <span class="text-focus">€ 50</span> Per Month<br/> billed annually<br/>
-plan-business-2-feature-1-title: For private individuals
-plan-business-2-feature-1-content: You may not be reimbursed by a legal entity or another third party.
-plan-business-2-feature-2-title: General-commercial
-plan-business-2-feature-2-content: Use it anywhere for any project.
-plan-business-2-feature-3-title: Single User
-plan-business-2-feature-3-content: Concurrent software usage for the number of purchased subscriptions.
-plan-business-2-feature-4-title: Fallback License*
-plan-business-2-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a><br/>
-  or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
-  Upgrading to <a href="#experimental">experimental</a> does not reset this timer.
-
-plan-business-3-title: Organization 
-plan-business-3-subtitle: <span class="text-focus">€ 100</span> Per Month*<br/>or<br/><span class="text-focus">€ 1000</span> Per Year<br/>
-plan-business-3-feature-1-title: For Legal entities
-plan-business-3-feature-1-content: A corporation, company, partnership, association, or other entity or organization
-plan-business-3-feature-2-title: General-commercial
-plan-business-3-feature-2-content: Use it anywhere for any project.
-plan-business-3-feature-3-title: Multi Users**
-plan-business-3-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions.
-plan-business-3-feature-4-title: Fallback License*
-plan-business-3-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a>.
-
-plan-business-4-title: Offline Organization 
-plan-business-4-subtitle: On request <br/><br/>
-plan-business-4-feature-1-title: For Legal entities
-plan-business-4-feature-1-content: A corporation, company, partnership, association, or other entity or organization
-plan-business-4-feature-2-title: General-commercial
-plan-business-4-feature-2-content: Use it anywhere for any project.
-plan-business-4-feature-3-title: Offline Multi Users**
-plan-business-4-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions without requiring an internet connection to log in
-plan-business-4-feature-4-title: Fallback License*
-plan-business-4-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a>. 
-
-#
-# Plan Ultimate (Experimental)
-#
-plan-ultimate-price: €150
-plan-ultimate-title: Experimental Edition
-plan-ultimate-title-short: Experimental
-plan-ultimate-subtitle: From <span class="text-focus">€150</span> Per Month
-plan-ultimate-description: >
-  The Experimental edition are experimental builds of CodeGlass with features that might not be released yet (or at all) to the public as they are not proven stable enough. <br/>
-  See the details to know which features that are.<br/>
-  <br/>
-  This subscription is meant for people who want to support us fully; most features will come to the other editions within a few updates. <br/>
-  We might even stop offering it if we sell to many of them.
-plan-ultimate-offer-1-title: All Features+
-plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
-plan-ultimate-offer-2-title: 
-plan-ultimate-offer-2-info: Only take this when you really want to support us; most features will come to the other editions within a few updates.
-plan-ultimate-foot-note: >
- * We have yet to offer this, and we will start offering it after we have enough support to sustain it. 
+#   We might also start giving this edition away to people previously supporting CodeGlass, as a thank you.
+#   See your subscription for the details regarding this. <br/>
+#   <br/>
+#   <br/>
+#   <a href="https://codeglassdotio.github.io/Docs/docs/Editions/Community" class="button-cta button-focus">Community Edition Details</a></br> 
 
 
-plan-ultimate-1-title: Experimental 
-plan-ultimate-1-subtitle: <span class="text-focus">€ 150</span> Per Month*<br/>or<br/><span class="text-focus">€ 1500</span> Per Year<br/>
-plan-ultimate-1-feature-1-title: For private individuals**
-plan-ultimate-1-feature-1-content: >
- **However, you can be reimbursed by a legal entity or another third party.
-plan-ultimate-1-feature-2-title: General-commercial
-plan-ultimate-1-feature-2-content: Use it anywhere for any project.
-plan-ultimate-1-feature-3-title: Multi Users
-plan-ultimate-1-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions.
-plan-ultimate-1-feature-4-title: Fallback License*
-plan-ultimate-1-feature-4-content: >
-  After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a><br/>
-  or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
-  downgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
+
+# #
+# # Plan Business (Pro)
+# #
+# plan-business-price: €50
+# plan-business-title: Pro Edition
+# plan-business-title-short: Pro
+# plan-business-subtitle: From <span class="text-focus">€50</span> Per Month
+# plan-business-button-buy-now: or buy now (€50)
+# plan-business-offer-1-title: All Features
+# plan-business-offer-1-info: It contains all features that are not experimental.
+# plan-business-offer-2-title: 
+# plan-business-offer-2-info: Not only do you support the development, but you get full access to everything CodeGlass has to offer.
+# plan-business-description: >
+#   The Pro edition is the paid edition of Code Glass and has access to all features of Code Glass, except the experimental features of the Experimental Edition.
+#   <br/>
+#   <br/>
+#   We have to following subscription plans: <br/>
+# plan-business-foot-note: >
+#   We also have plans for students, teachers, educational institutes and more, visit our <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes">comparison chart</a> for more information. <br/>
+#   * We have yet to offer this, and we will start offering it after we have enough support to sustain it. <br/>
+#   ** Floating licenses are also possible on request, additional terms may apply.
+
+# plan-business-1-title: Enthusiast 
+# plan-business-1-subtitle: Not Available yet*
+# plan-business-1-feature-1-title: For private individuals
+# plan-business-1-feature-1-content: Envisioned for those using the community edition but wants to support CodeGlass.
+# plan-business-1-feature-2-title: Non-commercial
+# plan-business-1-feature-2-content: Use at home for non-commercial projects.
+# plan-business-1-feature-3-title: Single User
+# plan-business-1-feature-3-content: Concurrent software usage for the number of purchased subscriptions.
+# plan-business-1-feature-4-title: Community License*
+# plan-business-1-feature-4-content: >
+#  After 2 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>.<br/>
+#  Upgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
+
+# plan-business-2-title: Pro 
+# plan-business-2-subtitle: <span class="text-focus">€ 50</span> Per Month<br/> billed annually<br/>
+# plan-business-2-feature-1-title: For private individuals
+# plan-business-2-feature-1-content: You may not be reimbursed by a legal entity or another third party.
+# plan-business-2-feature-2-title: General-commercial
+# plan-business-2-feature-2-content: Use it anywhere for any project.
+# plan-business-2-feature-3-title: Single User
+# plan-business-2-feature-3-content: Concurrent software usage for the number of purchased subscriptions.
+# plan-business-2-feature-4-title: Fallback License*
+# plan-business-2-feature-4-content: >
+#   After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a><br/>
+#   or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
+#   Upgrading to <a href="#experimental">experimental</a> does not reset this timer.
+
+# plan-business-3-title: Organization 
+# plan-business-3-subtitle: <span class="text-focus">€ 100</span> Per Month*<br/>or<br/><span class="text-focus">€ 1000</span> Per Year<br/>
+# plan-business-3-feature-1-title: For Legal entities
+# plan-business-3-feature-1-content: A corporation, company, partnership, association, or other entity or organization
+# plan-business-3-feature-2-title: General-commercial
+# plan-business-3-feature-2-content: Use it anywhere for any project.
+# plan-business-3-feature-3-title: Multi Users**
+# plan-business-3-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions.
+# plan-business-3-feature-4-title: Fallback License*
+# plan-business-3-feature-4-content: >
+#   After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a>.
+
+# plan-business-4-title: Offline Organization 
+# plan-business-4-subtitle: On request <br/><br/>
+# plan-business-4-feature-1-title: For Legal entities
+# plan-business-4-feature-1-content: A corporation, company, partnership, association, or other entity or organization
+# plan-business-4-feature-2-title: General-commercial
+# plan-business-4-feature-2-content: Use it anywhere for any project.
+# plan-business-4-feature-3-title: Offline Multi Users**
+# plan-business-4-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions without requiring an internet connection to log in
+# plan-business-4-feature-4-title: Fallback License*
+# plan-business-4-feature-4-content: >
+#   After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a>. 
+
+# #
+# # Plan Ultimate (Experimental)
+# #
+# plan-ultimate-price: €150
+# plan-ultimate-title: Experimental Edition
+# plan-ultimate-title-short: Experimental
+# plan-ultimate-subtitle: From <span class="text-focus">€150</span> Per Month
+# plan-ultimate-description: >
+#   The Experimental edition are experimental builds of CodeGlass with features that might not be released yet (or at all) to the public as they are not proven stable enough. <br/>
+#   See the details to know which features that are.<br/>
+#   <br/>
+#   This subscription is meant for people who want to support us fully; most features will come to the other editions within a few updates. <br/>
+#   We might even stop offering it if we sell to many of them.
+# plan-ultimate-offer-1-title: All Features+
+# plan-ultimate-offer-1-info: It contains all features, even those that are not released yet (or at all) to the other editions.
+# plan-ultimate-offer-2-title: 
+# plan-ultimate-offer-2-info: Only take this when you really want to support us; most features will come to the other editions within a few updates.
+# plan-ultimate-foot-note: >
+#  * We have yet to offer this, and we will start offering it after we have enough support to sustain it. 
+
+
+# plan-ultimate-1-title: Experimental 
+# plan-ultimate-1-subtitle: <span class="text-focus">€ 150</span> Per Month*<br/>or<br/><span class="text-focus">€ 1500</span> Per Year<br/>
+# plan-ultimate-1-feature-1-title: For private individuals**
+# plan-ultimate-1-feature-1-content: >
+#  **However, you can be reimbursed by a legal entity or another third party.
+# plan-ultimate-1-feature-2-title: General-commercial
+# plan-ultimate-1-feature-2-content: Use it anywhere for any project.
+# plan-ultimate-1-feature-3-title: Multi Users
+# plan-ultimate-1-feature-3-content: Manage and allow concurrent software users for the number of purchased subscriptions.
+# plan-ultimate-1-feature-4-title: Fallback License*
+# plan-ultimate-1-feature-4-content: >
+#   After 12 months you may request a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/FallbackLicense">fallback License</a><br/>
+#   or after 2 months a <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/CommunityLicense">community License</a>. <br/>
+#   downgrading to a <a href="#pro">pro subscription</a> does not reset this timer.
 
 
 

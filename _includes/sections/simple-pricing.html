@@ -23,8 +23,8 @@
       <div class="pricing-tables-wrapper clearfix">
 
         <!-- Pricing Table -->
-        <div class="col-md-8 col-md-push-0 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0">
-          <div class="pricing-table pricing-table-focus">
+        <div id="cg-price-right" class="col-md-8 col-md-push-0 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0 pricing-table pricing-table-focus" style="padding: 0; margin-top: 25px;">
+          <!-- <div id="cg-price-right2" class="pricing-table pricing-table-focus"> -->
 
             <div class="plan-head">
               <!-- <div class="offer">{% t plan-recommend %}</div> -->
@@ -43,9 +43,11 @@
               <!-- <hr class="separator"> -->
 
             </div>
-              <div class="col-md-6 col-xs-12" style="padding: 0; border: 0px 1px 1px 1px solid #bdc3c7;"> 
+              <div class="col-md-6 col-sm-6 col-xs-12" style="padding: 0;"> 
                 <div class="plan-content col-md-12" style="padding-bottom: 0; border-bottom: 0; border-right: 1px solid #bdc3c7;">
                   <h4 class="feature-title">{% t simple-pricing.personal.pro.features-title %}</h4>
+                  <hr class="normal">
+                  <p class="plan-subtitle">{% t simple-pricing.personal.pro.pricing %}</p>
                   <p class="feature-content">{% t simple-pricing.personal.pro.features-content %}</p>
                   <p class="feature-title" style="text-align: left;">
                     {% for feature in site.translations[site.lang].simple-pricing.personal.pro.features %}
@@ -53,7 +55,7 @@
                     {% endfor %}
                   </p>
                 </div>
-                <div class="plan-action col-md-12" style="border-bottom: 1px solid #bdc3c7; border-right: 1px solid #bdc3c7;">
+                <div class="plan-action col-md-12" style="border-right: 1px solid #bdc3c7;">
                   <div class="row"> 
                     <div class="col-md-10 col-md-push-1">
                       <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/ProSubscription" target="_blank" class="button" style="width: 100%; margin-bottom: 10px;">{% t simple-pricing.button-details %}</a>
@@ -67,9 +69,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 col-xs-12" style="padding: 0; "> 
+              <div class="col-md-6 col-sm-6 col-xs-12" style="padding: 0; "> 
                 <div class="plan-content col-md-12" style="padding-bottom: 0; border-bottom: 0;">
                   <h4 class="feature-title">{% t simple-pricing.personal.experimental.features-title %}</h4>
+                  
+                  <hr class="normal">
+                  <p class="plan-subtitle">{% t simple-pricing.personal.experimental.pricing %}</p>
                   <p class="feature-content">{% t simple-pricing.personal.experimental.features-content %}</p>
                   <p class="feature-title" style="text-align: left;">
                     {% for feature in site.translations[site.lang].simple-pricing.personal.experimental.features %}
@@ -77,7 +82,7 @@
                     {% endfor %}
                   </p>
                 </div>
-                <div class="plan-action col-md-12" style="border-bottom: 1px solid #bdc3c7;">
+                <div class="plan-action col-md-12">
                   <div class="row"> 
                     <div class="col-md-10 col-md-push-1">
                       <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/ExperimentalSubscription" target="_blank" class="button" style="width: 100%; margin-bottom: 10px;">{% t simple-pricing.button-details %}</a>
@@ -97,13 +102,13 @@
               <div class="row"> 
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
 
          
         <!-- Pricing Table -->
-        <div class="col-md-3 col-md-push-0 col-sm-4 col-sm-push-0 col-xs-8 col-xs-push-2">
-          <div class="pricing-table pricing-table-focus">
+        <div id="cg-price-left" class="col-md-3 col-md-push-1 col-sm-12 col-sm-push-0 col-xs-12 col-xs-push-0 pricing-table pricing-table-focus" style="padding: 0;  margin-top: 25px;">
+          <!-- <div id="cg-price-left2" class="pricing-table pricing-table-focus"> -->
 
             <!-- Plan Head -->
             <div class="plan-head">
@@ -130,13 +135,13 @@
                   </p>
             </div>
             
-            <div class="col-md-12" style="padding: 0; border: 0px 1px 1px 1px solid #bdc3c7;"> 
+            <div class="col-md-12" style="padding: 0;"> 
               <div class="plan-content col-md-12" style="padding-bottom: 0; border-bottom: 0; border-right: 1px solid #bdc3c7;">
                 
               <h4 class="feature-title">{% t simple-pricing.organization.detail-3-title %}</h4>
               <p class="feature-content" style="margin-bottom: 0;">{% t simple-pricing.organization.detail-3-content %}</p>
               </div> 
-              <div class="plan-action col-md-12" style="border-bottom: 1px solid #bdc3c7; border-right: 1px solid #bdc3c7;">
+              <div class="plan-action col-md-12" style="border-right: 1px solid #bdc3c7;">
                 <div class="row"> 
                   <div class="col-xs-12 col-md-8 col-md-push-2">
                     <a href="https://codeglassdotio.github.io/Docs/docs/LicenseTypes/OrganisationSubscription" target="_blank" class="button" style="width: 100%; margin-bottom: 10px;">{% t simple-pricing.button-details %}</a>
@@ -145,7 +150,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-md-8 col-md-push-2">
-                    <a href="{{ site.baseurl }}/buyorganization#buy" class="button button-focus" style="width: 100%;">{% t simple-pricing.button-contact %}</a>
+                    <a href="{{ site.baseurl }}/contactorganization" class="button button-focus" style="width: 100%;">{% t simple-pricing.button-contact %}</a>
                   </div>
                 </div>
               </div>   
@@ -171,7 +176,7 @@
 
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </div>
     <div class="row text-center">
     <p style="text-align: left;">
@@ -180,4 +185,33 @@
     </p>
   </div>
   </div>
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to set the heights
+    function setEqualHeights() {
+        var leftElement = document.getElementById("cg-price-left");
+        var rightElement = document.getElementById("cg-price-right");
+
+        // Reset heights to auto to get natural height on resize
+        leftElement.style.height = "auto";
+        rightElement.style.height = "auto";
+
+        var height = Math.max(leftElement.offsetHeight, rightElement.offsetHeight);
+
+        leftElement.style.height = height + "px";
+        rightElement.style.height = height + "px";
+    }
+
+    // Call the function initially
+    setEqualHeights();
+    // Recalculate on window resize
+    window.addEventListener("resize", function() {
+            // Use a timeout to avoid multiple recalculations if the resize event fires rapidly
+            clearTimeout(window.resizingTimeout);
+            window.resizingTimeout = setTimeout(function() {
+                setEqualHeights();
+            }, 50);
+        });
+});
+</script>
 </section>
