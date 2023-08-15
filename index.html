@@ -1,36 +1,25 @@
 ---
 layout: default
-title: Next Generation Dev Tools
-pageType: index
-
-tagline: Next Generation
-title: Real-Time <strong>Profiler</strong>, <strong>Maintenance</strong>, <strong>Diagnostic</strong> and <strong>Development</strong> tool.
+title: landing
+pageType: landing
 ---
 
 
-{% include sections/offer.html offer-link="offers" offer-text="Please support the development of CodeGlass!" button-text="Buy Now" %}
+{% assign offertxt = site.translations[site.lang].landing.offer-1-text %}
+{% include sections/offer.html offer-link="offers" offer-text=offertxt %}
 
-{% include sections/about.html %}
+{% include sections/why.html %}
 
-{% include sections/features.html %}
 
-{% include sections/portfolio.html %}
 
-{% include sections/parallax-features.html %}
+{% assign offertxt = site.translations[site.lang].landing.offer-2-text %}
+{% assign offerbtntxt = site.translations[site.lang].landing.offer-2-button %}
+{% include sections/offer.html offer-link="#demo" offer-text=offertxt button-text=offerbtntxt %}
 
-{% include sections/offer.html  offer-link="https://codeglassdotio.github.io/Docs/features" link-target="_black" offer-text="Head over to our documentation for more!" button-text="Documentation" %}
 
-{% include sections/testimonials.html %}
 
-{% include sections/blog.html %}
 
-{% include sections/team.html %}
-
-{% include sections/offer.html  offer-link="offers" offer-text="We have a range of pricing options!" button-text="See All" %}
-
-{% include sections/prices.html %}
-
-{% include sections/contact.html %}
-
-{% include sections/offer.html  offer-link="https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases" offer-text="Download CodeGlass now!" button-text="Download Now" %}
-
+{% include sections/demo.html %}
+{% assign offertxt = site.translations[site.lang].landing.offer-3-text %}
+{% assign offerbtntxt = site.translations[site.lang].landing.offer-3-button %}
+{% include sections/offer.html offer-link="main.html#about" link-target="_blank"  offer-text=offertxt button-text=offerbtntxt %}

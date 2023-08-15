@@ -1,5 +1,5 @@
 <!-- Features Section -->
-<section class="site-section section-focus features-section" id="solution">
+<section class="site-section section-focus features-section next-section-indicator" id="solution">
   <div class="container">
 
     <!-- Section Heading -->
@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.features-title }}</h2>
+        <h2>{% t features-title %}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.features-description }}</p>
+        <p>{% t features-description %}</p>
       </div>
 
     </div>
@@ -21,7 +21,7 @@
     <!-- Features -->
     <div class="row features">
 
-      {% for feature in site.features %}
+      {% for feature in site.translations[site.lang].features %}
 
       <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 feature">
         <div class="icon parent">

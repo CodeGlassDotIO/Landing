@@ -1,5 +1,5 @@
 <!-- Blog Section -->
-<section class="site-section blog-section" id="blog">
+<section class="site-section blog-section next-section-indicator" id="blog">
   <div class="container">
 
     <!-- Section Heading -->
@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.blog-title }}</h2>
+        <h2>{%  t blog-title %}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.blog-description }}</p>
+        <p>{% t blog-description %}</p>
       </div>
 
     </div>
@@ -32,7 +32,7 @@
             <!-- Article Header -->
             <header class="article-header">
               <div class="img-wrap">
-                <img src="images/blog/{{ post.image }}" alt="Article Blog Image">
+                <img src="{{ site.baseurl_root }}/images/blog/{{ post.image }}" alt="Article Blog Image">
               </div>
               <div class="article-title">
                 <h3 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
@@ -55,7 +55,7 @@
                 <p>{{ post.excerpt | strip_html }}</p>
               </div>
               <div class="show-more">
-                <a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="button">{% t blog-button-read %}</a>
               </div>
             </div>
 
@@ -74,7 +74,7 @@
     <!-- View All Posts CTA -->
     <div class="row view-posts text-center">
       <hr class="normal">
-      <a href="blog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">View all posts</a>
+      <a href="blog.html" class="button-cta button-focus col-md-3 col-sm-5 col-xs-8">{% t blog-button-view-all %}</a>
     </div>
 
   </div>

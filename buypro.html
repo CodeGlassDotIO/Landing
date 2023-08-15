@@ -1,17 +1,17 @@
 ---
 layout: buy-page
-tagline: Thank you
-title: For buying a subscription!
+tagline: offers
+title: offers
 pageType: buy
-subsciption-name: Pro
+subsciption-name: Individual Pro
 is-multi-user: false
-payment-url: https://buy.stripe.com/dR69Dx4aGbmx9eo7sG
+payment-url: https://buy.stripe.com/8wM4jd7mS3U5fCM8wN
 eula-url: https://codeglassdotio.github.io/Docs/docs/Legal/EULA/ProSubscriptionAgreement
 ---
 
 
 {% include buysections/buy.html  %}
 
-{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/contact" offer-text="Do not hesitate to contact us for any questions" button-text="Contact" %}
-
-
+{% assign offertxt = site.translations[site.lang].buy.offer-1-text %}
+{% assign offerbtntxt = site.translations[site.lang].buy.offer-1-button %}
+{% include sections/offer.html offer-link="offers" offer-text=offertxt button-text=offerbtntxt %}

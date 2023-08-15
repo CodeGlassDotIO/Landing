@@ -1,0 +1,40 @@
+---
+layout: default
+title: main
+pageType: index
+---
+
+{% assign offertxt = site.translations[site.lang].main.offer-1-text %}
+{% assign offerbtntxt = site.translations[site.lang].main.offer-1-button %}
+{% include sections/offer.html offer-link="#prices" offer-text=offertxt button-text=offerbtntxt %}
+
+{% include sections/about.html %}
+
+{% include sections/features.html %}
+
+{% include sections/portfolio.html %}
+
+{% include sections/parallax-features.html %}
+
+{% assign offertxt = site.translations[site.lang].main.offer-2-text %}
+{% assign offerbtntxt = site.translations[site.lang].main.offer-2-button %}
+{% include sections/offer.html offer-link="https://codeglassdotio.github.io/Docs/features" offer-text=offertxt button-text=offerbtntxt %}
+
+{% include sections/testimonials.html %}
+
+{% include sections/blog.html %}
+
+{% include sections/team.html %}
+
+{% assign offertxt = site.translations[site.lang].main.offer-3-text %}
+{% assign offerbtntxt = site.translations[site.lang].main.offer-3-button %}
+{% include sections/offer.html offer-link="offers" offer-text=offertxt %}
+
+{% include sections/simple-pricing.html %}
+
+{% include sections/contact.html %}
+
+
+{% assign offertxt = site.translations[site.lang].main.offer-4-text %}
+{% assign offerbtntxt = site.translations[site.lang].main.offer-4-button %}
+{% include sections/offer.html offer-link="https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases" offer-text=offertxt button-text=offerbtntxt %}

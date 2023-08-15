@@ -6,11 +6,11 @@
       <div class="col-md-6 col-md-push-3 footer-info text-center">
 
         <div class="footer-logo">
-          <img src="{{ site.baseurl }}/images/logo-focus.svg" width="140" alt="CodeGlass - Next Generation Dev Tools" />
+          <img src="{{ site.baseurl_root }}/images/logo-focus.svg" width="140" alt="CodeGlass - Next Generation Dev Tools" />
         </div>
 
         <div class="footer-info-text">
-          <p>{{ site.footer-description }}</p>
+          <p>{% t footer-description %}</p>
         </div>
 
         <div class="social-icons">
@@ -31,10 +31,9 @@
 
       <div class="col-md-10 col-md-push-1 footer-copyright">
         <div class="footer-text text-center">
-          <p>All Right Reserved!</p>
-          <p><a href="{{ site.footer-copyright-url }}">{{ site.footer-copyright-text }}</a> &copy; {{
-            site.footer-copyright-year }} Copyright  <a href="{{ site.footer-privcy-policy-url }}">Privacy Policy</a></p>
-            <p>Address: Stationsplein 3 8011CW Zwolle The Netherlands - Dutch CoC: 89869273 - IBAN: NL60 RABO 0343 9627 21 - VAT (BTW): 865136956B01  </p>
+          <p>{% t footer-rights-reserved  %}</p>
+          <p>{% t footer-copyright-text %}</p>
+            <p>{% t footer-address-line %}</p>
         </div>
       </div>
     </div>
