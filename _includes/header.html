@@ -98,6 +98,8 @@
             <li><a href="{{ site.baseurl }}/index.html#contact">{% t navigation-menu.contact %}</a></li>
 
             {% endif%}
+            {% assign lang_len = site.languages | size %}
+            {% if lang_len > 1 %}
             <li>
               <div class="lang-dropdown">
                 <i class="fa-solid fa-language fa-2xl lang-dropbtn"></i>
@@ -116,6 +118,7 @@
                 </div>
               </div>
             </li>
+            {% endif %}
           </ul>
         </nav>
 

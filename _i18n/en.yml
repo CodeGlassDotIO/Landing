@@ -68,36 +68,36 @@ buy:
 why:
   features:
     title: Feature highlight
-    content: CodeGlass has all kinds of features, book a demo to learn more.
+    content: CodeGlass has all kinds of features. Book a demo to learn more.
     feature-1:
       title: Reproduce any bug
-      content: A stacktrace is nice but only the what, to reproduce you need why and how. Well CodeGlass gives and shows you this.
+      content: A stack trace is nice, but only the what; to reproduce, you need why and how. Well, CodeGlass gives and shows you this.
     feature-2:
       title: Those pesky bug reports
-      content: Why rely on these (invalid) reports when you can just take a snapshot and reproduce it at your end without even an database copy.
+      content: Why rely on these (invalid) reports when you can take a snapshot and reproduce it at your end without even a database copy.
     feature-3:
       title: Paper/Document Less development
-      content: Developers write and maintain allot of documentation, Well CodeGlass can just show you the flow of the running application.
+      content: Developers write and maintain a lot of documentation. Well, CodeGlass can show you the flow of the running application.
     feature-4:
-      title: You don't need help.
-      content: You dont have to ask a collega or check documentation where the code of a feature is, CodeGlass can show you.
+      title: You don't need help
+      content: You don't have to ask a colleague or check documentation where the code of a feature is; CodeGlass can show you.
     feature-5:
       title: Tracing Performance metrics done right
-      content: Knowing which function is slow is nice, why, where and how is needed to fix it. CodeGlass provides this in realtime.
+      content: Knowing which function is slow is nice, and why, where and how is needed to fix it. CodeGlass provides this in real time.
     feature-6:
       title: No Need to wait, it's fast and realtime!
-      content: No need to make recordings and process them, Every feature in CodeGlass works in realtime and environment, like production.
+      content: No need to make recordings and process them for example. Every feature in CodeGlass works in real-time and in any environment, like production.
     feature-7:
       title: No source code required
-      content: All features of CodeGlass work without knowlegde, access or even changes to the source code.
+      content: All features of CodeGlass work without knowledge, access or even changes to the source code.
   testimonial: 
     title: Testimonial
     content: >
-     Bringing a collective 36 hours back to 15 minutes by using CodeGlass is the time to beat. <br/>
-     <br/>
-     Can you help us beat this challenge? <br/>
-     <br/>
-     Because our customers don't seem to want to spend more than 36 hours first when they can just use CodeGlass, its a real shame.<br/>
+      Bringing a collective 36 hours back to 15 minutes using CodeGlass is the time to beat. <br/>
+      <br/>
+      Can you help us beat this challenge? <br/>
+      <br/>
+      Because our customers don't seem to want to spend more than 36 hours first when they can use CodeGlass, its a real shame.<br/>
 
 demo:
   title: Schedule a demo!
@@ -107,10 +107,10 @@ demo:
 simple-pricing:
   title: Pricing
   content: >
-    To login into CodeGlass you need an account, you get one by getting or buying a subscription. <br/>
+    To login into CodeGlass, you need an account, and you get one by getting or buying a subscription. <br/>
     <br/>
-    The experimental feature set is meant for people who want to support us fully and undestand that these feature might not be fully stable; most features will come to the essential feature set within a few updates. <br/>
-    We might even increase the price or stop offering it entirely if we sell to many of them.
+    The experimental edition is meant for people who want to support us fully and understand that these features might only be somewhat stable; most features will come to the pro edition within a few updates. <br/>
+    We might even increase the price or stop offering it entirely if we sell too many of them.
   post-content: >
     * We can make it work in offline environments on request, please contact us if this is required for you. <br/>
     ** Floating licenses are also possible on request, additional terms may apply.

@@ -38,8 +38,9 @@ jekyll-archives:
     tag: "/tag/:name/"
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "nl"
-  , "debug" #For testing multi-language
+languages: ["en"
+  # , "nl"
+  # , "debug" #For testing multi-language
 ]
 
 languages-names:
