@@ -1,0 +1,580 @@
+navigation-menu:
+  home: Thuis
+  about: Over
+  solution: Oplossing
+  showcase: Etalage
+  testimonials: Getuigenissen
+  blog: Blog
+  team: Team
+  prices: Prijzen
+  contact: Contact
+  languages: Talen
+  discover-more: Discover more
+
+page-titles:
+  landing: CodeGlass - Add 25% Development power
+  main: CodeGlass - Realtime Profiler, Onderhoud, Diagnostiek en Ontwikkelingstool.
+  offers: Bedankt voor uw steun aan CodeGlass!
+  blog: Nieuws en Blogs
+  contact-organization: Tell us about yourself 
+
+page-header-titles:
+  landing: Add 25% Development power <br/> to you or your team
+  main: CodeGlass - Realtime Profiler, Onderhoud, Diagnostiek en Ontwikkelingstool.
+  offers: Bedankt voor uw steun aan CodeGlass!
+  blog: <strong>Nieuws</strong> en <strong>Blogs</strong>
+  contact-organization: Organization Contact
+
+
+page-taglines:
+  landing: An Intuitive, lightweight tool for and by developers.
+  offers: Dank je
+  blog: Onze
+  contact-organization: Please
+
+landing:
+  header-focus-button-title: Book a demo.
+  offer-1-text: CODEGLASS ENABLES THE ULTIMATE DEVELOPER EXPERIENCE
+  offer-2-text: THIS SHOULD BE IMPOSSIBLE RIGHT?
+  offer-2-button: Request a demo
+  offer-3-text: DISCOVER MORE
+  offer-3-button: Continue
+
+main:
+  header-focus-button-title: Download nu
+  offer-1-text: Ondersteun de ontwikkeling van CodeGlass!
+  offer-1-button: Koop nu
+  offer-2-text: Bezoek onze documentatie voor meer informatie!
+  offer-2-button: Documentatie
+  offer-3-text: CodeGlass is voor developers en door developers
+  # offer-3-button: Bekijken
+  offer-4-text: Download CodeGlass Nu!
+  offer-4-button: Download
+
+offers:
+  offer-1-text: ALLEEN MET UW STEUN KUNNEN WE CODEGLASS BETER MAKEN!
+  offer-2-text: Neem contact met ons op om uw community licentie aan te vragen!
+  offer-2-button: Contact
+  offer-3-text: Neem contact met ons op voor volumeprijzen!
+  offer-3-button: Contact
+  offer-3-text: Bekijk onze vergelijkingstabel voor meer informatie!
+  offer-3-button: Vergelijken
+
+  
+
+buy:
+  offer-1-text: Aarzel niet om contact met ons op te nemen voor eventuele vragen
+  offer-1-button: Contact
+
+why:
+  features:
+    title: Feature highlight
+    content: CodeGlass has all kinds of features, book a demo to learn more.
+    feature-1:
+      title: Reproduce any bug
+      content: A stacktrace is nice but only the what, to reproduce you need why and how. Well CodeGlass gives and shows you this.
+    feature-2:
+      title: Those pesky bug reports
+      content: Why rely on these (invalid) reports when you can just take a snapshot and reproduce it at your end without even an database copy.
+    feature-3:
+      title: Paper/Document Less development
+      content: Developers write and maintain allot of documentation, Well CodeGlass can just show you the flow of the running application.
+    feature-4:
+      title: You don't need help.
+      content: You dont have to ask a collega or check documentation where the code of a feature is, CodeGlass can show you.
+    feature-5:
+      title: Tracing Performance metrics done right
+      content: Knowing which function is slow is nice, why, where and how is needed to fix it. CodeGlass provides this in realtime.
+    feature-6:
+      title: No Need to wait, it's fast and realtime!
+      content: No need to make recordings and process them, Every feature in CodeGlass works in realtime and environment, like production.
+    feature-7:
+      title: No source code required
+      content: All features of CodeGlass work without knowlegde, access or even changes to the source code.
+  testimonial: 
+    title: Testimonial
+    content: >
+     Bringing a collective 36 hours back to 15 minutes by using CodeGlass is the time to beat. <br/>
+     <br/>
+     Can you help us beat this challenge? <br/>
+     <br/>
+     Because our customers don't seem to want to spend more than 36 hours first when they can just use CodeGlass, its a real shame.<br/>
+
+demo:
+  title: Schedule a demo!
+  content: Request a demo so you can see the ultimate developer experience yourself.
+
+simple-pricing:
+  title: Pricing
+  content: >
+    To login into CodeGlass you need an account, you get one by getting or buying a subscription. <br/>
+    <br/>
+    The experimental feature set is meant for people who want to support us fully and undestand that these feature might not be fully stable; most features will come to the essential feature set within a few updates. <br/>
+    We might even increase the price or stop offering it entirely if we sell to many of them.
+  post-content: >
+    * We can make it work in offline environments on request, please contact us if this is required for you. <br/>
+    ** Floating licenses are also possible on request, additional terms may apply.
+  button-details: Details
+  button-buy: Buy
+  button-contact: Contact
+  personal:
+    title: Individual
+    pricing: From <span class="text-focus">€ 49</span> Per Month<br/> billed annually
+    detail-1-title: For private individuals
+    detail-1-content: You may not be reimbursed by a legal entity or another third party.
+    detail-2-title: Single User
+    detail-2-content: Concurrent software usage for the number of purchased subscriptions.
+    pro:
+      pricing: <span class="text-focus">€ 49</span> Per Month<br/> billed annually<br/>
+      features-title: Pro Edition
+      features-content: > 
+        It contains all features that are not experimental, including: </br> </br>
+      features:
+        - title: >
+            .Net Support
+        - title: Performance tooling
+        - title: Diagnostic tooling
+        - title: Maintainance tooling
+    experimental:
+      pricing: <span class="text-focus">€ 149</span> Per Month<br/> billed annually<br/>
+      features-title: Experimental Edition
+      features-content: > 
+        It contains all features, even those that are not released yet (or never will) to the other subscriptions, including:
+      features:
+        - title: > 
+            <b>Pro features, plus:</b>
+        - title: JavaScript Websites
+        - title: Visual Studio .NET Solution
+        - title: Folder Profiling. 
+  organization:
+    title: Organization*
+    pricing: Price on Request <br/> <br/>
+    detail-1-title: For Legal entities
+    detail-1-content: A corporation, company, partnership, association, or other entity or organization
+    detail-2-title: Multi Users**
+    detail-2-content: Manage and allow concurrent software users for the number of purchased subscriptions.
+    detail-3-title: Pro or Experimental Edition
+    detail-3-content: Dependent of your need.
+    features-title: >
+      Organization features: <br/><br/>
+    features:
+      - title: User Management
+      - title: Training sessions
+      - title: Extended support
+      
+organization-contact:
+  title: Get in touch
+  content: >
+    Please tell us a little about yourself and we will get in touch with you as soon as possible.
+
+#####################################
+#############   About   #############
+#####################################
+about-title: Welkom bij CodeGlass
+about-description: > 
+  Welkom bij CodeGlass, een baanbrekend softwareontwikkelingstool van een innovatieve startup gevestigd in Nederland. Onze missie is om de beste tools te bieden voor softwareontwikkelaars, en CodeGlass is een schitterend voorbeeld van die toewijding. <br/>
+  <br/>
+  CodeGlass is ontworpen om probleemoplossing te verbeteren, zelfs in de meest uitdagende scenario's waar problemen moeilijk te reproduceren zijn of wanneer er een gebrek is aan documentatie of ontwikkelaars. Het is een onschatbare troef voor het onderhouden, diagnosticeren en optimaliseren van applicaties. Het is veelzijdig en in staat om naadloos te functioneren in elke omgeving, inclusief productie. CodeGlass doet dit alles zonder de broncode te hoeven wijzigen of toegang te hebben tot de broncode!  <br/>
+  <br/><br/>
+  We nodigen u uit om onze gezamenlijke GitHub-pagina's te verkennen met de knop hieronder. We hebben deze website alleen gemaakt om ons niet buitengesloten te voelen omdat we geen enkele eenpagina-website extravaganza hebben.<br/>
+  <br/>
+  <a href="https://codeglassdotio.github.io/Docs" class="button-cta button-focus">Documentatie</a> <br/>
+  <br/>
+
+#####################################
+#############  Features  ############
+#####################################
+features-title: De Oplossing
+features-description: > 
+  Dit is waarom CodeGlass het volgende generatie ontwikkelingstool is, en veel meer dan alleen een profiler en, bovenal, de enige in zijn soort. U kunt meer redenen vinden op onze gezamenlijke GitHub-pagina's, we hebben het op 9 gehouden omdat het er leuk uitzag.<br/>Momenteel,
+  ondersteunen we <strong>.NET</strong> applicaties en <strong>JavaScript</strong>* websites, maar we werken constant aan het ondersteunen van meer runtimes aangezien de oplossing taalagnostisch is, met <strong>Java</strong> en <strong>NodeJS</strong> binnenkort. <br/>
+  <br/>
+  *Experimentele functie, als zodanig, is het voorlopig alleen een functie van de Experimentele Editie.
+
+features:
+  - title: Realtime Code Profiler
+    description: CodeGlass is de enige realtime Code profiler die bestaat die elke oproep verzamelt en u directe toegang geeft tot de gegevens zonder deze eerst op te nemen. Het is geen sampling. Met extra controle zoals stappen, throttling, rendering, geavanceerde filtering, code body reconstructie en meer.<br/><br/>
+    icon: pe-7s-display2
+
+  - title: Maintenance Tool
+    description: CodeGlass geeft u direct inzicht in hoe uw applicatie werkt door elke stap die de applicatie neemt in realtime te renderen. Voorbij zijn de tijden dat je moest worstelen om iemand anders project te begrijpen, code waar je niet aan hebt gewerkt voor jaren of Lady en de Vagebond zijn diner.<br/><br/>
+    icon: pe-7s-help2
+
+  - title: Diagnostic Tool
+    description: Heb de middelen om elk probleem te diagnosticeren en op te lossen. Maak bijvoorbeeld een snapshot en vergelijk waarom het deze keer niet werkte of waarom het op jouw pc werkte maar niet op die van hen. Pauzeer de uitvoering en ga terug en kijk wat leidde tot de uitzondering en of andere threads betrokken zijn, en identificeer racecondities.<br/><br/>
+    icon: pe-7s-tools
+
+  - title: Execution Control
+    description: CodeGlass geeft je basiscontrole zoals starten, pauzeren, stoppen en opnieuw starten. Maar het heeft ook geavanceerde methoden zoals vooruit en achteruit stappen, throttling en een profiler standby-modus die je bijna de volledige prestaties van je applicatie geeft en je in staat stelt om opnieuw te profileren wanneer je het nodig hebt.<br/><br/><br/>
+    icon: pe-7s-next
+    
+  - title: Het is snel
+    description: CodeGlass kan meer dan 8.000.000 ongefilterde functieoproepen per seconde verzamelen en verwerken. Het hangt natuurlijk af van het gebruik en je hardware, maar je hoeft geen vertraging in je applicatie te merken door de juiste filters in te stellen. In de meeste gevallen kan CodeGlass je sneller de resultaten geven die je nodig hebt dan anderen.<br/><br/>
+    icon: pe-7s-plane
+
+  - title: Remote
+    description:  Maak verbinding met andere CodeGlass-instanties en gebruik CodeGlass op afstand. Zoals het draaien op een productieserver en gewoon je ontwikkelmachine erop aansluiten. Of een collega helpen zonder op zijn schoot te hoeven zitten.<br/><br/><br/><br/><br/>
+    icon: pe-7s-cloud
+
+  - title: Geavanceerde filtering
+    description: CodeGlass maakt het intuïtief en eenvoudig om te filteren op de dingen die je wilt profileren, zodat je je kunt concentreren op de gegevens die ertoe doen. Je kunt zelfs regex-regels maken of alleen niet filteren op openbare functies.
+    icon: pe-7s-filter
+
+  - title: Code Body Statistics
+    description:  CodeGlass gaat verder dan andere profilers, analyseert de verzamelde gegevens en probeert een functiecode body te reconstrueren om je diepgaandere gegevens te geven, zoals het tonen waar threads zich in een functie bevinden of hoe vaak een lus wordt uitgevoerd. Maar ook waar tijd wordt besteed, waardoor de noodzaak om stopwatches aan je code toe te voegen wordt geëlimineerd.
+    icon: pe-7s-graph3
+
+  - title: Geen Source code
+    description: CodeGlass doet alles zonder de broncode van de applicatie nodig te hebben. Geef hem gewoon een ondersteunde applicatie en hij doet zijn ding. Je kunt er zelfs PowerShell mee profileren als je dat wilt.
+    icon: pe-7s-folder
+
+
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Showcase
+portfolio-description: Om een idee te krijgen van wat CodeGlass is en kan doen, voor meer, zie onze <a href="https://codeglassdotio.github.io/Docs" target="_blank">gezamenlijke GitHub documentatiepagina's. </a> Nee, de applicatie is niet 4:3; de screenshots zijn gewoon zo.
+portfolio-categories-all: Alle
+#
+# Portfolio Grid
+#
+portfolio-categories:
+  [Main,  Profiling, Rendering, Filters, Login, Code Body, Exceptions]
+portfolio:
+
+  - title: Application Instance
+    categories: [Main, Filters]
+    image: AppInstanceDockWindow4by3.png
+    # url: "#"
+
+  - title: Applications
+    categories: [Main]
+    image: Applications4by3.png
+    #url: "#"
+
+  - title: Tree Rendering
+    categories: [Rendering, Profiling]
+    image: RealtimeCallTreeRendering3Threads4by3.png
+    #url: "#"
+
+  - title: Code Body Reconstruction
+    categories: [Code Body, Profiling]
+    image: CodeMemberDetailsView4by3.png
+    #url: "#"
+    
+  - title: Login
+    categories: [Login, Main]
+    image: SplashScreenLogin.png
+    #url: "#"
+
+  - title: Nieuwe Applicatie
+    categories: [Main]
+    image: AddApplication4by3.png
+    #url: "#"
+
+  - title: Filter toevoegen
+    categories: [Filters]
+    image: AddApplicationFilter4by3.png
+    #url: "#"
+
+  - title: CallStack Rendering
+    categories: [Rendering, Profiling]
+    image: RealtimeCallStackGroupedRendering4by3.png
+    #url: "#"
+    
+  - title: Application Filters
+    categories: [Filters]
+    image: ApplicationFilters4by3.png
+    #url: "#"
+
+  - title: CallStack Rendering
+    categories: [Rendering, Profiling]
+    image: RealtimeCallStackRendering4by3.png
+    #url: "#"
+
+  - title: Statistieken
+    categories: [Profiling, Filters]
+    image: StatisticsWindow4by3.png
+    #url: "#"
+
+  - title: Code Body Statistieken
+    categories: [Code Body,Profiling]
+    image: CodeMemberDetailsViewStatistics4by3.png
+    #url: "#"
+
+  - title: Exceptions
+    categories: [Exceptions,Profiling]
+    image: AppInstanceExceptionDetails4by3.png
+    #url: "#"
+
+  - title: Code Heatmap
+    categories: [Rendering, Profiling]
+    image: AppInstanceCodeHeatMap4by3.png
+    #url: "#"
+
+  - title: Application Settings
+    categories: [Main]
+    image: ApplicationSettingsWindow4by3.png
+    #url: "#"
+
+
+    
+
+#####################################
+##########  Core Features  ##########
+#####################################
+core-title: Core Features
+core-description: CodeGlass heeft allerlei functies, ga naar onze GitHub Documentatiepagina's om meer te zien.
+core-experimental-disclamer: >
+ *Experimentele functie, als zodanig, is het voorlopig alleen een functie van de Experimentele Editie.
+
+#
+# Core Features Left
+#
+core-features-left:
+
+  - name: Realtime Profiling
+    description: Geeft u directe toegang tot de gegevens zonder deze eerst op te nemen.
+    icon: pe-7s-display2
+
+  - name: .NET Runtime
+    description: .Net Core, Framework, .NET 5+, ASP.NET en meer!
+    icon: pe-7s-server
+    
+  - name: Snapshots
+    description: Vergelijk andere snapshots om problemen op te lossen die je nooit kon.
+    icon: pe-7s-copy-file
+
+  - name: Code Body Reconstruction
+    description: Reconstructie van functiecode bodies om je diepgaandere gegevens te geven.
+    icon: pe-7s-hammer
+
+  - name: Statistics
+    description: Function calls, duur, threads, CPU, geheugen en meer.
+    icon: pe-7s-graph3
+
+  - name: Filtering
+    description: Intuïtief en eenvoudig te filteren op de dingen die je wilt profileren.
+    icon: pe-7s-filter
+
+  - name: Execution Control
+    description: Beheer uw applicatie met start, pauze, stop, herstart, stappen en standby.
+    icon: pe-7s-next
+
+  - name: Waarom Drie Monitoren
+    description: Dit gedeelte was ontworpen voor een telefoon, maar dat werkt niet echt voor 
+    icon: pe-7s-monitor
+
+  - name: Exceptions
+    description: Verzamel elke exceptie van uw applicatie.
+    icon: pe-7s-attention
+
+    
+
+#
+# Core Features Right
+#
+core-features-right:
+
+  - name: Realtime Rendering
+    description: Direct inzicht in hoe uw applicatie werkt door elke stap die het neemt te renderen
+    icon: pe-7s-display1
+
+  - name: JavaScript*
+    description: JavaScript-websites met binnenkort ondersteuning voor NodeJS!
+    icon: pe-7s-global
+
+  - name: Remote Profiling
+    description: Gebruik het op afstand door verbinding te maken met andere instanties.
+    icon: pe-7s-cloud
+
+  - name: Stepping
+    description: Stap vooruit of achteruit om uw applicatie op elk punt te analyseren.
+    icon: pe-7s-play
+
+  - name: Makkelijk te Gebruiken
+    description: Of druk op F1 op elk onderdeel in CodeGlass om hulp te krijgen.
+    icon: pe-7s-help2
+
+  - name: Code Heatmap
+    description: Toont u slecht gedragende code in één weergave op basis van de statistieken.
+    icon: pe-7s-graph
+
+  - name: Open Console
+    description: Sluit een console aan op elke applicatie, zelfs als deze er geen had.
+    icon: pe-7s-photo-gallery
+
+  - name: Wat is er met deze iconen
+    description: We konden geen passende vinden, en deze zien er leuk uit.
+    icon: pe-7s-camera
+
+  - name: Visual Studio Integration*
+    description:  Start automatisch met profileren wanneer u begint met debuggen.
+    icon: pe-7s-tools
+
+    
+#####################################
+########### Testimonials ############
+#####################################
+testimonials-title: Getuigenissen
+testimonials-description: Ja, deze zijn echt en laten zien waarom dit programma zichzelf terugbetaalt.
+
+#
+# Testimonials
+#
+testimonials:
+  # Client
+  - name: Kevin Brobbel
+    url: https://www.depotsoftware.com/
+    url-text: DepotSoftware
+    #avatar: avatar-01.jpg
+    cite: We hadden een probleem met een specifieke installatie van onze software. We hebben alles geprobeerd om het op te lossen, maar na drie dagen gaven we het op en installeerden we de server waarop het draaide opnieuw. Een jaar later kwam het probleem terug, en met CodeGlass slaagden we erin om het probleem binnen 15 minuten te vinden en op te lossen.
+    logo-img: 2020-depot-ynm-embleem-25jaar.jpg
+
+    
+#####################################
+############# Our Blog ##############
+#####################################
+blog-title: Blog & News
+blog-description: We schrijven spannende blogs en nieuwsitems over onze ontwikkeling, grote releases of andere onderwerpen die ons interesseren. Neem een kijkje!
+blog-button-read: Read More
+blog-button-view-all: View all posts
+
+blog-catergries: Categorieën.
+blog-tags-cloud: Alle Tags
+blog-tags: Tags
+blog-share: Deel
+
+#####################################
+############### Team ################
+#####################################
+team-title: Our Team
+team-only-website-disclamer: >
+ * Beheert onze website, die in Jekyll gescheven is, dus technisch gezien een developer.
+team-description: > 
+  Wij zijn het team achter CodeGlass, en maken de volgende generatie ontwikkeltools voor jou.
+  </br>
+  </br>
+  Ons team bestaat alleen uit ontwikkelaars. Onze visie is om de beste oplossing met jou te creëren terwijl we volledig transparant opereren, zonder marketingtrucs, het beschikbaar maken voor en voor iedereen, or die trying.</br>
+  Misschien heb je al gemerkt dat er geen vervelende cookie-popup was?
+  </br>
+  </br>
+  CodeGlass is niet open-source, maar als er niemand meer is om CodeGlass te ondersteunen, zullen we de broncode gratis beschikbaar stellen voor iedereen. Zodat iemand anders ervan kan leren, en je je geen zorgen hoeft te maken over het niet meer kunnen gebruiken ervan.
+
+#
+# Team Members
+#
+team: 
+  # Team Member 
+  - name: Tyrone Krieger 
+    tagline: CEO & Developer 
+    avatar: tyrone.jpg 
+
+    # Social Links 
+    #youtube: "#" 
+    #pinterest: "#" 
+    #facebook: "#" 
+    #twitter: "#" 
+    #google-plus: "#" 
+    #vimeo: "#" 
+    linkedin: "https://www.linkedin.com/in/tyrone-krieger/" 
+
+  # Team Member
+  - name: Lynn Weggemans
+    tagline: CFO & Developer*
+    avatar: Lynn.jpg
+
+    linkedin: "https://www.linkedin.com/in/lynn-weggemans/"
+
+  # Team Member
+  - name: Terence Bremmer
+    tagline: CTO & Developer
+    avatar: Terence.jpg
+
+    linkedin: "https://www.linkedin.com/in/b-terence/"
+
+  # Team Member
+  - name: Joran de Boer
+    tagline: Developer
+    avatar: JoranDeBoer.jpg
+
+    linkedin: "https://www.linkedin.com/in/joran-de-boer/"
+
+  - name: Joost Godschalk
+    tagline: Developer
+    avatar: JoostGodschalk.jpg
+
+    linkedin: "https://www.linkedin.com/in/joost-godschalk-9a093b1b7/"
+
+  
+  - name: William Kater
+    tagline: Developer
+
+    linkedin: "https://www.linkedin.com/in/william-kater-a91540232/"
+
+#####################################
+########## Pricing Tables ###########
+#####################################
+plan-recommend: "Aanbevolen"
+
+
+buy-text-top: >
+  Allereerst, bedankt voor het kopen van een abonnement! <br/>
+  We kunnen de ontwikkeling van CodeGlass voortzetten met jouw steun ♥<br/>
+  <br/>
+  Nadat je je abonnement hebt gekocht, ontvang je een e-mail van LicenseSpring met je <a href="http://codeglassdotio.github.io/Docs/docs/Others/Account">CodeGlass Account</a> details.<br/>
+  <br/>
+
+buy-text-bottom:
+  <i>Je kunt je abonnement op elk moment opzeggen en CodeGlass blijven gebruiken tot het einde van je termijn.<br/>
+  Je kunt ook op elk moment upgraden of downgraden naar een ander abonnement waarvoor je in aanmerking komt.</i><br/>
+  <br/>
+
+
+buy-legal:
+ pre-text: Door op kopen te klikken, geef je aan dat je de
+ eula-text: EULA
+ post-text: en <a href="http://codeglassdotio.github.io/Docs/docs/Legal/TermsAndConditionsOfPurchase">Algemene Voorwaarden</a> hebt gelezen en ermee akkoord gaat.
+
+buy-text-users-multiple: >
+  Met hoeveelheid op de Stripe betalingssite geef je aan hoeveel gebruikers je wilt hebben. <br/>
+  <i>Je kunt dit aantal op elk moment verhogen en verlagen</i> <br/><br/>
+
+buy-text-users-single: >
+  Met hoeveelheid op de Stripe betalingssite geef je aan hoeveel gelijktijdig gebruik je wilt hebben.<br/><br/>
+
+buy-button-buy-agree: Koop En Ga Akkoord
+
+#####################################
+############   Contact   ############
+#####################################
+contact-title: Neem Contact Met Ons Op
+contact-description: >  
+  We hebben meerdere manieren om contact met ons op te nemen, inclusief Discord! </br> We hebben ze vermeld op onze documentatiewebsite, ga met de knop hieronder naar onze site.</br>
+  </br>
+  <a href="https://codeglassdotio.github.io/Docs/contact" class="button-cta button-focus">Contact</a></br>
+  </br>
+  Je kunt ons ook bezoeken op: <br/>
+  Stationsplein 3 8011CW Zwolle Nederland<br/>
+  Laat het ons echter weten als je van plan bent ons te bezoeken. <br/>
+  <br/>
+  Of als je de eenvoud van een webformulier leuk vindt, kun je deze gebruiken.
+
+
+contact-form:
+  name: Naam
+  email: Email
+  subject: Onderwerp
+  message: Bericht
+  button: Stuur Bericht
+#####################################
+#####################################
+#############   Footer   ############
+#####################################
+#####################################
+footer-description: De beste oplossing met jou creëren terwijl we volledig transparant opereren, zonder marketingtrucs, het beschikbaar maken voor en voor iedereen, or die trying.
+footer-address-line: >
+ Adres: Stationsplein 3 8011CW Zwolle Nederland - KVK: 89869273 - IBAN: NL60 RABO 0343 9627 21 - BTW: 865136956B01  
+footer-rights-reserved: All Right Reserved!
+footer-copyright-text: <a href="https://codeglassdotio.github.io/Docs/contact">CodeGlass BV</a> &copy; 2023 Copyright  <a href="https://codeglassdotio.github.io/Docs/docs/Legal/Privacy">Privacy Policy</a>

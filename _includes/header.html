@@ -1,19 +1,27 @@
 <!-- Site Header -->
-<header class="site-header {% if page.pageType != "index" %} blog-header {% endif%}  parallax" id="home" data-scrollax-parent="true">
+<header class="site-header 
+{% if page.pageType == "index" %}
+{% elsif page.pageType == "landing" %}
+{% else %}
+ blog-header 
+{% endif%}  
+  parallax" id="home" data-scrollax-parent="true">
 
   <!-- Parallax Header Image -->
   <div class="parallax-wrapper">
     <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
       {% if page.pageType == "index" %}
-      <img src="{{ site.baseurl }}/images/header-image.jpg" alt="CodeGlass - Next Generation Profiler" />
+      <img src="{{ site.baseurl_root }}/images/header-image.jpg" alt="CodeGlass - Next Generation Profiler" />
       {% elsif page.pageType == "blog" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Blog" />
+      <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Blog" />
       {% elsif page.pageType == "offers" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Offers" />
+      <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Offers" />
+      {% elsif page.pageType == "landing" %}
+      <img src="{{ site.baseurl_root }}/images/header-image.jpg" alt="CodeGlass - Next Generation Profiler" />
       {% elsif page.pageType == "buy" %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Buy Subscription" />
+      <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Buy Subscription" />
       {% else %}
-      <img src="{{ site.baseurl }}/images/header-blog-image.jpg" alt="CodeGlass - Blog" />
+      <img src="{{ site.baseurl_root }}/images/header-blog-image.jpg" alt="CodeGlass - Blog" />
       {% endif %}
     </div>
   </div>
@@ -25,7 +33,7 @@
 
       <!-- Logo -->
       <div class="col-sm-2 col-xs-4 logo child-center-v">
-        <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/images/logo.svg" width="174"
+        <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl_root }}/images/logo.svg" width="174"
             alt="CodeGlass - Next Generation Dev Tools"></a>
       </div>
 
@@ -47,30 +55,37 @@
           <ul class="menu">
 
             {% if page.pageType == "index" %}
-            <li class="current-menu-item"><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#solution">Solution</a></li>
-            <li><a href="#showcase">Showcase</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#prices">Prices</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="current-menu-item"><a href="#home">{% t navigation-menu.home %}</a></li>
+            <li><a href="#about">{% t navigation-menu.about %}</a></li>
+            <li><a href="#solution">{% t navigation-menu.solution %}</a></li>
+            <li><a href="#showcase">{% t navigation-menu.showcase %}</a></li>
+            <li><a href="#testimonials">{% t navigation-menu.testimonials %}</a></li>
+            <li><a href="#blog">{% t navigation-menu.blog %}</a></li>
+            <li><a href="#team">{% t navigation-menu.team %}</a></li>
+            <li><a href="#prices">{% t navigation-menu.prices %}</a></li>
+            <li><a href="#contact">{% t navigation-menu.contact %}</a></li>
 
+            {% elsif page.pageType == "landing" %}
+            <li><a href="{{ site.baseurl }}/main.html#home">{% t navigation-menu.discover-more %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#prices">{% t navigation-menu.prices %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#contact">{% t navigation-menu.contact %}</a></li>
+            
             {% else %}
 
-            <li><a href="{{ site.baseurl }}/index.html#home">Home</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#about">About</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#features">Features</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#showcase">Showcase</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#testimonials">Testimonials</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#home">{% t navigation-menu.home %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#about">{% t navigation-menu.about %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#solution">{% t navigation-menu.solution %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#showcase">{% t navigation-menu.showcase %}</a></li>
+            <li><a href="{{ site.baseurl }}/main.html#testimonials">{% t navigation-menu.testimonials %}</a></li>
             <li
             {% if page.pageType == "blog" %}
             class="current-menu-item"
             {% endif%}
 
-            ><a href="{{ site.baseurl }}/index.html#blog">Blog</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#team">Team</a></li>
+            >
+            <a href="{{ site.baseurl }}/index.html#blog">{% t navigation-menu.blog %}</a></li>
+            <li>
+              <a href="{{ site.baseurl }}/index.html#team">{% t navigation-menu.team %}</a></li>
             <li
             {% if page.pageType == "offers" %}
             class="current-menu-item"
@@ -79,10 +94,31 @@
             {% if page.pageType == "buy" %}
             class="current-menu-item"
             {% endif%}
-            ><a href="{{ site.baseurl }}/index.html#prices">Prices</a></li>
-            <li><a href="{{ site.baseurl }}/index.html#contact">Contact</a></li>
+            ><a href="{{ site.baseurl }}/index.html#prices">{% t navigation-menu.prices %}</a></li>
+            <li><a href="{{ site.baseurl }}/index.html#contact">{% t navigation-menu.contact %}</a></li>
 
             {% endif%}
+            {% assign lang_len = site.languages | size %}
+            {% if lang_len > 1 %}
+            <li>
+              <div class="lang-dropdown">
+                <i class="fa-solid fa-language fa-2xl lang-dropbtn"></i>
+                <!-- <a class="lang-dropbtn">{% t navigation-menu.languages %}</a> -->
+                <div class="lang-dropdown-content">
+                  {% for lang in site.languages %}
+                    {% if lang != site.lang %}
+
+                      {% if lang == "en" %}
+                      <a href="{{ site.baseurl_root }}{{page.url}}">{{ site.languages-names[lang] }}</a>
+                      {% else %}
+                      <a href="{{site.baseurl_root}}/{{lang}}{{page.url}}">{{ site.languages-names[lang] }}</a>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            </li>
+            {% endif %}
           </ul>
         </nav>
 
@@ -94,34 +130,55 @@
     <!-- Site Header Banner -->
     <div class="row header-banner parent" data-scrollax="properties: { 'translateY': '48%', 'opacity': '1.4' }">
 
-      <div class="heading-content text-center child-center-v">
+
+
+
+      <div class="heading-content text-center
+      {% if page.pageType == "index" %}
+{% elsif page.pageType == "landing" %}
+{% else %}
+ child-center-v 
+{% endif%}  
+      
+      ">
         
         <!-- Heading Title -->
         <div class="row heading-title">
-          {% if page.pageType == "index" %}
-          <img src="{{ site.baseurl }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline" />
-          {% else %}
-          <h2>{{ page.tagline }}</h2>
+          {% if page.pageType == "index" %}          
+          <img src="{{ site.baseurl_root }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline; margin-top:10px" width="250px"/>
+
+          <h1 style="margin-top: 20px;">{% t page-header-titles.main %}</h1>
+          {% elsif page.pageType == "landing" %}
+        
+          <img src="{{ site.baseurl_root }}/images/logo-focus.svg" alt="CodeGlass - Next Generation Profiler" style="display: inline; margin-top:10px" width="250" />
+
+          <h1 style="margin-top: 20px;">{% t page-header-titles.landing %}</h1>
           <hr class="small">
-          <h1 class="thin">{{ page.title }}</h1>
+          <h3 class="thin">{% t page-taglines.landing %}</h2>
+          
+          {% else %}
+          <h2>{{ site.translations[site.lang].page-taglines[page.tagline] }}</h2>
+          <hr class="small">
+          <h1 class="thin">{{ site.translations[site.lang].page-titles[page.title] }}</h1>
           {% endif %}
         </div>
-
         
 
         {% if page.pageType == "index" %}
         <!-- Header Buttons -->
         <div class="row buttons-header">
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
-              href="{{ site.header-focus-button.url }}" target="_black" class="button-cta button-focus">{{
-              site.header-focus-button.title }}</a></div>
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
-              href="{{ site.header-secondary-button.url }}" target="_black" class="button-cta">{{ site.header-secondary-button.title
-              }}</a></div>
+          <div class="col-lg-4 col-lg-push-4 col-md-4 col-md-push-4 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
+              href="#about" class="button-cta button-focus">{% t main.header-focus-button-title %}</a></div>
         </div>
-
         {% endif %}
 
+        {% if page.pageType == "landing" %}
+        <!-- Header Buttons -->
+        <div class="row buttons-header">
+          <div class="col-lg-4 col-lg-push-4 col-md-4 col-md-push-4 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a
+              href="#demo" class="button-cta button-focus">{% t landing.header-focus-button-title %}</a></div>
+        </div>
+        {% endif %}
       </div>
 
     </div>
@@ -135,6 +192,8 @@
 
         {% if page.pageType == "index" %}
         <a href="#about" class="arrow-down">
+        {% elsif page.pageType == "landing" %}
+        <a href="#why" class="arrow-down">
         {% elsif page.pageType == "blog" %}
         <a href="#start" class="arrow-down">
         {% elsif page.pageType == "offers" %}

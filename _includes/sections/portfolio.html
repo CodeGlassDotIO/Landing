@@ -7,13 +7,13 @@
 
       <!-- Section Header -->
       <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
-        <h2>{{ site.portfolio-title }}</h2>
+        <h2>{% t portfolio-title %}</h2>
         <hr class="normal">
       </header>
 
       <!-- Section Content -->
       <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.portfolio-description }}</p>
+        <p>{% t portfolio-description %}</p>
       </div>
 
     </div>
@@ -23,9 +23,9 @@
       <div class="col-md-8 col-md-push-2">
         <div class="filter-menu">
           <ul>
-            <li data-filter="all" class="current">All</li>
+            <li data-filter="all" class="current">{% t portfolio-categories-all %}</li>
 
-            {% for category in site.portfolio-categories %}
+            {% for category in site.translations[site.lang].portfolio-categories %}
               <li data-filter=".{{ category | replace:' ','-' | downcase }}" >{{ category }}</li>
             {% endfor %}
 
@@ -37,11 +37,11 @@
     <!-- Portfolio Grid -->
     <div class="row portfolio-grid">
 
-      {% for item in site.portfolio %}
+      {% for item in site.translations[site.lang].portfolio %}
 
       <div class="col-md-4 col-sm-6 item visible {% for category in item.categories %} {{ category | replace:' ','-' | downcase }}{% endfor %}">
         <figure class="img-wrap">
-          <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}" alt="Portfolio Item Image" />
+          <img src="{{ site.baseurl_root }}/images/portfolio/{{ item.image }}" alt="Portfolio Item Image" />
         </figure>
         <div class="item-content">
           <div class="text-center">
@@ -55,7 +55,7 @@
               <li><a href="{{ item.url }}" class="item-link"><i class="pe-7s-link"></i></a></li>
               {% endif %}
               <!-- <li><a href="#" class="item-like"><i class="pe-7s-like"></i></a></li> -->
-              <li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
+              <li><a href="{{ site.baseurl_root }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>
             </ul>
           </div>
         </div>
