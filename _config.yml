@@ -39,7 +39,7 @@ jekyll-archives:
 
 # jekyll-multiple-languages-plugin settings:
 languages: ["en"
-  # , "nl"
+  , "nl"
   # , "debug" #For testing multi-language
 ]
 
