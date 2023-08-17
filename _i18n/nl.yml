@@ -119,13 +119,13 @@ simple-pricing:
   button-contact: Contact
   personal:
     title: Individual
-    pricing: From <span class="text-focus">€ 49</span> Per Month<br/> billed annually
+    pricing: From <span class="text-focus">€ 59</span> Per Month<br/> billed annually
     detail-1-title: For private individuals
     detail-1-content: You may not be reimbursed by a legal entity or another third party.
     detail-2-title: Single User
     detail-2-content: Concurrent software usage for the number of purchased subscriptions.
     pro:
-      pricing: <span class="text-focus">€ 49</span> Per Month<br/> billed annually<br/>
+      pricing: <span class="text-focus">€ 59</span> Per Month<br/> billed annually<br/>
       features-title: Pro Edition
       features-content: > 
         It contains all features that are not experimental, including: </br> </br>
@@ -136,7 +136,7 @@ simple-pricing:
         - title: Diagnostic tooling
         - title: Maintainance tooling
     experimental:
-      pricing: <span class="text-focus">€ 149</span> Per Month<br/> billed annually<br/>
+      pricing: <span class="text-focus">€ 167</span> Per Month<br/> billed annually<br/>
       features-title: Experimental Edition
       features-content: > 
         It contains all features, even those that are not released yet (or never will) to the other subscriptions, including:
