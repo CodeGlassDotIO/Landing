@@ -1,0 +1,139 @@
+.cg-feature-check {
+    color: #2ecc71;
+    font-size: 1.1em;
+    margin-right: 4px;
+    margin-bottom: 0px;
+}
+
+section.prices-section .pricing-tables-container .pricing-tables-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 991px) and (min-width: 400px) {
+    section.prices-section .pricing-tables-container .pricing-tables-wrapper {
+        display: block;
+    }
+
+    section.prices-section .pricing-tables-container .pricing-tables-wrapper .pricing-table {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    section.prices-section .pricing-tables-container .pricing-tables-wrapper {
+        display: block;
+    }
+
+    section.prices-section .pricing-tables-container .pricing-tables-wrapper .col-md-3 {
+        width: 100% !important;
+        left: 0;
+        margin-bottom: 30px;
+    }
+}
+
+section.prices-section .pricing-tables-container .pricing-table {
+    position: relative;
+    border: 1px solid #bdc3c7;
+    text-align: center;
+    background: #FFF;
+    transition: all 300ms ease-in-out;
+}
+
+section.prices-section .pricing-tables-container .pricing-table.pricing-table-focus .plan-head {
+    position: relative;
+    padding-top: 90px;
+}
+
+section.prices-section .pricing-tables-container .pricing-table.pricing-table-focus .plan-head:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% + 2px);
+    height: 4px;
+    top: -1px;
+    left: -1px;
+    background: #4BC8F1;
+}
+
+section.prices-section .pricing-tables-container .pricing-table.pricing-table-focus .plan-action {
+    padding-bottom: 40px;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-head {
+    padding: 50px 0;
+    font-weight: bold;
+    border-bottom: 1px solid #bdc3c7;
+    overflow: hidden;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-head .offer {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: auto;
+    color: #FFF;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+    background: #4BC8F1;
+    transform: rotate(-45deg) translate(-32%, -160%);
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-head .plan-title {
+    text-transform: uppercase;
+    color: #2c3e50;
+    font-size: 1.25rem;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-head hr.normal {
+    width: 60px;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-head hr.normal:after {
+    height: 2px;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-head .plan-subtitle {
+    font-size: 0.875rem;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-content {
+    padding: 40px 22px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-content h4.feature-title {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1rem;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-content h4.feature-title .check {
+    color: #2ecc71;
+    font-size: 1.1em;
+    margin-right: 4px;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-content hr.separator {
+    margin: 20px auto;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-content p.feature-content {
+    font-size: 0.75rem;
+    margin: 20px 0;
+}
+
+section.prices-section .pricing-tables-container .pricing-table .plan-action {
+    padding: 30px 10px;
+}
+
+section.prices-section .pricing-tables-container .pricing-table:hover {
+    box-shadow: 0px 4px 9px 0px rgba(39, 36, 36, 0.1);
+}

@@ -1,0 +1,20 @@
+<section class="testimonial-area lightgrey-bg pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="testimonial-active owl-carousel">
+                    {% for testimonial in site.translations[site.lang].testimonials %}
+                    <div class="single-item testimonial-items text-center">
+                        <div class="client-text">
+                            {{ testimonial.cite }}
+                        </div>
+                        <img src="{{site.baseurl}}{{testimonial.logo}}" class="img-fluid" alt="">
+                        <h4>{{ testimonial.name }}</h4>
+                        <a target="_blank" href="{{testimonial.company-url}}">{{ testimonial.company }}</a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

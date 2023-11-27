@@ -1,0 +1,41 @@
+<!-- Features Section -->
+<section class="site-section section-focus features-section pt-100 pb-70" id="buy">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+      <!-- Section Header -->
+      <div class="col-xl-12 text-center pb-40">
+        <div class="section-title service-title">
+          <h2>{{ page.subsciption-name }} Subscription</h2>
+        </div>
+      </div>
+      
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>
+          {% t buy-text-top %}
+          {% if page.is-multi-user == true %}
+          {% t buy-text-users-multiple %}
+          {% else %}
+          {% t buy-text-users-single %}
+          {% endif %}
+
+          {% t buy-text-bottom %}
+          {% t buy-legal.pre-text %}
+          <a href="{{ page.eula-url }}">{% t buy-legal.eula-text %}</a>
+          {% t buy-legal.post-text %}
+          <br/>
+          <br/>
+          <a class="button-cta button-focus btn" href="{{ page.payment-url }}">{% t buy-button-buy-agree %}</a>
+        </p>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- services-cta -->
+<section class="services-cta lightgrey-bg pt-50 pb-20">
+  {% include download_area.html %}
+</section>

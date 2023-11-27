@@ -1,0 +1,55 @@
+---
+layout: page
+title: About Us
+---
+<!-- about-info -->
+<!-- <section class="about-info pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="about-info-text">
+                    <h2>We are Awesome people</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempora veritatis nemo aut ea iusto eos est expedita,quas ab adipisci. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                    <a href="#" class="btn">Read More</a>
+                    <div class="info-img">
+                        <img src="{{site.baseurl}}/assets/img/about/our-team.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- about-area -->
+<section class="about-area lightgrey-bg pb-60 pt-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 mb-40">
+                <div class="section-title">
+                    <h2>{% t about-us.title %}</h2>
+                </div>
+                <div class="about-content">
+                    <p>{% t about-us.description %}</p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-20 md-margin">
+                <div class="row">
+                    <div class="col-xl-6 col-md-6 mb-20">
+                        <div class="about-img">
+                            <img src="{{site.baeurl}}{% t about-us.img-1 %}" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6 mb-20">
+                        <div class="about-img">
+                            <img src="{{site.baseurl}}{% t about-us.img-2 %}" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include section.html %}
+
+<!-- team-are -->
+{% include team_members.html %}

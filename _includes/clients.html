@@ -1,0 +1,15 @@
+<div class="clients-area pt-50 pb-50">
+    <div class="container">
+        <div class="row">
+            <div class="clients-active owl-carousel">
+                {% for client in site.translations[site.lang].clients %}
+                <div class="col-sm-12">
+                    <div class="single-clients">
+                        <img src="{{site.baseurl}}{{client.logo}}" alt="">
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

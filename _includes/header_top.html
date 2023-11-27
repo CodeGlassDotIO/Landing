@@ -1,0 +1,47 @@
+<div class="header-top blue-bg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-xl-6 col-lg-6 col-md-8 text-center text-md-left">
+                <div class="header-top-cta">
+                    <span><i class="fas fa-map-marker-alt"></i>{% t header-top.address %}</span>
+                    <span><i class="far fa-envelope-open"></i>{% t header-top.mail %}</span>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-4 text-center text-md-right">
+                <div class="top-social-links">
+                    <span>Follow us:</span>
+                    {% if site.discord_url %}
+                    <a href="{{site.discord_url}}"><i class="fab fa-discord"></i></a>
+                    {% endif %}
+                    {% if site.github_url %}
+                    <a href="{{site.github_url}}"><i class="fab fa-github"></i></a>
+                    {% endif %}
+                    {% if site.linkedin_url %}
+                    <a href="{{site.linkedin_url}}"><i class="fab fa-linkedin-in"></i></a>
+                    {% endif %}
+                    {% if site.twitter_url %}
+                    <a href="{{site.twitter_url}}"><i class="fab fa-twitter"></i></a>
+                    {% endif %}
+                    {% if site.facebook_url %}
+                    <a href="{{site.facebook_url}}"><i class="fab fa-facebook-f"></i></a>
+                    {% endif %}
+                    {% if site.pinterest_url %}
+                    <a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p"></i></a>
+                    {% endif %}
+                    {% if site.instagram_url %}
+                    <a href="{{site.instagram_url}}"><i class="fab fa-instagram"></i></a>
+                    {% endif %}
+                    <div class="top-btn">
+                        {% for button in site.translations[site.lang].header-top.buttons %}
+                        {% if button.link %}
+                        <a href="{{site.baseurl}}/pages/{{button.link}}">{{ button.title }}</a>
+                        {% else if button.ext-link %}
+                        <a href="{{button.ext-link}}">{{ button.title }}</a>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

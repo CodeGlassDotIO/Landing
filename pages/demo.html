@@ -1,0 +1,31 @@
+---
+layout: page
+title: Demo
+---
+<!-- Prices Section -->
+<section class="site-section prices-section next-section-indicator pb-40 pt-100" id="prices">
+    <div class="container align-items-center">
+
+        <div class="row">
+            <div class="col-xl-12 text-center pb-40">
+                <div class="section-title service-title">
+                    <h2>{% t demo.title %}</h2>
+                    <p>{% t demo.content %}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start of Meetings Embed Script -->
+        <div class="meetings-iframe-container"
+            data-src="https://meetings-eu1.hubspot.com/tkrieger/demo-website?embed=true"></div>
+        <script type="text/javascript"
+            src="https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"></script>
+        <!-- End of Meetings Embed Script -->
+
+    </div>
+</section>
+
+<!-- services-cta -->
+<section class="services-cta lightgrey-bg pt-50 pb-20">
+    {% include download_area.html %}
+</section>
