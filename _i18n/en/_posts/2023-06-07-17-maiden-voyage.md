@@ -5,7 +5,7 @@ tagline: Yarr, Matey!
 date: 2023-06-09 17:39
 categories: [News]
 tags: [CodeGlass, Release]
-image: maiden-voyage.jpg
+post_image: /assets/img/blog/maiden-voyage.jpg
 ---
 We are thrilled to announce the highly anticipated launch of CodeGlass v1.2.1 as it sets sail on its maiden voyage! 
 With an extensive five-year development period that involved private betas, rigorous testing, and invaluable validation, the moment of unveiling has finally arrived.

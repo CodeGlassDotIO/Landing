@@ -1,148 +1,125 @@
-#
-# Sera - OnePage Jekyll Theme
-# Configuration File
-#
+title: "CodeGlass - Next Generation Profiler"
+email: "Support@CodeGlass.io"
+description: >- # this means to ignore newlines until "baseurl:"
+ CodeGlass - Add 25% Development power to you or your team
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+facebook_url: https://www.facebook.com/CodeGlassDotIO/
+twitter_url: https://twitter.com/CodeGlassDotIO/
+github_url:  https://github.com/CodeGlassDotIO
+linkedin_url: https://www.linkedin.com/company/codeglass
+discord_url: https://discord.gg/ytczAxSmX4
+# pinterest_url: https://www.pinterest.com/rubel8525
+# instagram_url: https://www.instagram.com/rubel8525
+logo: "/assets/img/logo/logo-name-dark.svg"
+# mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=342411fb35"
+# mailchimp_input_name: "b_307862c135e4548eecf86f389_342411fb35"
+mailchimp_list: "#"
+mailchimp_input_name: ""
 
-# Information for compile
-exclude: ["Gemfile", "README.md"]
+permalink: "/:title"
 
-# Sass configuration
-sass:
-  sass_dir: _scss
 
-# Information for deploy
-baseurl: ""
-
-# the base hostname & protocol for your site
-url: "http://localhost:4000"
-
-####################################
-######   Optional Features    ######
-####################################
-smooth-scroll: false
-
-####################################
-###########   Plugins    ###########
-####################################
+# Build settings
+markdown: kramdown
+theme: minima
 plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
   - jekyll-archives
   - jekyll-multiple-languages-plugin
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: "archive"
-  permalinks:
-    category: "/category/:name/"
-    tag: "/tag/:name/"
+
+
+  
 
 # jekyll-multiple-languages-plugin settings:
 languages: ["en"
-  , "nl"
+  # , "nl"
   # , "debug" #For testing multi-language
 ]
-
-languages-names:
-  en: English
-  nl: Nederlands
-  debug: Debug
-
-
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
-# default_locale_in_subfolder: true
 
 
-#######################################################
-#######################################################
-###############   HEADER INFORMATIONS   ###############
-#######################################################
-#######################################################
+cover_image: "/assets/img/bg/page-title.jpg"
 
-# This is your site title
-title: CodeGlass - Next Generation Profiler
-# Website language
-# lang: en-US //Managed by jekyll-multiple-languages-plugin
 
-####################################
-######   CTA Header Buttons   ######
-####################################
+#collections
+collections:
+  features:
+    output: true
+  services:
+    output: true
 
-# Focus Buttons
-header-focus-button:
-  title: Download Now
-  url: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
+########################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
 
-# Secondary Buttons
-header-secondary-button:
-  title: Discover More
-  url: https://codeglassdotio.github.io/Docs
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination page
+  debug: false
 
-#
-# This is your email adress, contact from send here all emails from contact section
-# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
-# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
-#
-email: support@codeglass.io
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: 'posts'
 
-# Offer Banner Link
-# Default link is a link to all Sera OnePage products
-banner-link: https://codeglassdotio.github.io/Docs
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 6
 
-####################################
-######  Global Social Links   ######
-####################################
-#youtube: ""
-#pinterest: ""
-linkedin: " https://www.linkedin.com/company/codeglass"
-facebook: "https://www.facebook.com/CodeGlassDotIO/"
-twitter: "https://twitter.com/CodeGlassDotIO/"
-github: "https://github.com/CodeGlassDotIO"
-discord: "https://discord.gg/ytczAxSmX4"
-#google-plus: "#"
-#vimeo: "#"
+  # The permalink structure for the paginated pages (this can be any level deep)
+  #permalink: '/page/:num/' # Pages are index.html inside this folder (default)
+  permalink: '/pages/blog/:num/' # Pages are simple html file
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
 
-#########################
-######   Widgets   ######
-#########################
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ':title - page :num'
 
-#
-# About Blog Author Widget
-#
-# about-widget:
-#   author-avatar: avatar-02.jpg
-#   author-name: John Doe
-#   author-tagline: Blog Author
-#   author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
-#   author-social-links:
-#     youtube: "#"
-#     pinterest: "#"
-#     facebook: "#"
-#     twitter: "#"
-#     google-plus: "#"
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: 'date'
 
-# Google Map JS api
-# key-api: YOUR_GOOGLE_MAP_API_KEY
-# map-text: Sera Google Map
-# map-lat: 44.4267674
-# map-lng: 26.102538399999958
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
 
-# Enter your Mailchimp User ID and Campaign ID
-# @TODO: Add in a link for where to find these
-# mailchimp:
-#   user-id: REPLACEME
-#   list-id: REPLACEME
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: 'posts'
 
-####
-#
-# Hi you now use Sera - OnePage Jekyll Theme created by Ohkimur
-#
-# Below are each section from the website in order from top to bottom
-# @TODO Edit each sections with your real information and each section from Sera will autocomplete with your information
-#
-####
+  # Optional, the default tag to use, omit to disable
+  tag: ''
 
-# footer-copyright-text: CodeGlass BV
-# footer-copyright-url: https://codeglassdotio.github.io/Docs/contact
-# footer-copyright-year: 2023
-# footer-privcy-policy-url: https://codeglassdotio.github.io/Docs/docs/Legal/Privacy
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, 
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: '' 
+
+ # Optional,omit or set both before and after to zero to disable. 
+ # Controls how the pagination trail for the paginated pages look like. 
+  trail: 
+    before: 2
+    after: 2
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: 'html'
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: 'index'
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: '/category/:name/'
+
+feed:
+  collections:
+    posts:
+      path: "/index.xml"

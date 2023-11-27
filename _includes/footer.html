@@ -1,45 +1,104 @@
-<!-- Site Footer -->
-<footer class="site-footer" id="footer">
-  <div class="container">
-
-    <div class="row">
-      <div class="col-md-6 col-md-push-3 footer-info text-center">
-
-        <div class="footer-logo">
-          <img src="{{ site.baseurl_root }}/images/logo-focus.svg" width="140" alt="CodeGlass - Next Generation Dev Tools" />
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-80 pb-20">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>{% t footer.location.title %}</h4>
+                            <span>{% t footer.location.address %}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>{% t footer.mail.title %}</h4>
+                            <span>{% t footer.mail.address %}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fab fa-discord discord-bg"></i>
+                        <div class="cta-text">
+                            <h4>{% t footer.discord.title %}</h4>
+                            <span><a href="{{site.discord_url}}" >{{site.discord_url}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="footer-info-text">
-          <p>{% t footer-description %}</p>
+        <div class="footer-content pt-50 pb-30">
+            <div class="footer-pattern">
+                <img src="{{site.baseurl}}/assets/img/footer/footer_map.png" alt="">
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="{{site.url}}"><img src="{{site.baseurl}}/assets/img/logo/logo-name.svg" class="img-fluid footer-logo" alt="{{site.title}}"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>{% t footer.text %}</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="{{site.discord_url}}"><i class="fab fa-discord discord-bg"></i></a>
+                            <a href="{{site.github_url}}"><i class="fab fa-github github-bg"></i></a>
+                            <a href="{{site.linkedin_url}}"><i class="fab fa-linkedin linkedin-bg"></i></a>
+                            <a href="{{site.facebook_url}}"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="{{site.twitter_url}}"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <!-- <a href="{{site.pinterest_url}}"><i class="fab fa-pinterest-p google-bg"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>{% t footer.useful-links.title %}</h3>
+                        </div>
+                        <ul>
+                            {% for useful-link in site.translations[site.lang].footer.useful-links.content %}
+                            <li><a href="{{useful-link.link}}">{{ useful-link.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-widget-heading">
+                            <h3>{% t footer.subscribe.title %}</h3>
+                        </div>
+                        <div class="footer-text mb-25">
+                            <p>{% t footer.subscribe.text %}</p>
+                        </div>
+                        {% include subscribe.html %}
+                    </div>
+                </div> -->
+            </div>
         </div>
-
-        <div class="social-icons">
-          <ul class="icons">
-           {% if site.discord %} <li><a href="{{ site.discord }}" target="_blank"><i class="flaticon-discord"></i></a></li> {% endif %}
-           {% if site.github %} <li><a href="{{ site.github }}" target="_blank"><i class="flaticon-github-logo-silhouette-in-a-square"></i></a></li> {% endif %}
-           {% if site.youtube %}  <li><a href="{{ site.youtube }}" target="_blank"><i class="flaticon-youtube"></i></a></li> {% endif %}
-           {% if site.pinterest %} <li><a href="{{ site.pinterest }}" target="_blank"><i class="flaticon-pinterest"></i></a></li> {% endif %}
-           {% if site.linkedin %} <li><a href="{{ site.linkedin }}" target="_blank"><i class="flaticon-linkedin"></i></a></li> {% endif %}
-           {% if site.facebook %} <li><a href="{{ site.facebook }}" target="_blank"><i class="flaticon-facebook"></i></a></li> {% endif %}
-           {% if site.twitter %} <li><a href="{{ site.twitter }}" target="_blank"><i class="flaticon-twitter"></i></a></li> {% endif %}
-           {% if site.google-plus %} <li><a href="{{ site.google-plus }}" target="_blank"><i class="flaticon-google-plus"></i></a></li> {% endif %}
-           {% if site.vimeo %} <li><a href="{{ site.vimeo }}" target="_blank"><i class="fi flaticon-vimeo"></i></a></li> {% endif %}
-          </ul>
-        </div>
-
-      </div>
-
-      <div class="col-md-10 col-md-push-1 footer-copyright">
-        <div class="footer-text text-center">
-          <p>{% t footer-rights-reserved  %}</p>
-          <p>{% t footer-copyright-text %}</p>
-            <p>{% t footer-address-line %}</p>
-        </div>
-      </div>
     </div>
-
-  </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>{% t footer.copyright %}</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            {% for menu in site.translations[site.lang].footer.menus %}
+                            <li><a href="{{menu.link}}">{{ menu.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-
-<!-- Go To Top Button -->
-<a href="#home" class="go-to-top-button"><i class="pe-7s-angle-up"></i></a>

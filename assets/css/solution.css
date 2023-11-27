@@ -1,0 +1,70 @@
+section.solutions-section .solutions {
+  margin-top: 80px;
+}
+
+@media (max-width: 992px) {
+  section.solutions-section .solution {
+    margin-bottom: 80px;
+  }
+
+  section.solutions-section .solution:last-child {
+    margin-bottom: 0;
+  }
+}
+
+section.solutions-section .solution .icon .circle {
+  width: calc(50% - 15px);
+  padding-bottom: calc(50% - 23px);
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border: 4px solid #4BC8F1;
+  transition: all 300ms ease-in-out;
+}
+
+section.solutions-section .solution .icon .circle .circle {
+  width: 50%;
+  padding-bottom: 50%;
+  border: 0;
+  background: #bdc3c7;
+}
+
+section.solutions-section .solution .icon .circle .circle i {
+  font-size: 3rem;
+  color: #2c3e50;
+  transition: all 300ms ease-in-out;
+}
+
+section.solutions-section .solution .icon .circle .circle i:before {
+  padding-left: 3%;
+}
+
+section.solutions-section .solution .content h3 {
+  color: #2c3e50;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+section.solutions-section .solution .content h3,
+section.solutions-section .solution .content p {
+  transition: color 300ms ease-in-out;
+}
+
+section.solutions-section .solution:hover .icon .circle {
+  border-color: #bdc3c7;
+}
+
+section.solutions-section .solution:hover .icon .circle .circle {
+  background: #4BC8F1;
+}
+
+section.solutions-section .solution:hover .icon .circle .circle i {
+  color: #fff;
+}
+
+section.solutions-section .solution:hover .content h3 {
+  color: #4BC8F1;
+}
+
+section.solutions-section .solution:hover .content p {
+  color: #2c3e50;
+}

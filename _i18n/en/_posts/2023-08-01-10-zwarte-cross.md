@@ -5,7 +5,7 @@ tagline: A peek behind the curtain
 date: 2023-08-01 10:34
 categories: [News]
 tags: [CodeGlass, Events]
-image: zwarte-cross-2023.jpg
+post_image: /assets/img/blog/zwarte-cross-2023.jpg
 ---
 A Peek Behind the Curtain of Zwarte Cross, one of the largest Music events in the Netherlands.
 

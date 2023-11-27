@@ -1,0 +1,101 @@
+<!-- Parallax Section -->
+<section class="site-section parallax-features-section parallax parallax-area pt-100 pb-70 lightgrey-bg" id="parallax-features" style="background-image: url({{ site.baseurl_root }}/assets/img/features-parallax.jpg);">
+
+  <!-- Parallax Image -->
+  <!-- <div class="cover">
+    <img src="{{ site.baseurl_root }}/assets/img/features-parallax.jpg" alt="Parallax Features" />
+  </div> -->
+
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row">
+      <div class="col-xl-12 text-center pb-40">
+        <div class="section-title service-title section-header">
+          <h2>{% t core-title %}</h2>
+          <p>{% t core-description %}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Header -->
+    <!-- <div class="section-title service-title">
+        <h2>{% t core-title %}</h2>
+        <p>{% t core-description %}</p>
+      </div> -->
+
+    <!-- Section Content -->
+    <!-- <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{% t core-description %}</p>
+      </div> -->
+
+    <!-- </div> -->
+
+    <!-- Section Features -->
+    <div class="row section-features">
+
+      <div class="col-md-4 col-sm-6 text-right" style="margin-top: 0px;">
+
+        {% for feature in site.translations[site.lang].core-features-left %}
+
+        <div class="feature">
+          <div class="text-wrap">
+            <h3>{{ feature.name }}</h3>
+            <p>{{ feature.description }}</p>
+          </div>
+          <div class="icon-wrap">
+            <div class="circle parent">
+              <i class="{{ feature.icon }} child-center"></i>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+      <div class="col-md-4 phone">
+        <img class="row col-sm-12 parallax-img" style="margin-bottom: 16px; margin-top: 8px;" src="{{ site.baseurl_root }}{% t core-image1 %}" alt="monitor 1" />
+        <img class="row col-sm-12 parallax-img" style="margin-bottom: 16px; margin-top: 8px;" src="{{ site.baseurl_root }}{% t core-image2 %}" alt="monitor 3" />
+        <img class="row col-sm-12 parallax-img" style="margin-bottom: 16px; margin-top: 8px;" src="{{ site.baseurl_root }}{% t core-image3 %}" alt="monitor 2" />
+        <!-- <div class="row">
+        </div>
+        <div class="row">
+          <div class="col-sm-12" >
+            <img src="{{ site.baseurl_root }}/images/monitor.png" alt="1" />
+          </div>
+        </div> -->
+        <!-- <div class="row">
+        </div> -->
+        <!-- <img class="row" src="{{ site.baseurl_root }}/images/monitor.png" alt="Phone Image2" /> -->
+
+      </div>
+
+      <div class="col-md-4 col-sm-6 text-left" style="margin-top: 0px;">
+
+        {% for feature in site.translations[site.lang].core-features-right %}
+
+        <div class="feature">
+          <div class="text-wrap">
+            <h3>{{ feature.name }}</h3>
+            <p>{{ feature.description }}</p>
+          </div>
+          <div class="icon-wrap">
+            <div class="circle parent">
+              <i class="{{ feature.icon }} child-center"></i>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+    </div>
+    <div class="row text-center">
+      <p>{% t core-experimental-disclamer %}</p>
+    </div>
+
+  </div>
+
+</section>

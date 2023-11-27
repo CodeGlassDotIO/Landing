@@ -1,0 +1,40 @@
+<!-- Solutions Section -->
+<section class="site-section section-focus solutions-section next-section-indicator  pb-60 pt-100" id="solution">
+    <div class="container col-xl-10">
+
+        <!-- Section Heading -->
+        <div class="row">
+
+            <div class="col-xl-12 text-center mb-40">
+                <div class="section-title service-title">
+                    <h2>{% t solution-title %}</h2>
+                    <p>{% t solution-description %}</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Solutions -->
+        <div class="row solutions text-center">
+
+            {% for solution in site.translations[site.lang].solutions %}
+
+            <div class="col-md-4 col-md-push-0 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1 solution solution-content">
+                <div class="icon parent">
+                    <div class="circle parent">
+                        <div class="circle child-center">
+                            <i class="{{ solution.icon }} child-center"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="content text-center">
+                    <h3>{{ solution.title }}</h3>
+                    <p>{{ solution.description }}</p>
+                </div>
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+</section>

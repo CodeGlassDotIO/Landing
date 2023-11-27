@@ -1,0 +1,47 @@
+<section class="team-area pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center pb-40">
+                <div class="section-title service-title">
+                    <h2>{% t ces-team-title %}</h2>
+                    <p>{% t ces-team-description %}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row team-pictures-row">
+            {% for member in site.translations[site.lang].ces-team %}
+            <div class="col-xl-4 col-lg-3 col-md-6 mb-30">
+                <div class="single-team text-center ">
+                    <div class="team-img">
+                        {% if member.avatar %}
+                        <img src="{{site.baseurl}}/assets/img/avatars/{{ member.avatar }}" alt="">
+                        {% else %}
+                        <img src="{{site.baseurl}}/assets/img/avatars/no-avatar.png" alt="">
+                        {% endif %}
+                    </div>
+                    <div class="team-info">
+                        <h3>{{ member.name }}</h3>
+                        <span>{{ member.tagline }}</span>
+                        <div class="social-icons">
+                            <ul class="icons">
+                                {% if member.github %} <li><a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a></li> {% endif %}
+                                {% if member.discord %} <li><a href="{{ member.discord }}" target="_blank"><i class="fab fa-discord"></i></a></li> {% endif %}
+                                {% if member.youtube %} <li><a href="{{ member.youtube }}" target="_blank"><i class="fab fa-youtube"></i></a></li> {% endif %}
+                                {% if member.pinterest %}<li><a href="{{ member.pinterest }}" target="_blank"><i class="fab fa-pinterest"></i></a></li>{% endif %}
+                                {% if member.facebook %}<li><a href="{{ member.facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>{% endif %}
+                                {% if member.twitter %}<li><a href="{{ member.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a></li>{% endif %}
+                                {% if member.google-plus %}<li><a href="{{ member.google-plus }}" target="_blank"><i class="fab fa-google-plus"></i></a></li>{% endif %}
+                                {% if member.vimeo %}<li><a href="{{ member.vimeo }}" target="_blank"><i class="fab fa-vimeo"></i></a></li>{% endif %}
+                                {% if member.linkedin %}<li><a href="{{ member.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a></li>{% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-md-12 col-sm-12">
+            <p>{% t ces-team-only-website-disclamer %} </p>
+        </div>
+    </div>
+</section>

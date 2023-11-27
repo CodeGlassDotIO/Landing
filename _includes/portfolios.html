@@ -1,0 +1,41 @@
+<section class="portfoilo-area lightgrey-bg pt-100 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center pb-40 ">
+                <div class="section-title service-title">
+                    <h2>{% t portfolio-title %}</h2>
+                    <p>{% t portfolio-description %}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="portfolio-menu mb-55">
+                    <button class="active" data-filter="*">all</button>
+
+                    {% for categorie in site.translations[site.lang].portfolio-categories %}
+                    <button class="p-item" data-filter=".{{categorie.class}}">{{categorie.text}}</button>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row portfolio-active">
+            {% for item in site.translations[site.lang].portfolio %}
+            <div class="col-xl-3 col-lg-4 col-md-6 mb-30 grid-item {{ item.categories | join: ' '  }}">
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-thumb">
+                        <img src="{{site.baseurl}}/assets/img/portfolio/{{item.image}}" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-content">
+                        <h5>
+                            <!-- <a href="#"> -->
+                                {{ item.title }}
+                            <!-- </a> -->
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

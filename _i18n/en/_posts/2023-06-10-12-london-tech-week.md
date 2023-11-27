@@ -5,7 +5,7 @@ tagline: Here we come!
 date: 2023-06-10 12:40
 categories: [News]
 tags: [CodeGlass, Events]
-image: London tech week.jpg
+post_image: /assets/img/blog/London tech week.jpg
 ---
 London Tech Week 2023 is just around the corner, and we have some thrilling news to share! Our team has received an exclusive invitation to be part of this spectacular event, taking place from the 12th to the 16th of June.
 

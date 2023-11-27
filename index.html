@@ -1,25 +1,13 @@
 ---
 layout: default
-title: landing
-pageType: landing
 ---
-
-
-{% assign offertxt = site.translations[site.lang].landing.offer-1-text %}
-{% include sections/offer.html offer-link="offers" offer-text=offertxt %}
-
-{% include sections/why.html %}
-
-
-
-{% assign offertxt = site.translations[site.lang].landing.offer-2-text %}
-{% assign offerbtntxt = site.translations[site.lang].landing.offer-2-button %}
-{% include sections/offer.html offer-link="#demo" offer-text=offertxt button-text=offerbtntxt %}
-
-
-
-
-{% include sections/demo.html %}
-{% assign offertxt = site.translations[site.lang].landing.offer-3-text %}
-{% assign offerbtntxt = site.translations[site.lang].landing.offer-3-button %}
-{% include sections/offer.html offer-link="main.html#about" link-target="_blank"  offer-text=offertxt button-text=offerbtntxt %}
+{% include header.html %}
+<main>
+    {% include slider.html %}
+    {% include services.html %}
+    {% include parallax-features.html %}
+    {% include section.html %}
+    {% include testimonials.html %}
+    {% include clients.html %}
+    
+</main>
