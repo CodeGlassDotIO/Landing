@@ -17,7 +17,7 @@ header-top:
 landing:
   header: 
     title: Code<span>Glass</span>
-    description: An MRI-scanner for Software Development.</br>An Intuitive, lightweight but powerfull tool for and by developers.
+    description: An MRI-scanner for Software Development.</br>An Intuitive, lightweight but powerful tool for and by developers.
     trial: 30-day trial
     image-bg: /assets/img/bg/slider2.jpg
 
@@ -169,7 +169,7 @@ clients:
 ############## Footer ###############
 #####################################
 footer:
-  text: An Intuitive, lightweight tool for and by developers.
+  text: An Intuitive, lightweight but powerful tool for and by developers.
   copyright: <a href="https://codeglassdotio.github.io/Docs/contact">CodeGlass BV</a> &copy; 2023 Copyright, All Right Reserved!  <a href="https://codeglassdotio.github.io/Docs/docs/Legal/Privacy">Privacy Policy</a>
   location:
     title: Find us
