@@ -17,7 +17,7 @@ header-top:
 landing:
   header: 
     title: Code<span>Glass</span>
-    description: Add 25% Development power to you or your team.</br>An Intuitive, lightweight tool for and by developers.
+    description: An MRI-scanner for Software Development.</br>An Intuitive, lightweight but powerfull tool for and by developers.
     trial: 30-day trial
     image-bg: /assets/img/bg/slider2.jpg
 
