@@ -19,6 +19,7 @@ landing:
     title: Code<span>Glass</span>
     description: An MRI-scanner for Software Development.</br>An Intuitive, lightweight but powerful tool for and by developers.
     trial: 30-day trial
+    link: https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases
     image-bg: /assets/img/bg/slider2.jpg
 
 
