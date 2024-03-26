@@ -674,3 +674,22 @@ contact:
       However, please let us know when you are planning to visit us.  <br/>
       <br/>
       Or if you like the simpicity of a web form you can use this one.
+
+
+#####################################
+############# Thank You #############
+#####################################
+thank-you:
+  title: Thank you!
+  description: >
+    <p>
+    First off, thank you for buying a subscription! <br/>
+    We can continue development on CodeGlass with your support ♥<br/>
+    <br/>
+    You will get an email shortly from LicenseSpring with your <a href="http://codeglassdotio.github.io/Docs/docs/Others/Account">CodeGlass Account</a> details.<br/>
+    (Check your Spam folder to be sure)<br/>
+    <br/>
+    You can download CodeGlass from: <a href="https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases">https://github.com/CodeGlassDotIO/CodeGlassDotIO/releases</a><br/>
+    <br/>
+    Do not hesitate to <a href="https://codeglassdotio.github.io/Docs/contact">contact</a> us for any questions!
+    </p>
